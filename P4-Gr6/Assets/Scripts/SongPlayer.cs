@@ -54,56 +54,6 @@ public class SongPlayer : MonoBehaviour
     {
         NoteSequence newSong = new NoteSequence { };
 
-        newSong.AddEvent(new List<int> { 47 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 55 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 47 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 50 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 45 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 55 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 45 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 50 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 47 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 55 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 47 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 50 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 49 }, 0);
-        newSong.AddEvent(new List<int> { 52 }, 0);
-        newSong.AddEvent(new List<int> { 57 }, 0);
-        newSong.AddEvent(new List<int> { 52 }, 0);
-        newSong.AddEvent(new List<int> { 49 }, 0);
-        newSong.AddEvent(new List<int> { 52,59 }, 0);
-        newSong.AddEvent(new List<int> { 45,62 }, 0);
-        newSong.AddEvent(new List<int> { 52,64 }, 0);
-        newSong.AddEvent(new List<int> { 47,59 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 55 }, 0);
-        newSong.AddEvent(new List<int> { 54,66 }, 0);
-        newSong.AddEvent(new List<int> { 67 }, 0);
-        newSong.AddEvent(new List<int> { 47,69 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 50 }, 0);
-        newSong.AddEvent(new List<int> { 54, 67 }, 0);
-        newSong.AddEvent(new List<int> { 69 }, 0);
-        newSong.AddEvent(new List<int> { 45,71 }, 0);
-        newSong.AddEvent(new List<int> { 47 }, 0);
-        newSong.AddEvent(new List<int> { 54 }, 0);
-        newSong.AddEvent(new List<int> { 69 }, 0);
-        newSong.AddEvent(new List<int> { 55 }, 0);
-        newSong.AddEvent(new List<int> { 54,67 }, 0);
-
-
         return newSong;
     }
 }
