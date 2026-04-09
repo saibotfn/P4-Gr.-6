@@ -404,8 +404,7 @@ MonoBehaviour:
   - {fileID: 157536890}
   - {fileID: 535181964}
   - {fileID: 132191465}
-  zombiePrefab_White: {fileID: 792160359723194023, guid: d778673433521174aadef403f2c65fc5, type: 3}
-  zombiePrefab_Black: {fileID: 792160359723194023, guid: 1f26c9cca17ea9842b0169c56d29f814, type: 3}
+  zombiePrefab: {fileID: 792160359723194023, guid: d778673433521174aadef403f2c65fc5, type: 3}
 --- !u!4 &474389131
 Transform:
   m_ObjectHideFlags: 0
@@ -415,7 +414,7 @@ Transform:
   m_GameObject: {fileID: 474389129}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.35, y: 0, z: 0.15}
+  m_LocalPosition: {x: 31.35, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -599,10 +598,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SongPlayer
   spawner: {fileID: 474389130}
-  songIndex: 1
-  jsonFile:
-  - {fileID: 4900000, guid: 4100524ea5c907c45ad2ba2913f409ce, type: 3}
-  - {fileID: 4900000, guid: 96844d8fc9b735d409237dd0d0ef5246, type: 3}
 --- !u!1 &526502817
 GameObject:
   m_ObjectHideFlags: 0
