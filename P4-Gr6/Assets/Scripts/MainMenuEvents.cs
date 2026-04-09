@@ -1,16 +1,29 @@
 using UnityEngine;
+using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class MainMenuEvents : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private UIDocument document;
+
+    private Button button;
+
+    private void Awake()
     {
-        
+        document = GetComponent<UIDocument>();
+
+        button = document.rootVisualElement.Q("Start") as Button;
+        button.RegisterCallback<ClickEvent>(OnPLayGameClick);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        button.UnregisterCallback<ClickEvent>(OnPLayGameClick);
+    }
+
+    private void OnPLayGameClick(ClickEvent evt)
+    {
+        Debug.Log("You Pressed The Start Button");
+        SceneManager.LoadScene("OliverTesting");
     }
 }
