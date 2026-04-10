@@ -409,10 +409,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SongPlayer
   spawner: {fileID: 474389130}
   raycaster: {fileID: 728294097}
-  songIndex: 1
+  songIndex: 0
   jsonFile:
   - {fileID: 4900000, guid: 4100524ea5c907c45ad2ba2913f409ce, type: 3}
   - {fileID: 4900000, guid: 96844d8fc9b735d409237dd0d0ef5246, type: 3}
+  playSpeed: 1
 --- !u!4 &277272083
 Transform:
   m_ObjectHideFlags: 0

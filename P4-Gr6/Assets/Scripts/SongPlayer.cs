@@ -19,6 +19,8 @@ public class SongPlayer : MonoBehaviour
     [SerializeField] private int songIndex;
     public TextAsset[] jsonFile;
 
+    [SerializeField] [Range(0.5f,2f)] private float playSpeed = 1f;
+
     void Start()
     {
         song = readJsonFile(jsonFile[songIndex]);
@@ -26,7 +28,7 @@ public class SongPlayer : MonoBehaviour
 
     void Update()
     {
-        timePased += Time.deltaTime;
+        timePased += Time.deltaTime * playSpeed;
         int playedNote = 0;
         for (int i = lowestNote; i <= highestNote; i++)
         {
