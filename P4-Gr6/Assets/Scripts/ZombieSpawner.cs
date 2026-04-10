@@ -157,6 +157,9 @@ public class ZombieSpawner : MonoBehaviour
                 case 81: //White
                     Instantiate(zombiePrefab_White, spawnPoints[26].transform.position, Quaternion.identity);
                     break;
+                default:
+                    Instantiate(zombiePrefab_White, spawnPoints[27].transform.position, Quaternion.identity);
+                    break;
             }
         }
     }

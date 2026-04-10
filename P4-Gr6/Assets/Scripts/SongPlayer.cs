@@ -7,6 +7,7 @@ using System.IO;
 public class SongPlayer : MonoBehaviour
 {
     [SerializeField] private ZombieSpawner spawner;
+    [SerializeField] private KeyboardRaycast raycaster;
 
     private NoteSequence song = new NoteSequence { };
 
@@ -32,6 +33,7 @@ public class SongPlayer : MonoBehaviour
             if (MidiMaster.GetKeyDown(i))
             {
                 playedNote = i;
+                Debug.Log(raycaster.shootRay(i));
             }
         }
         
