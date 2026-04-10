@@ -409,10 +409,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SongPlayer
   spawner: {fileID: 474389130}
   raycaster: {fileID: 728294097}
-  songIndex: 0
+  songIndex: 1
   jsonFile:
-  - {fileID: 4900000, guid: 9307d3ecc63d0b74fba355fec39f0b9f, type: 3}
-  - {fileID: 4900000, guid: 2845595246d992b468718f91c80999f6, type: 3}
+  - {fileID: 4900000, guid: 4100524ea5c907c45ad2ba2913f409ce, type: 3}
+  - {fileID: 4900000, guid: 96844d8fc9b735d409237dd0d0ef5246, type: 3}
 --- !u!4 &277272083
 Transform:
   m_ObjectHideFlags: 0
@@ -704,7 +704,7 @@ MonoBehaviour:
   - {fileID: 132191465}
   - {fileID: 1663193189}
   zombiePrefab_White: {fileID: 792160359723194023, guid: d778673433521174aadef403f2c65fc5, type: 3}
-  zombiePrefab_Black: {fileID: 792160359723194023, guid: 5750ce8a5fae9dc478d490ea2d1c9ee6, type: 3}
+  zombiePrefab_Black: {fileID: 792160359723194023, guid: 1f26c9cca17ea9842b0169c56d29f814, type: 3}
 --- !u!4 &474389131
 Transform:
   m_ObjectHideFlags: 0
