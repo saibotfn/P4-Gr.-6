@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Zombie : MonoBehaviour
 {
-    [SerializeField] private int moveSpeed = 5;
+    [SerializeField] private int moveSpeed = 1;
     void Start()
     {
         

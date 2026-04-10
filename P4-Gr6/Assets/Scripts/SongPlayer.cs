@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
 using MidiJack;
-using System.IO;
 
 
 public class SongPlayer : MonoBehaviour
@@ -16,12 +15,11 @@ public class SongPlayer : MonoBehaviour
 
     private float timePased = 0;
 
-    [SerializeField] private int songIndex;
-    public TextAsset[] jsonFile;
-
     void Start()
     {
-        song = readJsonFile(jsonFile[songIndex]);
+        song = CreateSong();
+
+
     }
 
     void Update()
@@ -49,38 +47,19 @@ public class SongPlayer : MonoBehaviour
 
     }
 
-    private NoteSequence readJsonFile(TextAsset file)
+    private NoteSequence CreateSong()
     {
         NoteSequence newSong = new NoteSequence { };
 
-        Notes midiSong = JsonUtility.FromJson<Notes>(file.text);
+        newSong.AddEvent(new List<int> { 60 }, 1);
+        newSong.AddEvent(new List<int> { 60 }, 2);
+        newSong.AddEvent(new List<int> { 60 }, 3);
+        newSong.AddEvent(new List<int> { 62 }, 4);
+        newSong.AddEvent(new List<int> { 64 }, 5);
+        newSong.AddEvent(new List<int> { 64 }, 6);
+        newSong.AddEvent(new List<int> { 64 }, 7);
 
-        foreach(note Note in midiSong.notes)
-        {
-            newSong.AddEvent(new List<int> { Note.pitch }, Note.startTime);
-        }
 
         return newSong;
     }
-
-   
-}
-
-[System.Serializable]
-public class Notes
-{
-    public note[] notes;
-}
-
-[System.Serializable]
-public class note
-{
-    public int instrumentId;
-    public string instrumentName;
-    public bool isPercussion;
-    public int pitch;
-    public int velocity;
-    public float startTime;
-    public float duration;
-    public float endTime;
 }
