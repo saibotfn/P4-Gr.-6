@@ -35,7 +35,8 @@ public class SongPlayer : MonoBehaviour
             if (MidiMaster.GetKeyDown(i))
             {
                 playedNote = i;
-                Debug.Log(raycaster.shootRay(i));
+                Debug.Log(raycaster.shootRay(playedNote));
+                Debug.Log(playedNote);
             }
         }
         
