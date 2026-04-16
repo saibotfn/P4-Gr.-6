@@ -1,7 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
-using MidiJack;
-using System.IO;
+using Minis;
+using UnityEngine.InputSystem;
+using System.Linq;
 
 
 public class SongPlayer : MonoBehaviour
@@ -26,19 +27,35 @@ public class SongPlayer : MonoBehaviour
         song = readJsonFile(jsonFile[songIndex]);
     }
 
+    void OnEnable()
+    {
+        InputSystem.onDeviceChange += OnDeviceChange;
+    }
+
+    void OnDisable()
+    {
+        InputSystem.onDeviceChange -= OnDeviceChange;
+    }
+    void OnDeviceChange(InputDevice device, InputDeviceChange change)
+    {
+        // Check if the device is a MIDI device
+        if (device is MidiDevice midi)
+        {
+            Debug.Log("Device found");
+            // Subscribe to note events
+            midi.onWillNoteOn += OnNoteOn;
+        }
+    }
+
+    void OnNoteOn(MidiNoteControl note, float velocity)
+    {
+        Debug.Log($"Note pressed: {note.noteNumber}, velocity: {velocity}");
+        raycaster.shootRay(note.noteNumber);
+    }
+
     void Update()
     {
         timePased += Time.deltaTime * playSpeed;
-        int playedNote = 0;
-        for (int i = lowestNote; i <= highestNote; i++)
-        {
-            if (MidiMaster.GetKeyDown(i))
-            {
-                playedNote = i;
-                Debug.Log(raycaster.shootRay(playedNote));
-                Debug.Log(playedNote);
-            }
-        }
         
         foreach (NoteEvent timing in song.events)
         {
@@ -48,8 +65,6 @@ public class SongPlayer : MonoBehaviour
                 spawner.SpawnZombie(timing.notes);
             }
         }
-
-
     }
 
     private NoteSequence readJsonFile(TextAsset file)
@@ -65,8 +80,6 @@ public class SongPlayer : MonoBehaviour
 
         return newSong;
     }
-
-   
 }
 
 [System.Serializable]
