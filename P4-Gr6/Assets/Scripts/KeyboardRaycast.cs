@@ -160,6 +160,10 @@ public class KeyboardRaycast : MonoBehaviour
             scoreManager.AddHit();
             return hit.transform.position.x - rayPoints[rayCastIndex].position.x;
         }
+        else
+        {
+            scoreManager.AddMiss();
+        }
 
         return 0f;
     }
