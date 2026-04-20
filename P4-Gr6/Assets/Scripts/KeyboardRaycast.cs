@@ -4,6 +4,7 @@ public class KeyboardRaycast : MonoBehaviour
 {
     [SerializeField] private Transform[] rayPoints = new Transform[0];
     [SerializeField] private int rayCastRange = 100;
+    [SerializeField] private ScoreManager scoreManager; 
 
     public float shootRay(int midiValue)
     {
@@ -156,6 +157,7 @@ public class KeyboardRaycast : MonoBehaviour
         if (Physics.Raycast(rayPoints[rayCastIndex].position, rayDirection, out hit, rayCastRange))
         {
             Destroy(hit.collider.gameObject);
+            scoreManager.AddHit();
             return hit.transform.position.x - rayPoints[rayCastIndex].position.x;
         }
 
