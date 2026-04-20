@@ -156,8 +156,9 @@ public class KeyboardRaycast : MonoBehaviour
         if (Physics.Raycast(rayPoints[rayCastIndex].position, rayDirection, out hit, rayCastRange))
         {
             Destroy(hit.collider.gameObject);
+            return hit.transform.position.x - rayPoints[rayCastIndex].position.x;
         }
 
-        return hit.transform.position.x - rayPoints[rayCastIndex].position.x;
+        return 0f;
     }
 }
