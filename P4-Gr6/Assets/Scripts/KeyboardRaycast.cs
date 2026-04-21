@@ -4,9 +4,14 @@ public class KeyboardRaycast : MonoBehaviour
 {
     [SerializeField] private Transform[] rayPoints = new Transform[0];
     [SerializeField] private int rayCastRange = 100;
-    [SerializeField] private ScoreManager scoreManager; 
+    [SerializeField] private ScoreManager scoreManager;
 
-    public float shootRay(int midiValue)
+    [SerializeField] private float lineLocation = 0f;
+    [SerializeField] private float lineBuffer = 0f;
+    [SerializeField] private int perfektHitValue = 0;
+    [SerializeField] private int perfektHitBonus = 0;
+
+    public void shootRay(int midiValue)
     {
         RaycastHit hit;
         Vector3 rayDirection = new Vector3(1f, 0f, 0f);
@@ -158,13 +163,27 @@ public class KeyboardRaycast : MonoBehaviour
         {
             Destroy(hit.collider.gameObject);
             scoreManager.AddHit();
-            return hit.transform.position.x - rayPoints[rayCastIndex].position.x;
+            float zombieDistance = hit.transform.position.x - rayPoints[rayCastIndex].position.x;
+            if(zombieDistance < lineLocation - lineBuffer)
+            {
+                scoreManager.AddScore(perfektHitValue - (int)(lineLocation - zombieDistance));
+            }
+            else if(zombieDistance > lineLocation + lineBuffer)
+            {
+                scoreManager.AddScore(perfektHitValue - (int)(zombieDistance - lineLocation));
+            }
+            else
+            {
+                scoreManager.AddScore(perfektHitValue + perfektHitBonus);
+            }
+
+            return;
         }
         else
         {
             scoreManager.AddMiss();
         }
 
-        return 0f;
+        return;
     }
 }
