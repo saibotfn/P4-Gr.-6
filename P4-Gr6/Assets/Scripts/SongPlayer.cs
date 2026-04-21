@@ -20,7 +20,7 @@ public class SongPlayer : MonoBehaviour
     [SerializeField] private int songIndex;
     public TextAsset[] jsonFile;
 
-    [SerializeField] [Range(0.5f,2f)] private float playSpeed = 1f;
+    [SerializeField] [Range(0.1f,4f)] private float playSpeed = 1f;
 
     void Start()
     {

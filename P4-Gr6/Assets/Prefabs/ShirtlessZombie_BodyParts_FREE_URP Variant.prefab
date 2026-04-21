@@ -4295,7 +4295,6 @@ GameObject:
   - component: {fileID: 8371010701418061721}
   - component: {fileID: 5146756080475220380}
   - component: {fileID: 8343248137226055253}
-  - component: {fileID: -5839683307647240231}
   m_Layer: 0
   m_Name: ShirtlessZombie_BodyParts_FREE_URP Variant
   m_TagString: Untagged
@@ -4397,19 +4396,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimationTrigger
   triggerObject: {fileID: 0}
---- !u!114 &-5839683307647240231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8712956956258165450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1baf50d1ea191d44922c489ce56261e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Zombie
-  moveSpeed: 10
 --- !u!1 &8960051524164939077
 GameObject:
   m_ObjectHideFlags: 0
