@@ -52,11 +52,6 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 /warnaserror+:NU1605
 
 [sourceFiles]
-Assets/MidiJack/
- Midi.cs
- MidiDriver.cs
- MidiMaster.cs
- MidiStateUpdater.cs
 Assets/Scripts/
  AnimationTrigger.cs
  KeyboardRaycast.cs
@@ -344,7 +339,10 @@ Library/PackageCache/
  com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll
  com.unity.visualscripting@191c0d7e3b69/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll
 Library/ScriptAssemblies/
+ Minis.dll
+ Minis.Editor.dll
  PPv2URPConverters.dll
+ RtMidi.Runtime.dll
  Unity.AI.Navigation.dll
  Unity.AI.Navigation.Editor.ConversionSystem.dll
  Unity.AI.Navigation.Editor.dll
