@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "InputSystem_Actions",
     "maps": [
         {
@@ -986,6 +987,34 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Keyboard",
+            "id": "6b424ec7-1afb-4336-b180-74511021836f",
+            "actions": [
+                {
+                    "name": "Key",
+                    "type": "Button",
+                    "id": "9e810020-b944-4b16-b45b-5b33de3cfc35",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e2766060-6856-432c-b502-e1b4801fa8b9",
+                    "path": "<MidiDevice>/anyNoteVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Key",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
