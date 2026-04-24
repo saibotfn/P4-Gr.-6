@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:ListView style="height: 100%; width: 33%;"/>
+        <ui:VisualElement style="flex-grow: 1; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+            <ui:Label text="Select a song" enable-rich-text="true" name="song-title" style="align-self: center; font-size: 100px; -unity-font-style: bold;"/>
+            <ui:Slider label="Speed: 1.0x" value="1" high-value="2" name="speedSlider" low-value="0.1"/>
+            <ui:Button text="Play" name="play-button"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
