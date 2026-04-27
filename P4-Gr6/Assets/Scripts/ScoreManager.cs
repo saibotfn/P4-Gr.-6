@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -16,13 +18,18 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] private TMP_Text MissText;
     [SerializeField] private TMP_Text ScoreText;
 
+    [SerializeField] private Image fillImage;
+    public float smoothSpeed = 5f;
+    private float displayHP;
+
+
 
     private void Start()
     {
         HitsText.text = "Hits = ";
         MissText.text = "Misses = ";
         ScoreText.text = "Score = ";
-
+        displayHP = hp;
     }
 
     public void AddHit()
@@ -51,6 +58,7 @@ public class ScoreManager : MonoBehaviour
             hp = hp - minusHP;
         }
         minusHP++;
+        Debug.Log("HP is now" + hp);
     }
 
     public void AddHP()
@@ -61,5 +69,20 @@ public class ScoreManager : MonoBehaviour
             hp = hp + plusHP;
           }
         plusHP++;
+        Debug.Log("HP is now" + hp);
+    }
+
+    void Update()
+    {
+        // Smoothly move displayHP toward real HP
+        displayHP = Mathf.Lerp(displayHP, hp, Time.deltaTime * smoothSpeed);
+
+        // Update UI (0 to 1 range)
+        fillImage.fillAmount = displayHP / maxHP;
+
+        if(hp <= 0)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
 }

@@ -168,6 +168,7 @@ public class KeyboardRaycast : MonoBehaviour
 
             Destroy(hit.collider.gameObject);
             scoreManager.AddHit();
+            scoreManager.AddHP();
 
             float zombieDistance = hit.transform.position.x - rayPoints[rayCastIndex].position.x;
             if(zombieDistance < lineLocation - lineBuffer)
@@ -191,6 +192,7 @@ public class KeyboardRaycast : MonoBehaviour
             laserShoot.Shoot(rayPoints[rayCastIndex].position + laserOffset, endPoint, UnityEngine.Color.red);
             
             scoreManager.AddMiss();
+            scoreManager.RemoveHP();
         }
 
         return;
