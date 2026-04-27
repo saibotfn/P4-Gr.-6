@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: IllBeThereForYou
   m_EditorClassIdentifier: Assembly-CSharp::SongData
   audioClip: {fileID: 0}
-  jsonFile: {fileID: 0}
+  jsonFile: {fileID: 4900000, guid: bee4b3c1615d3bb45b3a379f0298190e, type: 3}
   playSpeed: 1
-  songName: 
-  coverArt: {fileID: 0}
-  author: 
-  year: 
-  description: 
+  songName: I'll Be There for You
+  coverArt: {fileID: 21300000, guid: b0eb438156b0f714f8aba5ce6421b9b0, type: 3}
+  author: The Rembrandts
+  year: 1995
+  description: Theme from the TV show Friends. An upbeat and catchy pop rock song
+    with a cheerful, energetic vibe. Its bright melody and familiar rhythm make it
+    instantly recognizable and fun.

@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Yesterday
   m_EditorClassIdentifier: Assembly-CSharp::SongData
   audioClip: {fileID: 0}
-  jsonFile: {fileID: 0}
+  jsonFile: {fileID: 4900000, guid: 2f03d17b0fa66eb49a6b5f7c2aa3b841, type: 3}
   playSpeed: 1
-  songName: 
-  coverArt: {fileID: 0}
-  author: 
-  year: 
-  description: 
+  songName: Yesterday
+  coverArt: {fileID: 21300000, guid: 024eb6fab32130c48ae9cdcc0ca5b6ca, type: 3}
+  author: The Beatles
+  year: 1965
+  description: From the album Help!. A soft and reflective song built around acoustic
+    guitar and strings. It carries a timeless, melancholic tone centered on memory
+    and loss.
