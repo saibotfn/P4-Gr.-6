@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: TownWithAnOceanView
   m_EditorClassIdentifier: Assembly-CSharp::SongData
   audioClip: {fileID: 0}
-  jsonFile: {fileID: 0}
+  jsonFile: {fileID: 4900000, guid: db2ee88c7e1d60742944eeab96477421, type: 3}
   playSpeed: 1
-  songName: 
-  coverArt: {fileID: 0}
-  author: 
-  year: 
-  description: 
+  songName: A Town with an Ocean View
+  coverArt: {fileID: 21300000, guid: 131729ac157ebcb419243a780d256610, type: 3}
+  author: Joe Hisaishi
+  year: 1989
+  description: From the film Kiki's Delivery Service. A warm and uplifting orchestral
+    piece with a sense of adventure and charm. It captures the feeling of exploring
+    a peaceful seaside town.

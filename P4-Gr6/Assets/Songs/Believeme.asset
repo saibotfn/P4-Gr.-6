@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Believeme
   m_EditorClassIdentifier: Assembly-CSharp::SongData
   audioClip: {fileID: 0}
-  jsonFile: {fileID: 0}
+  jsonFile: {fileID: 4900000, guid: 2c12a69eba1cfee428ea98d7270fb6f7, type: 3}
   playSpeed: 1
-  songName: 
-  coverArt: {fileID: 0}
-  author: 
-  year: 
-  description: 
+  songName: Believe Me
+  coverArt: {fileID: 21300000, guid: efe741482c7184147bee0bae4472186c, type: 3}
+  author: Takeshi Abo
+  year: 2009
+  description: From the visual novel Steins;Gate. A high-energy electronic track
+    with a driving rhythm and bright synths. It creates a sense of urgency and determination,
+    fitting intense and fast-paced gameplay.

@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: MotherSea
   m_EditorClassIdentifier: Assembly-CSharp::SongData
   audioClip: {fileID: 0}
-  jsonFile: {fileID: 0}
+  jsonFile: {fileID: 4900000, guid: 54b21e1ee240b8446bcf8db9391dd372, type: 3}
   playSpeed: 1
-  songName: 
-  coverArt: {fileID: 0}
-  author: 
-  year: 
-  description: 
+  songName: Mother Sea
+  coverArt: {fileID: 21300000, guid: 0d9384daa7be438448c642e855c43070, type: 3}
+  author: Joe Hisaishi
+  year: 2001
+  description: By composer Joe Hisaishi. A gentle and flowing orchestral piece with
+    a sense of calm and wonder. The music feels expansive and emotional, like watching
+    waves stretch endlessly across the horizon.

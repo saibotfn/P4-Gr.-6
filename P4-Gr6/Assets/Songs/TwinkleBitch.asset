@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: TwinkleBitch
   m_EditorClassIdentifier: Assembly-CSharp::SongData
   audioClip: {fileID: 0}
-  jsonFile: {fileID: 4900000, guid: 4100524ea5c907c45ad2ba2913f409ce, type: 3}
+  jsonFile: {fileID: 4900000, guid: 420a95362f3562641953c62d20814787, type: 3}
   playSpeed: 1
   songName: Twinkle, Twinkle, Little Star
   coverArt: {fileID: 21300000, guid: 724cd6fc1e5a43b4892cdf1fdcce4e22, type: 3}
   author: Jane Taylor
   year: 1806
-  description: 
+  description: Traditional lullaby. A gentle and familiar melody built on simple,
+    repeating notes. It has a soothing, comforting quality that feels innocent and
+    timeless. Its simplicity makes it instantly recognizable and easy to follow.
