@@ -452,8 +452,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SongSelectorUI
   PlaySceneName: TestingWithZombies
+  songItemTemplate: {fileID: 9197481963319205126, guid: 1e31ca5ce452d30499dbfe8668d39975, type: 3}
   songs:
   - {fileID: 11400000, guid: 514124254f7482342b24664ff7849077, type: 2}
+  - {fileID: 11400000, guid: 1536109ec116f2046929ae96bc0d677c, type: 2}
+  - {fileID: 11400000, guid: b1ca87ce51ca99141b7f440c57f918c7, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

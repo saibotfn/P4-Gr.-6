@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
-  m_Name: Sweden
+  m_Name: RushE
   m_EditorClassIdentifier: Assembly-CSharp::SongData
   audioClip: {fileID: 0}
-  jsonFile: {fileID: 4900000, guid: 96844d8fc9b735d409237dd0d0ef5246, type: 3}
+  jsonFile: {fileID: 0}
   playSpeed: 1
-  songName: Sweden
-  coverArt: {fileID: 21300000, guid: ad0d57f4634605642ad556d81aa1ee95, type: 3}
-  author: C418
-  year: 2011
+  songName: 
+  coverArt: {fileID: 0}
+  author: 
+  year: 
   description: 

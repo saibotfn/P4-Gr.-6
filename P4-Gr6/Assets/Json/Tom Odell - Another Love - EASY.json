@@ -1,0 +1,1860 @@
+{
+  "metadata": {
+    "file": "Tom Odell - Another Love - EASY.mid",
+    "duration": 73.99895833333333,
+    "bpm": 120.0,
+    "totalNotes": 185
+  },
+  "notes": [
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 0.0,
+      "duration": 1.9989583333333334,
+      "endTime": 1.9989583333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 0.25,
+      "duration": 0.24895833333333334,
+      "endTime": 0.49895833333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 0.5,
+      "duration": 0.24895833333333328,
+      "endTime": 0.7489583333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 0.75,
+      "duration": 0.24895833333333328,
+      "endTime": 0.9989583333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 1.0,
+      "duration": 0.4989583333333334,
+      "endTime": 1.4989583333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 1.5,
+      "duration": 0.2489583333333334,
+      "endTime": 1.7489583333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 1.75,
+      "duration": 0.4989583333333334,
+      "endTime": 2.2489583333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 80,
+      "startTime": 2.0,
+      "duration": 0.9989583333333334,
+      "endTime": 2.9989583333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 2.25,
+      "duration": 0.4989583333333334,
+      "endTime": 2.7489583333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 2.75,
+      "duration": 0.12395833333333339,
+      "endTime": 2.8739583333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 2.875,
+      "duration": 0.12395833333333339,
+      "endTime": 2.9989583333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 3.0,
+      "duration": 0.2489583333333334,
+      "endTime": 3.2489583333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 57,
+      "velocity": 80,
+      "startTime": 3.0,
+      "duration": 0.9989583333333334,
+      "endTime": 3.9989583333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 3.25,
+      "duration": 0.4989583333333334,
+      "endTime": 3.7489583333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 3.75,
+      "duration": 0.9989583333333334,
+      "endTime": 4.748958333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 80,
+      "startTime": 4.0,
+      "duration": 1.9989583333333334,
+      "endTime": 5.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 4.75,
+      "duration": 0.2489583333333334,
+      "endTime": 4.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 5.0,
+      "duration": 0.2489583333333334,
+      "endTime": 5.248958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 5.25,
+      "duration": 0.4989583333333334,
+      "endTime": 5.748958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 66,
+      "velocity": 80,
+      "startTime": 5.75,
+      "duration": 0.7489583333333334,
+      "endTime": 6.498958333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 59,
+      "velocity": 80,
+      "startTime": 6.0,
+      "duration": 1.9989583333333334,
+      "endTime": 7.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 66,
+      "velocity": 80,
+      "startTime": 6.5,
+      "duration": 0.2489583333333334,
+      "endTime": 6.748958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 64,
+      "velocity": 80,
+      "startTime": 6.75,
+      "duration": 0.2489583333333334,
+      "endTime": 6.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 66,
+      "velocity": 80,
+      "startTime": 7.0,
+      "duration": 0.2489583333333334,
+      "endTime": 7.248958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 66,
+      "velocity": 80,
+      "startTime": 7.25,
+      "duration": 0.2489583333333334,
+      "endTime": 7.498958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 7.5,
+      "duration": 0.2489583333333334,
+      "endTime": 7.748958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 64,
+      "velocity": 80,
+      "startTime": 7.75,
+      "duration": 0.9989583333333325,
+      "endTime": 8.748958333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 8.0,
+      "duration": 1.9989583333333325,
+      "endTime": 9.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 8.75,
+      "duration": 0.2489583333333325,
+      "endTime": 8.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 9.0,
+      "duration": 0.4989583333333325,
+      "endTime": 9.498958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 9.5,
+      "duration": 0.2489583333333325,
+      "endTime": 9.748958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 9.75,
+      "duration": 0.2489583333333325,
+      "endTime": 9.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 10.0,
+      "duration": 0.2489583333333325,
+      "endTime": 10.248958333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 80,
+      "startTime": 10.0,
+      "duration": 0.9989583333333325,
+      "endTime": 10.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 10.25,
+      "duration": 0.4989583333333325,
+      "endTime": 10.748958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 10.75,
+      "duration": 0.1239583333333325,
+      "endTime": 10.873958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 10.875,
+      "duration": 0.1239583333333325,
+      "endTime": 10.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 11.0,
+      "duration": 0.2489583333333325,
+      "endTime": 11.248958333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 57,
+      "velocity": 80,
+      "startTime": 11.0,
+      "duration": 0.9989583333333325,
+      "endTime": 11.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 11.25,
+      "duration": 0.4989583333333325,
+      "endTime": 11.748958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 11.75,
+      "duration": 0.9989583333333325,
+      "endTime": 12.748958333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 80,
+      "startTime": 12.0,
+      "duration": 1.9989583333333325,
+      "endTime": 13.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 12.75,
+      "duration": 0.2489583333333325,
+      "endTime": 12.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 13.0,
+      "duration": 0.2489583333333325,
+      "endTime": 13.248958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 13.25,
+      "duration": 0.4989583333333325,
+      "endTime": 13.748958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 66,
+      "velocity": 80,
+      "startTime": 13.75,
+      "duration": 0.7489583333333325,
+      "endTime": 14.498958333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 59,
+      "velocity": 80,
+      "startTime": 14.0,
+      "duration": 1.9989583333333325,
+      "endTime": 15.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 66,
+      "velocity": 80,
+      "startTime": 14.5,
+      "duration": 0.2489583333333325,
+      "endTime": 14.748958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 64,
+      "velocity": 80,
+      "startTime": 14.75,
+      "duration": 0.2489583333333325,
+      "endTime": 14.998958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 66,
+      "velocity": 80,
+      "startTime": 15.0,
+      "duration": 0.2489583333333325,
+      "endTime": 15.248958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 66,
+      "velocity": 80,
+      "startTime": 15.25,
+      "duration": 0.2489583333333325,
+      "endTime": 15.498958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 15.5,
+      "duration": 0.9989583333333343,
+      "endTime": 16.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 16.0,
+      "duration": 1.9989583333333343,
+      "endTime": 17.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 64,
+      "velocity": 80,
+      "startTime": 16.5,
+      "duration": 1.4989583333333343,
+      "endTime": 17.998958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 18.0,
+      "duration": 0.24895833333333428,
+      "endTime": 18.248958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 18.25,
+      "duration": 0.7489583333333343,
+      "endTime": 18.998958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 80,
+      "startTime": 19.0,
+      "duration": 0.24895833333333428,
+      "endTime": 19.248958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 19.25,
+      "duration": 0.24895833333333428,
+      "endTime": 19.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 80,
+      "startTime": 19.5,
+      "duration": 0.24895833333333428,
+      "endTime": 19.748958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 80,
+      "startTime": 19.75,
+      "duration": 0.24895833333333428,
+      "endTime": 19.998958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 20.0,
+      "duration": 1.9989583333333343,
+      "endTime": 21.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 20.5,
+      "duration": 0.24895833333333428,
+      "endTime": 20.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 20.75,
+      "duration": 0.24895833333333428,
+      "endTime": 20.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 21.0,
+      "duration": 0.24895833333333428,
+      "endTime": 21.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 21.25,
+      "duration": 0.4989583333333343,
+      "endTime": 21.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 21.75,
+      "duration": 0.4989583333333343,
+      "endTime": 22.248958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 80,
+      "startTime": 22.0,
+      "duration": 0.9989583333333343,
+      "endTime": 22.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 22.25,
+      "duration": 0.24895833333333428,
+      "endTime": 22.498958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 22.5,
+      "duration": 0.24895833333333428,
+      "endTime": 22.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 22.75,
+      "duration": 0.24895833333333428,
+      "endTime": 22.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 23.0,
+      "duration": 0.24895833333333428,
+      "endTime": 23.248958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 57,
+      "velocity": 80,
+      "startTime": 23.0,
+      "duration": 0.9989583333333343,
+      "endTime": 23.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 23.25,
+      "duration": 0.4989583333333343,
+      "endTime": 23.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 23.75,
+      "duration": 0.7489583333333343,
+      "endTime": 24.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 80,
+      "startTime": 24.0,
+      "duration": 1.9989583333333343,
+      "endTime": 25.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 24.75,
+      "duration": 0.24895833333333428,
+      "endTime": 24.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 25.0,
+      "duration": 0.24895833333333428,
+      "endTime": 25.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 25.25,
+      "duration": 0.4989583333333343,
+      "endTime": 25.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 66,
+      "velocity": 80,
+      "startTime": 25.75,
+      "duration": 0.9989583333333343,
+      "endTime": 26.748958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 59,
+      "velocity": 80,
+      "startTime": 26.0,
+      "duration": 1.9989583333333343,
+      "endTime": 27.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 66,
+      "velocity": 80,
+      "startTime": 26.75,
+      "duration": 0.24895833333333428,
+      "endTime": 26.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 66,
+      "velocity": 80,
+      "startTime": 27.0,
+      "duration": 0.24895833333333428,
+      "endTime": 27.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 27.25,
+      "duration": 0.4989583333333343,
+      "endTime": 27.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 64,
+      "velocity": 80,
+      "startTime": 27.75,
+      "duration": 0.7489583333333343,
+      "endTime": 28.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 28.0,
+      "duration": 1.4989583333333343,
+      "endTime": 29.498958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 28.75,
+      "duration": 0.24895833333333428,
+      "endTime": 28.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 29.0,
+      "duration": 0.24895833333333428,
+      "endTime": 29.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 29.25,
+      "duration": 0.4989583333333343,
+      "endTime": 29.748958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 62,
+      "velocity": 80,
+      "startTime": 29.5,
+      "duration": 0.4989583333333343,
+      "endTime": 29.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 29.75,
+      "duration": 0.7489583333333343,
+      "endTime": 30.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 80,
+      "startTime": 30.0,
+      "duration": 0.9989583333333343,
+      "endTime": 30.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 30.5,
+      "duration": 0.24895833333333428,
+      "endTime": 30.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 30.75,
+      "duration": 0.24895833333333428,
+      "endTime": 30.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 31.0,
+      "duration": 0.24895833333333428,
+      "endTime": 31.248958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 57,
+      "velocity": 80,
+      "startTime": 31.0,
+      "duration": 0.9989583333333343,
+      "endTime": 31.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 31.25,
+      "duration": 0.4989583333333343,
+      "endTime": 31.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 31.75,
+      "duration": 0.9989583333333343,
+      "endTime": 32.748958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 80,
+      "startTime": 32.0,
+      "duration": 1.9989583333333343,
+      "endTime": 33.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 32.75,
+      "duration": 0.24895833333333428,
+      "endTime": 32.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 33.0,
+      "duration": 0.24895833333333428,
+      "endTime": 33.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 33.25,
+      "duration": 0.4989583333333343,
+      "endTime": 33.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 33.75,
+      "duration": 0.7489583333333343,
+      "endTime": 34.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 59,
+      "velocity": 80,
+      "startTime": 34.0,
+      "duration": 1.9989583333333343,
+      "endTime": 35.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 34.75,
+      "duration": 0.24895833333333428,
+      "endTime": 34.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 35.0,
+      "duration": 0.24895833333333428,
+      "endTime": 35.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 80,
+      "startTime": 35.25,
+      "duration": 0.24895833333333428,
+      "endTime": 35.498958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 35.5,
+      "duration": 0.9989583333333343,
+      "endTime": 36.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 36.0,
+      "duration": 1.9989583333333343,
+      "endTime": 37.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 36.5,
+      "duration": 0.9989583333333343,
+      "endTime": 37.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 80,
+      "startTime": 38.0,
+      "duration": 0.4989583333333343,
+      "endTime": 38.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 38.5,
+      "duration": 0.24895833333333428,
+      "endTime": 38.748958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 80,
+      "startTime": 38.75,
+      "duration": 0.24895833333333428,
+      "endTime": 38.998958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 39.0,
+      "duration": 0.4989583333333343,
+      "endTime": 39.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 80,
+      "startTime": 39.5,
+      "duration": 0.24895833333333428,
+      "endTime": 39.748958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 39.75,
+      "duration": 0.24895833333333428,
+      "endTime": 39.998958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 40.0,
+      "duration": 1.9989583333333343,
+      "endTime": 41.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 40.5,
+      "duration": 0.24895833333333428,
+      "endTime": 40.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 40.75,
+      "duration": 0.24895833333333428,
+      "endTime": 40.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 41.0,
+      "duration": 0.24895833333333428,
+      "endTime": 41.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 41.25,
+      "duration": 0.24895833333333428,
+      "endTime": 41.498958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 41.5,
+      "duration": 0.9989583333333343,
+      "endTime": 42.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 80,
+      "startTime": 42.0,
+      "duration": 1.9989583333333343,
+      "endTime": 43.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 42.75,
+      "duration": 0.24895833333333428,
+      "endTime": 42.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 43.0,
+      "duration": 0.24895833333333428,
+      "endTime": 43.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 43.25,
+      "duration": 0.24895833333333428,
+      "endTime": 43.498958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 43.5,
+      "duration": 0.9989583333333343,
+      "endTime": 44.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 80,
+      "startTime": 44.0,
+      "duration": 1.9989583333333343,
+      "endTime": 45.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 45.0,
+      "duration": 0.24895833333333428,
+      "endTime": 45.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 45.25,
+      "duration": 0.4989583333333343,
+      "endTime": 45.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 45.75,
+      "duration": 0.9989583333333343,
+      "endTime": 46.748958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 59,
+      "velocity": 80,
+      "startTime": 46.0,
+      "duration": 1.9989583333333343,
+      "endTime": 47.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 46.75,
+      "duration": 0.24895833333333428,
+      "endTime": 46.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 47.0,
+      "duration": 0.24895833333333428,
+      "endTime": 47.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 47.25,
+      "duration": 0.4989583333333343,
+      "endTime": 47.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 47.75,
+      "duration": 0.7489583333333343,
+      "endTime": 48.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 48.0,
+      "duration": 1.9989583333333343,
+      "endTime": 49.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 48.5,
+      "duration": 0.24895833333333428,
+      "endTime": 48.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 48.75,
+      "duration": 0.24895833333333428,
+      "endTime": 48.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 49.0,
+      "duration": 0.24895833333333428,
+      "endTime": 49.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 76,
+      "velocity": 80,
+      "startTime": 49.25,
+      "duration": 0.24895833333333428,
+      "endTime": 49.498958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 49.5,
+      "duration": 0.9989583333333343,
+      "endTime": 50.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 80,
+      "startTime": 50.0,
+      "duration": 1.9989583333333343,
+      "endTime": 51.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 50.75,
+      "duration": 0.24895833333333428,
+      "endTime": 50.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 51.0,
+      "duration": 0.24895833333333428,
+      "endTime": 51.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 76,
+      "velocity": 80,
+      "startTime": 51.25,
+      "duration": 0.24895833333333428,
+      "endTime": 51.498958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 51.5,
+      "duration": 0.9989583333333343,
+      "endTime": 52.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 80,
+      "startTime": 52.0,
+      "duration": 1.9989583333333343,
+      "endTime": 53.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 53.0,
+      "duration": 0.24895833333333428,
+      "endTime": 53.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 53.25,
+      "duration": 0.4989583333333343,
+      "endTime": 53.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 53.75,
+      "duration": 0.9989583333333343,
+      "endTime": 54.748958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 59,
+      "velocity": 80,
+      "startTime": 54.0,
+      "duration": 1.9989583333333343,
+      "endTime": 55.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 54.75,
+      "duration": 0.24895833333333428,
+      "endTime": 54.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 55.0,
+      "duration": 0.24895833333333428,
+      "endTime": 55.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 55.25,
+      "duration": 0.4989583333333343,
+      "endTime": 55.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 55.75,
+      "duration": 0.7489583333333343,
+      "endTime": 56.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 80,
+      "startTime": 56.0,
+      "duration": 1.9989583333333343,
+      "endTime": 57.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 56.5,
+      "duration": 0.24895833333333428,
+      "endTime": 56.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 56.75,
+      "duration": 0.24895833333333428,
+      "endTime": 56.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 57.0,
+      "duration": 0.24895833333333428,
+      "endTime": 57.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 76,
+      "velocity": 80,
+      "startTime": 57.25,
+      "duration": 0.24895833333333428,
+      "endTime": 57.498958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 57.5,
+      "duration": 0.9989583333333343,
+      "endTime": 58.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 80,
+      "startTime": 58.0,
+      "duration": 1.9989583333333343,
+      "endTime": 59.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 58.75,
+      "duration": 0.24895833333333428,
+      "endTime": 58.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 59.0,
+      "duration": 0.24895833333333428,
+      "endTime": 59.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 76,
+      "velocity": 80,
+      "startTime": 59.25,
+      "duration": 0.24895833333333428,
+      "endTime": 59.498958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 59.5,
+      "duration": 0.9989583333333343,
+      "endTime": 60.498958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 80,
+      "startTime": 60.0,
+      "duration": 1.9989583333333343,
+      "endTime": 61.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 61.0,
+      "duration": 0.24895833333333428,
+      "endTime": 61.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 61.25,
+      "duration": 0.4989583333333343,
+      "endTime": 61.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 80,
+      "startTime": 61.75,
+      "duration": 0.9989583333333343,
+      "endTime": 62.748958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 59,
+      "velocity": 80,
+      "startTime": 62.0,
+      "duration": 1.9989583333333343,
+      "endTime": 63.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 62.75,
+      "duration": 0.24895833333333428,
+      "endTime": 62.998958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 63.0,
+      "duration": 0.24895833333333428,
+      "endTime": 63.248958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 80,
+      "startTime": 63.25,
+      "duration": 0.4989583333333343,
+      "endTime": 63.748958333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 63.75,
+      "duration": 1.2489583333333343,
+      "endTime": 64.99895833333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 80,
+      "startTime": 64.0,
+      "duration": 1.9989583333333343,
+      "endTime": 65.99895833333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 65.0,
+      "duration": 0.9989583333333343,
+      "endTime": 65.99895833333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 62,
+      "velocity": 80,
+      "startTime": 66.0,
+      "duration": 0.4989583333333343,
+      "endTime": 66.49895833333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 80,
+      "startTime": 66.0,
+      "duration": 1.9989583333333343,
+      "endTime": 67.99895833333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 80,
+      "startTime": 68.0,
+      "duration": 1.9989583333333343,
+      "endTime": 69.99895833333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 80,
+      "startTime": 68.0,
+      "duration": 1.9989583333333343,
+      "endTime": 69.99895833333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 80,
+      "startTime": 70.0,
+      "duration": 1.9989583333333343,
+      "endTime": 71.99895833333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 59,
+      "velocity": 80,
+      "startTime": 70.0,
+      "duration": 1.9989583333333343,
+      "endTime": 71.99895833333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 64,
+      "velocity": 80,
+      "startTime": 72.0,
+      "duration": 1.9989583333333343,
+      "endTime": 73.99895833333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Piano\u0000",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 80,
+      "startTime": 72.0,
+      "duration": 1.9989583333333343,
+      "endTime": 73.99895833333333
+    }
+  ]
+}
