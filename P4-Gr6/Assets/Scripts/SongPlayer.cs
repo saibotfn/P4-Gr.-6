@@ -61,7 +61,7 @@ public class SongPlayer : MonoBehaviour
         {
             if(timePased > timing.time)
             {
-                timing.time += 10000;
+                timing.time += 100000;
                 spawner.SpawnZombie(timing.notes);
             }
         }
