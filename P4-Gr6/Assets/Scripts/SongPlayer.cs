@@ -17,14 +17,19 @@ public class SongPlayer : MonoBehaviour
 
     private float timePased = 0;
 
-    [SerializeField] private int songIndex;
-    public TextAsset[] jsonFile;
+    //[SerializeField] private int songIndex;
+    //public TextAsset[] jsonFile;
 
-    [SerializeField] [Range(0.1f,4f)] private float playSpeed = 1f;
+    //[SerializeField] [Range(0.1f,4f)] private float playSpeed = 1f;
+    private float playSpeed = 1f;
 
     void Start()
     {
-        song = readJsonFile(jsonFile[songIndex]);
+        
+        //song = readJsonFile(jsonFile[songIndex]);
+        song = readJsonFile(GameSettings.selectedSong.jsonFile);
+        Debug.Log($"Selected song: {GameSettings.selectedSong.name}");
+        playSpeed = GameSettings.selectedSpeed;
     }
 
     void OnEnable()
