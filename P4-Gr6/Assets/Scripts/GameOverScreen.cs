@@ -18,7 +18,7 @@ public class GameOverScreen : MonoBehaviour
         retryButton = document.rootVisualElement.Q("TryAgain") as Button;
         retryButton.RegisterCallback<ClickEvent>(Retry);
 
-        songButton = document.rootVisualElement.Q("TryAgain") as Button;
+        songButton = document.rootVisualElement.Q("SongSelect") as Button;
         songButton.RegisterCallback<ClickEvent>(GoToSongSelect);
     }
 
