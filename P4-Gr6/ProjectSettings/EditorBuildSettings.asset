@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: eaeb56c3534ac0b4a9ddb26e71b6471b
+  - enabled: 1
+    path: Assets/Scenes/ZachaTesting.unity
+    guid: 1cd4f490a83cc3a44bb9a630ecc57789
+  - enabled: 1
+    path: Assets/Scenes/SongChoosingMenu.unity
+    guid: c47d8c959ef75cd489587ff9120bb6fe
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

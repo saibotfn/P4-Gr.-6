@@ -662,7 +662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3858ffe7b95593344be890826e0dde49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameOverScreen
-  sceneLoadSelect: SongChooseMenu
+  sceneLoadSelect: SongChoosingMenu
   sceneLoadRetry: ZachaTesting
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
