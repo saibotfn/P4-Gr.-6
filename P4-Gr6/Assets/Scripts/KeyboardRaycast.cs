@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections.Generic;
+
 
 public class KeyboardRaycast : MonoBehaviour
 {
@@ -17,6 +19,7 @@ public class KeyboardRaycast : MonoBehaviour
     public void shootRay(int midiValue)
     {
         RaycastHit hit;
+        List<RaycastHit> furthestHit = new List<RaycastHit>();
         Vector3 rayDirection = new Vector3(1f, 0f, 0f);
         int rayCastIndex = 0;
 
@@ -162,8 +165,43 @@ public class KeyboardRaycast : MonoBehaviour
                 break;
         }
 
+        foreach(Transform i in rayPoints)
+        {
+            RaycastHit ahit;
+            if (Physics.Raycast(i.position, rayDirection, out ahit, rayCastRange))
+            {
+                if(furthestHit.Count == 0)
+                {
+                    furthestHit.Add(ahit);
+                }
+                else if(ahit.distance < furthestHit[0].distance)
+                {
+                    furthestHit.Clear();
+                    furthestHit.Add(ahit);
+                }
+                else if(ahit.distance == furthestHit[0].distance)
+                {
+                    furthestHit.Add(ahit);
+                }
+            }
+        }
+
         if (Physics.Raycast(rayPoints[rayCastIndex].position, rayDirection, out hit, rayCastRange))
         {
+            foreach(RaycastHit ahit in furthestHit)
+            {
+                if(hit.distance != ahit.distance)
+                {
+                    Vector3 endPoint = rayPoints[rayCastIndex].position + laserOffset + rayDirection * rayCastRange;
+                    laserShoot.Shoot(rayPoints[rayCastIndex].position + laserOffset, endPoint, UnityEngine.Color.red);
+
+                    scoreManager.AddMiss();
+                    scoreManager.RemoveHP();
+
+                    return;
+                }
+            }
+
             laserShoot.Shoot(rayPoints[rayCastIndex].position + laserOffset, hit.point, UnityEngine.Color.green);
 
             Destroy(hit.collider.gameObject);
