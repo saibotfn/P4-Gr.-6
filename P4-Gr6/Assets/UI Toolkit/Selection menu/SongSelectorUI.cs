@@ -15,6 +15,7 @@ public class SongSelectorUI : MonoBehaviour
     private Slider speedSlider;
     private Button playButton;
     private Label descriptionText;
+    private Image iconImage;
 
     private SongData selectedSong;
     private float selectedSpeed = 1f;
@@ -27,6 +28,7 @@ public class SongSelectorUI : MonoBehaviour
         speedSlider = root.Q<Slider>("speedSlider");
         playButton = root.Q<Button>("play-button");
         descriptionText = root.Q<Label>("description");
+        iconImage = root.Q<Image>("iconImage");
 
         SetupList();
         SetupSpeed();
@@ -54,6 +56,7 @@ public class SongSelectorUI : MonoBehaviour
                 selectedSong = item as SongData;
                 songTitle.text = selectedSong.songName;
                 descriptionText.text = selectedSong.description;
+                
             }
         };
     }
