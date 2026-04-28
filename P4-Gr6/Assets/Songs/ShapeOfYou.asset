@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: ShapeOfYou
   m_EditorClassIdentifier: Assembly-CSharp::SongData
   audioClip: {fileID: 0}
-  jsonFile: {fileID: 0}
+  jsonFile: {fileID: 4900000, guid: e0955f8925769334a9fa87bc4c7ebe8a, type: 3}
   playSpeed: 1
-  songName: 
-  coverArt: {fileID: 0}
-  author: 
-  year: 
-  description: 
+  songName: Shape of You
+  coverArt: {fileID: 21300000, guid: 497adde979a8ea448832777dc3e617b3, type: 3}
+  author: Ed Sheeran
+  year: 2017
+  description: "From the album \xF7 (Divide). A smooth, rhythm-focused pop track
+    with a steady groove and catchy hooks. It feels light, modern, and easy to get
+    into."
