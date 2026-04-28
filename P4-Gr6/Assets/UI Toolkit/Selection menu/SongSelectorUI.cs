@@ -56,7 +56,8 @@ public class SongSelectorUI : MonoBehaviour
                 selectedSong = item as SongData;
                 songTitle.text = selectedSong.songName;
                 descriptionText.text = selectedSong.description;
-                
+                iconImage.image = selectedSong.coverArt != null ? selectedSong.coverArt.texture : null;
+
             }
         };
     }
