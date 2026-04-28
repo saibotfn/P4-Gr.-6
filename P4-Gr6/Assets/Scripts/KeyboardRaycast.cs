@@ -11,6 +11,9 @@ public class KeyboardRaycast : MonoBehaviour
     [SerializeField] private int perfektHitValue = 0;
     [SerializeField] private int perfektHitBonus = 0;
 
+    [SerializeField] private Vector3 laserOffset = new Vector3(0f, 0f, 0f);
+    [SerializeField] private LaserShoot laserShoot;
+
     public void shootRay(int midiValue)
     {
         RaycastHit hit;
@@ -161,8 +164,12 @@ public class KeyboardRaycast : MonoBehaviour
 
         if (Physics.Raycast(rayPoints[rayCastIndex].position, rayDirection, out hit, rayCastRange))
         {
+            laserShoot.Shoot(rayPoints[rayCastIndex].position + laserOffset, hit.point, UnityEngine.Color.green);
+
             Destroy(hit.collider.gameObject);
             scoreManager.AddHit();
+            scoreManager.AddHP();
+
             float zombieDistance = hit.transform.position.x - rayPoints[rayCastIndex].position.x;
             if(zombieDistance < lineLocation - lineBuffer)
             {
@@ -181,7 +188,11 @@ public class KeyboardRaycast : MonoBehaviour
         }
         else
         {
+            Vector3 endPoint = rayPoints[rayCastIndex].position + laserOffset + rayDirection * rayCastRange;
+            laserShoot.Shoot(rayPoints[rayCastIndex].position + laserOffset, endPoint, UnityEngine.Color.red);
+            
             scoreManager.AddMiss();
+            scoreManager.RemoveHP();
         }
 
         return;

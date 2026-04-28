@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
+  m_Name: Ascensionism
+  m_EditorClassIdentifier: Assembly-CSharp::SongData
+  audioClip: {fileID: 0}
+  jsonFile: {fileID: 4900000, guid: 1e0e8234f16b73c48b623c7d6fccab58, type: 3}
+  playSpeed: 1
+  songName: Ascensionism
+  coverArt: {fileID: 21300000, guid: 69dab0f7feab208458dbe47ff5febcd1, type: 3}
+  author: Sleep Token
+  year: 2023
+  description: From the album Take Me Back to Eden. A dynamic and atmospheric track
+    that shifts between soft, emotional moments and heavy, intense sections. It feels
+    dramatic and immersive, blending modern metal with ambient and electronic elements.

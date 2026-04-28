@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
+  m_Name: MotherSea
+  m_EditorClassIdentifier: Assembly-CSharp::SongData
+  audioClip: {fileID: 0}
+  jsonFile: {fileID: 4900000, guid: 54b21e1ee240b8446bcf8db9391dd372, type: 3}
+  playSpeed: 1
+  songName: Mother Sea
+  coverArt: {fileID: 21300000, guid: 0d9384daa7be438448c642e855c43070, type: 3}
+  author: Joe Hisaishi
+  year: 2001
+  description: By composer Joe Hisaishi. A gentle and flowing orchestral piece with
+    a sense of calm and wonder. The music feels expansive and emotional, like watching
+    waves stretch endlessly across the horizon.

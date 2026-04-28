@@ -1,0 +1,3010 @@
+{
+  "metadata": {
+    "file": "Mother Sea - Kenzie Smith Piano.mid",
+    "duration": 192.275,
+    "bpm": 120.0,
+    "totalNotes": 300
+  },
+  "notes": [
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 54,
+      "startTime": 7.19375,
+      "duration": 0.7843749999999998,
+      "endTime": 7.9781249999999995
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 63,
+      "velocity": 48,
+      "startTime": 7.205208333333333,
+      "duration": 7.63125,
+      "endTime": 14.836458333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 70,
+      "velocity": 29,
+      "startTime": 7.207291666666666,
+      "duration": 7.481249999999999,
+      "endTime": 14.688541666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 50,
+      "startTime": 7.215625,
+      "duration": 7.647916666666666,
+      "endTime": 14.863541666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 43,
+      "startTime": 7.6375,
+      "duration": 0.40104166666666696,
+      "endTime": 8.038541666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 53,
+      "startTime": 8.011458333333334,
+      "duration": 0.08958333333333357,
+      "endTime": 8.101041666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 58,
+      "startTime": 8.410416666666666,
+      "duration": 3.0124999999999993,
+      "endTime": 11.422916666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 40,
+      "startTime": 8.819791666666667,
+      "duration": 2.6708333333333325,
+      "endTime": 11.490625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 38,
+      "startTime": 9.227083333333333,
+      "duration": 2.3135416666666675,
+      "endTime": 11.540625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 40,
+      "startTime": 13.377083333333333,
+      "duration": 1.0083333333333329,
+      "endTime": 14.385416666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 98,
+      "velocity": 47,
+      "startTime": 13.380208333333334,
+      "duration": 0.9343749999999993,
+      "endTime": 14.314583333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 48,
+      "startTime": 16.763541666666665,
+      "duration": 0.8041666666666671,
+      "endTime": 17.567708333333332
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 65,
+      "velocity": 45,
+      "startTime": 16.78125,
+      "duration": 3.3781250000000007,
+      "endTime": 20.159375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 62,
+      "velocity": 33,
+      "startTime": 16.7875,
+      "duration": 3.310416666666665,
+      "endTime": 20.097916666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 40,
+      "startTime": 16.801041666666666,
+      "duration": 3.302083333333332,
+      "endTime": 20.103125
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 34,
+      "startTime": 17.2125,
+      "duration": 0.44479166666666714,
+      "endTime": 17.657291666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 50,
+      "startTime": 17.583333333333332,
+      "duration": 0.07291666666666785,
+      "endTime": 17.65625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 48,
+      "startTime": 17.976041666666667,
+      "duration": 3.6531249999999993,
+      "endTime": 21.629166666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 50,
+      "startTime": 18.370833333333334,
+      "duration": 3.2802083333333343,
+      "endTime": 21.651041666666668
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 33,
+      "startTime": 18.769791666666666,
+      "duration": 3.020833333333332,
+      "endTime": 21.790625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 45,
+      "startTime": 24.810416666666665,
+      "duration": 0.6791666666666671,
+      "endTime": 25.489583333333332
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 63,
+      "velocity": 39,
+      "startTime": 24.81458333333333,
+      "duration": 0.35312500000000213,
+      "endTime": 25.167708333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 70,
+      "velocity": 47,
+      "startTime": 24.816666666666666,
+      "duration": 0.39895833333333286,
+      "endTime": 25.215625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 27,
+      "startTime": 24.833333333333332,
+      "duration": 0.40729166666666927,
+      "endTime": 25.240625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 51,
+      "startTime": 24.84375,
+      "duration": 0.34375,
+      "endTime": 25.1875
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 39,
+      "startTime": 25.260416666666668,
+      "duration": 0.37395833333333073,
+      "endTime": 25.634375
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 53,
+      "startTime": 25.634375,
+      "duration": 0.0625,
+      "endTime": 25.696875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 42,
+      "startTime": 25.6375,
+      "duration": 0.84375,
+      "endTime": 26.48125
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 63,
+      "startTime": 26.01770833333333,
+      "duration": 2.976041666666667,
+      "endTime": 28.99375
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 69,
+      "startTime": 26.415625,
+      "duration": 2.7062500000000007,
+      "endTime": 29.121875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 70,
+      "velocity": 41,
+      "startTime": 26.422916666666666,
+      "duration": 0.8125,
+      "endTime": 27.235416666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 40,
+      "startTime": 26.795833333333334,
+      "duration": 2.2697916666666664,
+      "endTime": 29.065625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 42,
+      "startTime": 27.188541666666666,
+      "duration": 0.7958333333333343,
+      "endTime": 27.984375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 32,
+      "startTime": 27.951041666666665,
+      "duration": 1.2895833333333329,
+      "endTime": 29.240624999999998
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 49,
+      "startTime": 32.47604166666667,
+      "duration": 0.79270833333333,
+      "endTime": 33.26875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 51,
+      "startTime": 32.479166666666664,
+      "duration": 0.30416666666666714,
+      "endTime": 32.78333333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 65,
+      "velocity": 52,
+      "startTime": 32.484375,
+      "duration": 0.2562500000000014,
+      "endTime": 32.740625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 62,
+      "velocity": 33,
+      "startTime": 32.490625,
+      "duration": 0.21770833333333428,
+      "endTime": 32.708333333333336
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 38,
+      "startTime": 32.896875,
+      "duration": 0.39791666666666714,
+      "endTime": 33.29479166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 62,
+      "startTime": 33.290625,
+      "duration": 0.08020833333333144,
+      "endTime": 33.37083333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 75,
+      "velocity": 38,
+      "startTime": 33.291666666666664,
+      "duration": 0.14999999999999858,
+      "endTime": 33.44166666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 60,
+      "startTime": 33.66875,
+      "duration": 0.3812499999999943,
+      "endTime": 34.05
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 58,
+      "startTime": 34.04895833333333,
+      "duration": 2.8916666666666657,
+      "endTime": 36.940625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 42,
+      "startTime": 34.06458333333333,
+      "duration": 0.8385416666666714,
+      "endTime": 34.903125
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 68,
+      "startTime": 34.420833333333334,
+      "duration": 2.2291666666666643,
+      "endTime": 36.65
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 34,
+      "startTime": 34.83645833333333,
+      "duration": 0.25729166666666714,
+      "endTime": 35.09375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 45,
+      "startTime": 35.6875,
+      "duration": 2.4354166666666686,
+      "endTime": 38.12291666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 27,
+      "startTime": 38.50416666666666,
+      "duration": 0.9291666666666671,
+      "endTime": 39.43333333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 96,
+      "velocity": 31,
+      "startTime": 39.01979166666666,
+      "duration": 0.4593750000000014,
+      "endTime": 39.479166666666664
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 98,
+      "velocity": 83,
+      "startTime": 39.41354166666667,
+      "duration": 1.8520833333333329,
+      "endTime": 41.265625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 25,
+      "startTime": 39.864583333333336,
+      "duration": 1.3135416666666657,
+      "endTime": 41.178125
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 47,
+      "startTime": 44.99166666666667,
+      "duration": 0.49791666666666856,
+      "endTime": 45.489583333333336
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 26,
+      "startTime": 44.99270833333333,
+      "duration": 0.37708333333333144,
+      "endTime": 45.369791666666664
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 42,
+      "startTime": 44.994791666666664,
+      "duration": 0.4312499999999986,
+      "endTime": 45.42604166666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 62,
+      "velocity": 31,
+      "startTime": 45.010416666666664,
+      "duration": 1.2520833333333385,
+      "endTime": 46.2625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 37,
+      "startTime": 45.43125,
+      "duration": 0.39375000000000426,
+      "endTime": 45.825
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 41,
+      "startTime": 45.82083333333333,
+      "duration": 0.8958333333333357,
+      "endTime": 46.71666666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 81,
+      "velocity": 54,
+      "startTime": 45.822916666666664,
+      "duration": 0.15625,
+      "endTime": 45.979166666666664
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 50,
+      "startTime": 46.23020833333333,
+      "duration": 0.3229166666666714,
+      "endTime": 46.553125
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 63,
+      "startTime": 46.603125,
+      "duration": 3.543750000000003,
+      "endTime": 50.146875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 37,
+      "startTime": 46.63229166666667,
+      "duration": 0.8177083333333357,
+      "endTime": 47.45
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 81,
+      "velocity": 46,
+      "startTime": 47.01979166666666,
+      "duration": 3.2520833333333385,
+      "endTime": 50.271875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 34,
+      "startTime": 47.459375,
+      "duration": 0.8291666666666657,
+      "endTime": 48.28854166666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 40,
+      "startTime": 48.276041666666664,
+      "duration": 1.3510416666666671,
+      "endTime": 49.62708333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 36,
+      "startTime": 50.225,
+      "duration": 0.8999999999999986,
+      "endTime": 51.125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 37,
+      "startTime": 51.036458333333336,
+      "duration": 0.09999999999999432,
+      "endTime": 51.13645833333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 33,
+      "startTime": 51.903124999999996,
+      "duration": 1.41458333333334,
+      "endTime": 53.317708333333336
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 63,
+      "velocity": 33,
+      "startTime": 51.905208333333334,
+      "duration": 1.2468749999999957,
+      "endTime": 53.15208333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 42,
+      "startTime": 51.90833333333333,
+      "duration": 0.7177083333333343,
+      "endTime": 52.626041666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 70,
+      "velocity": 40,
+      "startTime": 51.91041666666666,
+      "duration": 1.2156250000000028,
+      "endTime": 53.126041666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 31,
+      "startTime": 52.327083333333334,
+      "duration": 0.39895833333333286,
+      "endTime": 52.72604166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 37,
+      "startTime": 52.715624999999996,
+      "duration": 0.06354166666667282,
+      "endTime": 52.77916666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 52,
+      "startTime": 53.084375,
+      "duration": 0.39791666666666714,
+      "endTime": 53.48229166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 60,
+      "startTime": 53.47604166666667,
+      "duration": 1.5281249999999957,
+      "endTime": 55.00416666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 38,
+      "startTime": 53.49166666666667,
+      "duration": 0.35104166666666714,
+      "endTime": 53.842708333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 47,
+      "startTime": 53.869791666666664,
+      "duration": 1.0531250000000014,
+      "endTime": 54.922916666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 70,
+      "velocity": 34,
+      "startTime": 53.89375,
+      "duration": 0.3802083333333357,
+      "endTime": 54.27395833333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 40,
+      "startTime": 54.275,
+      "duration": 0.37916666666667,
+      "endTime": 54.65416666666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 70,
+      "velocity": 38,
+      "startTime": 54.666666666666664,
+      "duration": 0.18645833333333428,
+      "endTime": 54.853125
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 33,
+      "startTime": 55.063541666666666,
+      "duration": 0.8562500000000028,
+      "endTime": 55.91979166666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 62,
+      "velocity": 37,
+      "startTime": 55.074999999999996,
+      "duration": 1.9906250000000014,
+      "endTime": 57.065625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 29,
+      "startTime": 55.4625,
+      "duration": 0.58229166666667,
+      "endTime": 56.04479166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 47,
+      "startTime": 56.731249999999996,
+      "duration": 0.8229166666666714,
+      "endTime": 57.55416666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 25,
+      "startTime": 57.168749999999996,
+      "duration": 0.23333333333333428,
+      "endTime": 57.40208333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 53,
+      "startTime": 58.759375,
+      "duration": 1.7927083333333371,
+      "endTime": 60.552083333333336
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 15,
+      "startTime": 59.229166666666664,
+      "duration": 1.0968750000000043,
+      "endTime": 60.32604166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 32,
+      "startTime": 63.790625,
+      "duration": 0.16979166666666856,
+      "endTime": 63.96041666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 38,
+      "startTime": 64.24791666666667,
+      "duration": 0.23333333333333428,
+      "endTime": 64.48125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 35,
+      "startTime": 64.66458333333333,
+      "duration": 0.4906250000000085,
+      "endTime": 65.15520833333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 42,
+      "startTime": 64.67395833333333,
+      "duration": 0.15208333333333712,
+      "endTime": 64.82604166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 50,
+      "startTime": 65.06770833333333,
+      "duration": 1.5291666666666686,
+      "endTime": 66.596875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 62,
+      "velocity": 34,
+      "startTime": 65.08333333333333,
+      "duration": 0.5635416666666657,
+      "endTime": 65.646875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 38,
+      "startTime": 65.465625,
+      "duration": 0.12604166666666572,
+      "endTime": 65.59166666666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 39,
+      "startTime": 65.83645833333333,
+      "duration": 0.484375,
+      "endTime": 66.32083333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 38,
+      "startTime": 66.228125,
+      "duration": 0.6541666666666544,
+      "endTime": 66.88229166666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 50,
+      "startTime": 67.290625,
+      "duration": 0.15416666666665435,
+      "endTime": 67.44479166666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 93,
+      "velocity": 66,
+      "startTime": 67.66875,
+      "duration": 2.2552083333333286,
+      "endTime": 69.92395833333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 54,
+      "velocity": 52,
+      "startTime": 68.05625,
+      "duration": 0.7906249999999915,
+      "endTime": 68.846875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 62,
+      "velocity": 37,
+      "startTime": 68.45833333333333,
+      "duration": 0.4114583333333428,
+      "endTime": 68.86979166666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 64,
+      "velocity": 38,
+      "startTime": 68.84375,
+      "duration": 0.5760416666666686,
+      "endTime": 69.41979166666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 44,
+      "startTime": 69.2375,
+      "duration": 0.546875,
+      "endTime": 69.784375
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 50,
+      "startTime": 70.88333333333333,
+      "duration": 0.4000000000000057,
+      "endTime": 71.28333333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 93,
+      "velocity": 53,
+      "startTime": 71.275,
+      "duration": 0.37708333333333144,
+      "endTime": 71.65208333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 96,
+      "velocity": 60,
+      "startTime": 71.66458333333333,
+      "duration": 0.5656250000000114,
+      "endTime": 72.23020833333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 53,
+      "velocity": 40,
+      "startTime": 71.67083333333333,
+      "duration": 0.5833333333333286,
+      "endTime": 72.25416666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 35,
+      "startTime": 72.05104166666666,
+      "duration": 0.4906250000000085,
+      "endTime": 72.54166666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 95,
+      "velocity": 59,
+      "startTime": 72.22916666666667,
+      "duration": 0.6604166666666629,
+      "endTime": 72.88958333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 65,
+      "velocity": 38,
+      "startTime": 72.4375,
+      "duration": 0.3229166666666714,
+      "endTime": 72.76041666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 55,
+      "startTime": 72.83645833333333,
+      "duration": 0.10104166666667425,
+      "endTime": 72.9375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 38,
+      "startTime": 72.84270833333333,
+      "duration": 0.3218749999999915,
+      "endTime": 73.16458333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 50,
+      "startTime": 73.225,
+      "duration": 0.22812500000000568,
+      "endTime": 73.453125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 31,
+      "startTime": 73.81875,
+      "duration": 0.7208333333333314,
+      "endTime": 74.53958333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 76,
+      "velocity": 34,
+      "startTime": 74.40416666666667,
+      "duration": 0.8770833333333314,
+      "endTime": 75.28125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 27,
+      "startTime": 74.79166666666667,
+      "duration": 0.5145833333333343,
+      "endTime": 75.30625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 29,
+      "startTime": 77.26458333333333,
+      "duration": 0.17499999999999716,
+      "endTime": 77.43958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 39,
+      "startTime": 77.68229166666667,
+      "duration": 0.44062499999999716,
+      "endTime": 78.12291666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 40,
+      "startTime": 78.11875,
+      "duration": 0.17604166666666288,
+      "endTime": 78.29479166666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 55,
+      "velocity": 25,
+      "startTime": 78.12083333333334,
+      "duration": 0.6468749999999943,
+      "endTime": 78.76770833333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 53,
+      "startTime": 78.51875,
+      "duration": 1.234375,
+      "endTime": 79.753125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 62,
+      "velocity": 34,
+      "startTime": 78.54166666666667,
+      "duration": 0.5927083333333343,
+      "endTime": 79.134375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 26,
+      "startTime": 78.953125,
+      "duration": 0.06666666666666288,
+      "endTime": 79.01979166666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 71,
+      "velocity": 34,
+      "startTime": 79.35416666666667,
+      "duration": 0.6395833333333343,
+      "endTime": 79.99375
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 37,
+      "startTime": 79.75208333333333,
+      "duration": 0.9333333333333371,
+      "endTime": 80.68541666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 47,
+      "startTime": 80.71145833333333,
+      "duration": 0.3687500000000057,
+      "endTime": 81.08020833333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 93,
+      "velocity": 58,
+      "startTime": 81.08958333333334,
+      "duration": 3.0395833333333258,
+      "endTime": 84.12916666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 54,
+      "velocity": 43,
+      "startTime": 81.47395833333333,
+      "duration": 0.7802083333333343,
+      "endTime": 82.25416666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 62,
+      "velocity": 35,
+      "startTime": 81.86041666666667,
+      "duration": 0.35208333333333997,
+      "endTime": 82.2125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 64,
+      "velocity": 41,
+      "startTime": 82.215625,
+      "duration": 0.5114583333333229,
+      "endTime": 82.72708333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 38,
+      "startTime": 82.61875,
+      "duration": 0.41874999999998863,
+      "endTime": 83.0375
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 42,
+      "startTime": 84.13333333333333,
+      "duration": 0.4166666666666714,
+      "endTime": 84.55
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 93,
+      "velocity": 51,
+      "startTime": 84.50729166666666,
+      "duration": 0.3895833333333343,
+      "endTime": 84.896875
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 96,
+      "velocity": 63,
+      "startTime": 84.890625,
+      "duration": 0.5895833333333371,
+      "endTime": 85.48020833333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 53,
+      "velocity": 40,
+      "startTime": 84.9,
+      "duration": 0.6072916666666544,
+      "endTime": 85.50729166666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 37,
+      "startTime": 85.27395833333333,
+      "duration": 0.3843750000000057,
+      "endTime": 85.65833333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 95,
+      "velocity": 70,
+      "startTime": 85.46145833333333,
+      "duration": 0.5760416666666686,
+      "endTime": 86.0375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 65,
+      "velocity": 42,
+      "startTime": 85.68020833333333,
+      "duration": 0.32500000000000284,
+      "endTime": 86.00520833333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 53,
+      "startTime": 86.05104166666666,
+      "duration": 3.442708333333343,
+      "endTime": 89.49375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 37,
+      "startTime": 86.053125,
+      "duration": 0.053125000000008527,
+      "endTime": 86.10625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 53,
+      "startTime": 86.43854166666667,
+      "duration": 0.09375,
+      "endTime": 86.53229166666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 39,
+      "startTime": 87.05104166666666,
+      "duration": 2.3968750000000085,
+      "endTime": 89.44791666666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 81,
+      "velocity": 27,
+      "startTime": 87.67395833333333,
+      "duration": 1.0218749999999943,
+      "endTime": 88.69583333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 88,
+      "velocity": 43,
+      "startTime": 88.08125,
+      "duration": 1.3395833333333371,
+      "endTime": 89.42083333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 54,
+      "startTime": 92.19375,
+      "duration": 0.7843750000000114,
+      "endTime": 92.978125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 61,
+      "velocity": 48,
+      "startTime": 92.20520833333333,
+      "duration": 7.631249999999994,
+      "endTime": 99.83645833333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 68,
+      "velocity": 29,
+      "startTime": 92.20729166666666,
+      "duration": 7.481250000000003,
+      "endTime": 99.68854166666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 65,
+      "velocity": 50,
+      "startTime": 92.215625,
+      "duration": 7.64791666666666,
+      "endTime": 99.86354166666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 75,
+      "velocity": 43,
+      "startTime": 92.6375,
+      "duration": 0.4010416666666572,
+      "endTime": 93.03854166666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 53,
+      "startTime": 93.01145833333334,
+      "duration": 0.08958333333332291,
+      "endTime": 93.10104166666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 87,
+      "velocity": 58,
+      "startTime": 93.41041666666666,
+      "duration": 3.012500000000003,
+      "endTime": 96.42291666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 82,
+      "velocity": 40,
+      "startTime": 93.81979166666666,
+      "duration": 2.6708333333333343,
+      "endTime": 96.490625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 38,
+      "startTime": 94.22708333333333,
+      "duration": 2.31354166666668,
+      "endTime": 96.540625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 40,
+      "startTime": 98.37708333333333,
+      "duration": 1.00833333333334,
+      "endTime": 99.38541666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 96,
+      "velocity": 47,
+      "startTime": 98.38020833333333,
+      "duration": 0.9343750000000028,
+      "endTime": 99.31458333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 48,
+      "startTime": 101.76354166666667,
+      "duration": 0.80416666666666,
+      "endTime": 102.56770833333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 63,
+      "velocity": 45,
+      "startTime": 101.78125,
+      "duration": 3.378124999999997,
+      "endTime": 105.159375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 33,
+      "startTime": 101.7875,
+      "duration": 3.3104166666666686,
+      "endTime": 105.09791666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 40,
+      "startTime": 101.80104166666666,
+      "duration": 3.3020833333333286,
+      "endTime": 105.10312499999999
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 75,
+      "velocity": 34,
+      "startTime": 102.2125,
+      "duration": 0.44479166666666003,
+      "endTime": 102.65729166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 50,
+      "startTime": 102.58333333333333,
+      "duration": 0.0729166666666714,
+      "endTime": 102.65625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 87,
+      "velocity": 48,
+      "startTime": 102.97604166666666,
+      "duration": 3.653125000000003,
+      "endTime": 106.62916666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 82,
+      "velocity": 50,
+      "startTime": 103.37083333333334,
+      "duration": 3.2802083333333343,
+      "endTime": 106.65104166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 33,
+      "startTime": 103.76979166666666,
+      "duration": 3.0208333333333286,
+      "endTime": 106.79062499999999
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 45,
+      "startTime": 109.81041666666667,
+      "duration": 0.67916666666666,
+      "endTime": 110.48958333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 61,
+      "velocity": 39,
+      "startTime": 109.81458333333333,
+      "duration": 0.3531250000000057,
+      "endTime": 110.16770833333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 68,
+      "velocity": 47,
+      "startTime": 109.81666666666666,
+      "duration": 0.39895833333333997,
+      "endTime": 110.215625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 27,
+      "startTime": 109.83333333333333,
+      "duration": 0.4072916666666657,
+      "endTime": 110.240625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 65,
+      "velocity": 51,
+      "startTime": 109.84375,
+      "duration": 0.34375,
+      "endTime": 110.1875
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 75,
+      "velocity": 39,
+      "startTime": 110.26041666666667,
+      "duration": 0.37395833333332007,
+      "endTime": 110.63437499999999
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 53,
+      "startTime": 110.63437499999999,
+      "duration": 0.0625,
+      "endTime": 110.69687499999999
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 70,
+      "velocity": 42,
+      "startTime": 110.6375,
+      "duration": 0.84375,
+      "endTime": 111.48125
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 87,
+      "velocity": 63,
+      "startTime": 111.01770833333333,
+      "duration": 2.97604166666666,
+      "endTime": 113.99374999999999
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 82,
+      "velocity": 69,
+      "startTime": 111.41562499999999,
+      "duration": 2.7062500000000114,
+      "endTime": 114.121875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 68,
+      "velocity": 41,
+      "startTime": 111.42291666666667,
+      "duration": 0.8125,
+      "endTime": 112.23541666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 40,
+      "startTime": 111.79583333333333,
+      "duration": 2.269791666666663,
+      "endTime": 114.065625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 42,
+      "startTime": 112.18854166666667,
+      "duration": 0.7958333333333343,
+      "endTime": 112.984375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 65,
+      "velocity": 32,
+      "startTime": 112.95104166666667,
+      "duration": 1.2895833333333258,
+      "endTime": 114.240625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 49,
+      "startTime": 117.47604166666666,
+      "duration": 0.7927083333333371,
+      "endTime": 118.26875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 51,
+      "startTime": 117.47916666666667,
+      "duration": 0.30416666666666003,
+      "endTime": 117.78333333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 63,
+      "velocity": 52,
+      "startTime": 117.484375,
+      "duration": 0.2562499999999943,
+      "endTime": 117.740625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 33,
+      "startTime": 117.490625,
+      "duration": 0.21770833333333428,
+      "endTime": 117.70833333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 75,
+      "velocity": 38,
+      "startTime": 117.896875,
+      "duration": 0.39791666666667425,
+      "endTime": 118.29479166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 62,
+      "startTime": 118.29062499999999,
+      "duration": 0.08020833333334565,
+      "endTime": 118.37083333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 73,
+      "velocity": 38,
+      "startTime": 118.29166666666667,
+      "duration": 0.14999999999999147,
+      "endTime": 118.44166666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 87,
+      "velocity": 60,
+      "startTime": 118.66875,
+      "duration": 0.3812499999999943,
+      "endTime": 119.05
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 82,
+      "velocity": 58,
+      "startTime": 119.04895833333333,
+      "duration": 2.8916666666666657,
+      "endTime": 121.940625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 42,
+      "startTime": 119.06458333333333,
+      "duration": 0.8385416666666714,
+      "endTime": 119.903125
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 68,
+      "startTime": 119.42083333333333,
+      "duration": 2.229166666666657,
+      "endTime": 121.64999999999999
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 70,
+      "velocity": 34,
+      "startTime": 119.83645833333333,
+      "duration": 0.25729166666667425,
+      "endTime": 120.09375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 45,
+      "startTime": 120.6875,
+      "duration": 2.4354166666666686,
+      "endTime": 123.12291666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 27,
+      "startTime": 123.50416666666666,
+      "duration": 0.9291666666666742,
+      "endTime": 124.43333333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 94,
+      "velocity": 31,
+      "startTime": 124.01979166666666,
+      "duration": 0.4593750000000085,
+      "endTime": 124.47916666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 96,
+      "velocity": 83,
+      "startTime": 124.41354166666666,
+      "duration": 1.85208333333334,
+      "endTime": 126.265625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 25,
+      "startTime": 124.86458333333333,
+      "duration": 1.3135416666666657,
+      "endTime": 126.178125
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 47,
+      "startTime": 129.99166666666667,
+      "duration": 0.49791666666666856,
+      "endTime": 130.48958333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 26,
+      "startTime": 129.99270833333333,
+      "duration": 0.37708333333333144,
+      "endTime": 130.36979166666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 65,
+      "velocity": 42,
+      "startTime": 129.99479166666666,
+      "duration": 0.4312500000000057,
+      "endTime": 130.42604166666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 31,
+      "startTime": 130.01041666666666,
+      "duration": 1.2520833333333314,
+      "endTime": 131.2625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 37,
+      "startTime": 130.43125,
+      "duration": 0.39374999999998295,
+      "endTime": 130.825
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 70,
+      "velocity": 41,
+      "startTime": 130.82083333333333,
+      "duration": 0.8958333333333428,
+      "endTime": 131.71666666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 54,
+      "startTime": 130.82291666666666,
+      "duration": 0.15625,
+      "endTime": 130.97916666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 50,
+      "startTime": 131.23020833333334,
+      "duration": 0.3229166666666572,
+      "endTime": 131.553125
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 63,
+      "startTime": 131.603125,
+      "duration": 3.5437499999999886,
+      "endTime": 135.146875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 37,
+      "startTime": 131.63229166666667,
+      "duration": 0.8177083333333144,
+      "endTime": 132.45
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 46,
+      "startTime": 132.01979166666666,
+      "duration": 3.2520833333333314,
+      "endTime": 135.271875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 34,
+      "startTime": 132.459375,
+      "duration": 0.8291666666666799,
+      "endTime": 133.28854166666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 65,
+      "velocity": 40,
+      "startTime": 133.27604166666666,
+      "duration": 1.3510416666666742,
+      "endTime": 134.62708333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 65,
+      "velocity": 36,
+      "startTime": 135.225,
+      "duration": 0.9000000000000057,
+      "endTime": 136.125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 37,
+      "startTime": 136.03645833333334,
+      "duration": 0.09999999999999432,
+      "endTime": 136.13645833333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 33,
+      "startTime": 136.903125,
+      "duration": 1.4145833333333542,
+      "endTime": 138.31770833333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 61,
+      "velocity": 33,
+      "startTime": 136.90520833333332,
+      "duration": 1.246875000000017,
+      "endTime": 138.15208333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 42,
+      "startTime": 136.90833333333333,
+      "duration": 0.7177083333333201,
+      "endTime": 137.62604166666665
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 68,
+      "velocity": 40,
+      "startTime": 136.91041666666666,
+      "duration": 1.2156249999999886,
+      "endTime": 138.12604166666665
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 75,
+      "velocity": 31,
+      "startTime": 137.32708333333332,
+      "duration": 0.3989583333333542,
+      "endTime": 137.72604166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 37,
+      "startTime": 137.715625,
+      "duration": 0.06354166666667993,
+      "endTime": 137.77916666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 87,
+      "velocity": 52,
+      "startTime": 138.084375,
+      "duration": 0.39791666666667425,
+      "endTime": 138.48229166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 82,
+      "velocity": 60,
+      "startTime": 138.47604166666667,
+      "duration": 1.5281249999999886,
+      "endTime": 140.00416666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 70,
+      "velocity": 38,
+      "startTime": 138.49166666666667,
+      "duration": 0.3510416666666458,
+      "endTime": 138.84270833333332
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 47,
+      "startTime": 138.86979166666666,
+      "duration": 1.0531249999999943,
+      "endTime": 139.92291666666665
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 68,
+      "velocity": 34,
+      "startTime": 138.89375,
+      "duration": 0.3802083333333144,
+      "endTime": 139.27395833333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 40,
+      "startTime": 139.275,
+      "duration": 0.3791666666666629,
+      "endTime": 139.65416666666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 68,
+      "velocity": 38,
+      "startTime": 139.66666666666666,
+      "duration": 0.1864583333333485,
+      "endTime": 139.853125
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 82,
+      "velocity": 33,
+      "startTime": 140.06354166666665,
+      "duration": 0.856250000000017,
+      "endTime": 140.91979166666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 37,
+      "startTime": 140.075,
+      "duration": 1.9906250000000227,
+      "endTime": 142.065625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 75,
+      "velocity": 29,
+      "startTime": 140.4625,
+      "duration": 0.5822916666666629,
+      "endTime": 141.04479166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 47,
+      "startTime": 141.73125,
+      "duration": 0.8229166666666856,
+      "endTime": 142.55416666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 70,
+      "velocity": 25,
+      "startTime": 142.16875,
+      "duration": 0.2333333333333485,
+      "endTime": 142.40208333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 53,
+      "startTime": 143.759375,
+      "duration": 1.7927083333333371,
+      "endTime": 145.55208333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 15,
+      "startTime": 144.22916666666666,
+      "duration": 1.0968750000000114,
+      "endTime": 145.32604166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 32,
+      "startTime": 148.790625,
+      "duration": 0.16979166666666856,
+      "endTime": 148.96041666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 38,
+      "startTime": 149.24791666666667,
+      "duration": 0.23333333333332007,
+      "endTime": 149.48125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 53,
+      "velocity": 35,
+      "startTime": 149.66458333333333,
+      "duration": 0.4906249999999943,
+      "endTime": 150.15520833333332
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 42,
+      "startTime": 149.67395833333333,
+      "duration": 0.15208333333333712,
+      "endTime": 149.82604166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 50,
+      "startTime": 150.06770833333334,
+      "duration": 1.5291666666666686,
+      "endTime": 151.596875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 34,
+      "startTime": 150.08333333333334,
+      "duration": 0.5635416666666515,
+      "endTime": 150.646875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 38,
+      "startTime": 150.465625,
+      "duration": 0.12604166666667993,
+      "endTime": 150.59166666666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 39,
+      "startTime": 150.83645833333333,
+      "duration": 0.484375,
+      "endTime": 151.32083333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 38,
+      "startTime": 151.228125,
+      "duration": 0.6541666666666686,
+      "endTime": 151.88229166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 50,
+      "startTime": 152.290625,
+      "duration": 0.15416666666666856,
+      "endTime": 152.44479166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 66,
+      "startTime": 152.66875,
+      "duration": 2.255208333333343,
+      "endTime": 154.92395833333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 52,
+      "startTime": 153.05625,
+      "duration": 0.7906250000000057,
+      "endTime": 153.846875
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 37,
+      "startTime": 153.45833333333334,
+      "duration": 0.4114583333333144,
+      "endTime": 153.86979166666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 62,
+      "velocity": 38,
+      "startTime": 153.84375,
+      "duration": 0.5760416666666686,
+      "endTime": 154.41979166666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 44,
+      "startTime": 154.2375,
+      "duration": 0.546875,
+      "endTime": 154.784375
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 50,
+      "startTime": 155.88333333333333,
+      "duration": 0.4000000000000057,
+      "endTime": 156.28333333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 53,
+      "startTime": 156.275,
+      "duration": 0.37708333333333144,
+      "endTime": 156.65208333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 94,
+      "velocity": 60,
+      "startTime": 156.66458333333333,
+      "duration": 0.5656250000000114,
+      "endTime": 157.23020833333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 51,
+      "velocity": 40,
+      "startTime": 156.67083333333332,
+      "duration": 0.5833333333333428,
+      "endTime": 157.25416666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 58,
+      "velocity": 35,
+      "startTime": 157.05104166666666,
+      "duration": 0.4906249999999943,
+      "endTime": 157.54166666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 93,
+      "velocity": 59,
+      "startTime": 157.22916666666666,
+      "duration": 0.6604166666666629,
+      "endTime": 157.88958333333332
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 63,
+      "velocity": 38,
+      "startTime": 157.4375,
+      "duration": 0.3229166666666572,
+      "endTime": 157.76041666666666
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 55,
+      "startTime": 157.83645833333333,
+      "duration": 0.10104166666667425,
+      "endTime": 157.9375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 38,
+      "startTime": 157.84270833333332,
+      "duration": 0.3218750000000057,
+      "endTime": 158.16458333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 50,
+      "startTime": 158.225,
+      "duration": 0.22812500000000568,
+      "endTime": 158.453125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 31,
+      "startTime": 158.81875,
+      "duration": 0.7208333333333314,
+      "endTime": 159.53958333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 74,
+      "velocity": 34,
+      "startTime": 159.40416666666667,
+      "duration": 0.8770833333333314,
+      "endTime": 160.28125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 27,
+      "startTime": 159.79166666666666,
+      "duration": 0.5145833333333485,
+      "endTime": 160.30625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 29,
+      "startTime": 162.26458333333332,
+      "duration": 0.17500000000001137,
+      "endTime": 162.43958333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 39,
+      "startTime": 162.68229166666666,
+      "duration": 0.44062500000001137,
+      "endTime": 163.12291666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 40,
+      "startTime": 163.11875,
+      "duration": 0.17604166666666288,
+      "endTime": 163.29479166666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 53,
+      "velocity": 25,
+      "startTime": 163.12083333333334,
+      "duration": 0.6468749999999943,
+      "endTime": 163.76770833333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 53,
+      "startTime": 163.51875,
+      "duration": 1.234375,
+      "endTime": 164.753125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 34,
+      "startTime": 163.54166666666666,
+      "duration": 0.5927083333333485,
+      "endTime": 164.134375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 26,
+      "startTime": 163.953125,
+      "duration": 0.06666666666666288,
+      "endTime": 164.01979166666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 34,
+      "startTime": 164.35416666666666,
+      "duration": 0.6395833333333485,
+      "endTime": 164.99375
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 37,
+      "startTime": 164.75208333333333,
+      "duration": 0.9333333333333371,
+      "endTime": 165.68541666666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 47,
+      "startTime": 165.71145833333333,
+      "duration": 0.3687500000000057,
+      "endTime": 166.08020833333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 58,
+      "startTime": 166.08958333333334,
+      "duration": 3.0395833333333258,
+      "endTime": 169.12916666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 52,
+      "velocity": 43,
+      "startTime": 166.47395833333334,
+      "duration": 0.7802083333333201,
+      "endTime": 167.25416666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 60,
+      "velocity": 35,
+      "startTime": 166.86041666666665,
+      "duration": 0.3520833333333542,
+      "endTime": 167.2125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 62,
+      "velocity": 41,
+      "startTime": 167.215625,
+      "duration": 0.5114583333333371,
+      "endTime": 167.72708333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 38,
+      "startTime": 167.61875,
+      "duration": 0.41874999999998863,
+      "endTime": 168.0375
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 42,
+      "startTime": 169.13333333333333,
+      "duration": 0.4166666666666856,
+      "endTime": 169.55
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 91,
+      "velocity": 51,
+      "startTime": 169.50729166666667,
+      "duration": 0.38958333333332007,
+      "endTime": 169.896875
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 94,
+      "velocity": 63,
+      "startTime": 169.890625,
+      "duration": 0.5895833333333371,
+      "endTime": 170.48020833333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 51,
+      "velocity": 40,
+      "startTime": 169.9,
+      "duration": 0.6072916666666686,
+      "endTime": 170.50729166666667
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 58,
+      "velocity": 37,
+      "startTime": 170.27395833333333,
+      "duration": 0.3843750000000057,
+      "endTime": 170.65833333333333
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 93,
+      "velocity": 70,
+      "startTime": 170.46145833333333,
+      "duration": 0.5760416666666686,
+      "endTime": 171.0375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 63,
+      "velocity": 42,
+      "startTime": 170.68020833333333,
+      "duration": 0.32500000000001705,
+      "endTime": 171.00520833333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 53,
+      "startTime": 171.05104166666666,
+      "duration": 3.442708333333343,
+      "endTime": 174.49375
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 67,
+      "velocity": 37,
+      "startTime": 171.053125,
+      "duration": 0.053124999999994316,
+      "endTime": 171.10625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 53,
+      "startTime": 171.43854166666665,
+      "duration": 0.09375,
+      "endTime": 171.53229166666665
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 39,
+      "startTime": 172.05104166666666,
+      "duration": 2.3968749999999943,
+      "endTime": 174.44791666666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 27,
+      "startTime": 172.67395833333333,
+      "duration": 1.0218749999999943,
+      "endTime": 173.69583333333333
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 86,
+      "velocity": 43,
+      "startTime": 173.08125,
+      "duration": 1.3395833333333087,
+      "endTime": 174.42083333333332
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 44,
+      "startTime": 177.68958333333333,
+      "duration": 0.8531250000000057,
+      "endTime": 178.54270833333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 61,
+      "velocity": 26,
+      "startTime": 177.69791666666666,
+      "duration": 6.417708333333337,
+      "endTime": 184.115625
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 65,
+      "velocity": 43,
+      "startTime": 177.709375,
+      "duration": 6.415625000000006,
+      "endTime": 184.125
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 68,
+      "velocity": 18,
+      "startTime": 177.721875,
+      "duration": 6.34375,
+      "endTime": 184.065625
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 82,
+      "velocity": 30,
+      "startTime": 178.565625,
+      "duration": 0.36249999999998295,
+      "endTime": 178.928125
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 80,
+      "velocity": 48,
+      "startTime": 179.35625,
+      "duration": 0.2760416666666856,
+      "endTime": 179.63229166666667
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 44,
+      "startTime": 180.20625,
+      "duration": 0.19583333333332575,
+      "endTime": 180.40208333333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 42,
+      "startTime": 181.021875,
+      "duration": 0.5218749999999943,
+      "endTime": 181.54375
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 89,
+      "velocity": 38,
+      "startTime": 183.13333333333333,
+      "duration": 0.7218750000000114,
+      "endTime": 183.85520833333334
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 79,
+      "velocity": 38,
+      "startTime": 183.15104166666666,
+      "duration": 0.6781249999999943,
+      "endTime": 183.82916666666665
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 81,
+      "velocity": 43,
+      "startTime": 186.06666666666666,
+      "duration": 6.2020833333333485,
+      "endTime": 192.26875
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 84,
+      "velocity": 40,
+      "startTime": 186.071875,
+      "duration": 6.192708333333314,
+      "endTime": 192.26458333333332
+    },
+    {
+      "instrumentId": 0,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 77,
+      "velocity": 28,
+      "startTime": 186.07708333333332,
+      "duration": 6.192708333333343,
+      "endTime": 192.26979166666666
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 69,
+      "velocity": 33,
+      "startTime": 186.08333333333334,
+      "duration": 6.1875,
+      "endTime": 192.27083333333334
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 72,
+      "velocity": 31,
+      "startTime": 186.08645833333333,
+      "duration": 6.18854166666668,
+      "endTime": 192.275
+    },
+    {
+      "instrumentId": 1,
+      "instrumentName": "Inst 1",
+      "isPercussion": false,
+      "pitch": 65,
+      "velocity": 27,
+      "startTime": 186.096875,
+      "duration": 6.177083333333314,
+      "endTime": 192.27395833333333
+    }
+  ]
+}

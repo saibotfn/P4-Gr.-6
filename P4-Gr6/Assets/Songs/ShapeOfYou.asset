@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
+  m_Name: ShapeOfYou
+  m_EditorClassIdentifier: Assembly-CSharp::SongData
+  audioClip: {fileID: 0}
+  jsonFile: {fileID: 4900000, guid: e0955f8925769334a9fa87bc4c7ebe8a, type: 3}
+  playSpeed: 1
+  songName: Shape of You
+  coverArt: {fileID: 21300000, guid: 497adde979a8ea448832777dc3e617b3, type: 3}
+  author: Ed Sheeran
+  year: 2017
+  description: "From the album \xF7 (Divide). A smooth, rhythm-focused pop track
+    with a steady groove and catchy hooks. It feels light, modern, and easy to get
+    into."
