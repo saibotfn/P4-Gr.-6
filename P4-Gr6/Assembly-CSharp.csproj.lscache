@@ -53,6 +53,7 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 Assets/Scripts/
  AnimationTrigger.cs
  KeyboardRaycast.cs
+ LaserShoot.cs
  MainMenuEvents.cs
  NoteEvent.cs
  NoteSequence.cs
@@ -62,7 +63,12 @@ Assets/Scripts/
  ZombieSpawner.cs
 Assets/
  TutorialInfo/Scripts/Readme.cs
- UI Toolkit/ScriptableObjects/Test.cs
+ UI Toolkit/
+  ScriptableObjects/Test.cs
+  Selection menu/
+   GameSettings.cs
+   SongData.cs
+   SongSelectorUI.cs
  Zombie - stuff/ShirtlessZombieFree/Scripts/FreeZombie_EyesGlow.cs
 Temp/obj/Assembly-CSharp/.NETStandard,Version=v2.1.AssemblyAttributes.cs
 
