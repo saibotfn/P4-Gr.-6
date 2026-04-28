@@ -103,7 +103,22 @@ public class SongCarouselController : MonoBehaviour
             StyleCard(card, offset);
 
             if (offset == 0)
+            {
+                card.RegisterCallback<PointerEnterEvent>(_ =>
+                {
+                    card.BringToFront();
+                    card.style.scale = new Scale(new Vector3(1.08f, 1.08f, 1f));
+                    card.style.translate = new Translate(0f, -28f, 0f);
+                });
+
+                card.RegisterCallback<PointerLeaveEvent>(_ =>
+                {
+                    StyleCard(card, 0);
+                    card.BringToFront();
+                });
+
                 card.BringToFront();
+            }
 
             _cardStack.Add(card);
         }
@@ -112,6 +127,7 @@ public class SongCarouselController : MonoBehaviour
     VisualElement CreateCard(SongData song)
     {
         var card = new VisualElement();
+        card.AddToClassList("song-card");
         card.style.width = 220;
         card.style.height = 300;
         card.style.borderTopLeftRadius = 20;
@@ -120,7 +136,7 @@ public class SongCarouselController : MonoBehaviour
         card.style.borderBottomRightRadius = 20;
         card.style.overflow = Overflow.Hidden;
         card.style.position = Position.Absolute;
-        card.AddToClassList("song-card");
+        
 
         // Cover art
         if (song.coverArt != null)

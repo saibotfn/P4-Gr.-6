@@ -1,5 +1,5 @@
 :root {
-    --purple-dark: rgb(80, 0, 100);
+    --purple-dark: rgb(27, 100, 0);
     --purple-mid: rgb(140, 0, 180);
     --teal: rgb(0, 180, 160);
     --card-width: 220px;
@@ -56,13 +56,14 @@
 }
 
 .song-card {
-    width: var(--card-width);
-    height: var(--card-height);
-    border-radius: 20px;
-    position: absolute;
-    overflow: hidden;
-    transition-duration: 0.4s;
+    transition-property: scale, translate, opacity;
+    transition-duration: 0.25s;
     transition-timing-function: ease-out;
+}
+
+.song-card:hover {
+    scale: 1.06 1.06;
+    translate: 0 -16px 0;
 }
 
 .song-card--active {
