@@ -1920,6 +1920,8 @@ MonoBehaviour:
   perfektHitBonus: 3
   laserOffset: {x: 0, y: 3, z: 0}
   laserShoot: {fileID: 597015299}
+  WrongSound: {fileID: 8300000, guid: b8c03d38656418140b6b778e807f4abe, type: 3}
+  volume: 0.116
 --- !u!4 &835803933
 Transform:
   m_ObjectHideFlags: 0
@@ -5557,6 +5559,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1072765404}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1 &1703887481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1703887483}
+  - component: {fileID: 1703887482}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1703887482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703887481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d65f3a38b25cb944ae85b6d954e1b3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SoundManager
+  audioSourceObject: {fileID: 0}
+--- !u!4 &1703887483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703887481}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.3111, y: 7.21013, z: 1.60189}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1727854731
 GameObject:
   m_ObjectHideFlags: 0
@@ -5981,11 +6028,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SongPlayer
   spawner: {fileID: 1072765403}
   raycaster: {fileID: 835803932}
-  songIndex: 0
-  jsonFile:
-  - {fileID: 4900000, guid: 4100524ea5c907c45ad2ba2913f409ce, type: 3}
-  - {fileID: 4900000, guid: 96844d8fc9b735d409237dd0d0ef5246, type: 3}
-  playSpeed: 0.1
 --- !u!4 &1803544962
 Transform:
   m_ObjectHideFlags: 0
@@ -7160,3 +7202,4 @@ SceneRoots:
   - {fileID: 597015300}
   - {fileID: 1803544962}
   - {fileID: 1985284972}
+  - {fileID: 1703887483}

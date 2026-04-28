@@ -14,6 +14,8 @@ public class KeyboardRaycast : MonoBehaviour
     [SerializeField] private Vector3 laserOffset = new Vector3(0f, 0f, 0f);
     [SerializeField] private LaserShoot laserShoot;
 
+    [SerializeField] private AudioClip WrongSound;
+    [SerializeField][Range(0, 1)] private float volume;
     public void shootRay(int midiValue)
     {
         RaycastHit hit;
@@ -193,6 +195,8 @@ public class KeyboardRaycast : MonoBehaviour
             
             scoreManager.AddMiss();
             scoreManager.RemoveHP();
+
+            SoundManager.Instance.PlaySoundClip(WrongSound, transform, volume);
         }
 
         return;
