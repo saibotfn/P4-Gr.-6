@@ -10,9 +10,9 @@
 }
 
 .button {
-    font-size: 101px;
-    width: 378px;
-    height: 144px;
+    font-size: 61px;
+    width: 348px;
+    height: 98px;
     align-self: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
