@@ -1,6 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style.uss?fileID=7433441132597879392&amp;guid=cb4d772012ec24447a3f113275a5aa6b&amp;type=3#Style"/>
     <ui:VisualElement class="song-item" style="flex-direction: row;">
-        <ui:Image name="cover" class="song-item__cover" style="width: 128px; height: 128px;"/>
+        <ui:Image name="cover" class="button" style="width: 128px; height: 128px;"/>
         <ui:VisualElement style="flex-grow: 1; height: 128px;">
             <ui:Label name="title" text="Song Name" class="song-item__title" style="height: 25%; font-size: 20px; -unity-text-align: middle-left;"/>
             <ui:Label text="Author" name="author" style="height: 25%; justify-content: flex-start; align-items: auto; font-size: 20px; -unity-text-align: middle-left;"/>

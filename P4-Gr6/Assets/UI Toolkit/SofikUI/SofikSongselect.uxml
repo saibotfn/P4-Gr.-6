@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style.uss?fileID=7433441132597879392&amp;guid=21b33afbbf6374942a73d5cbe2a700cc&amp;type=3#Style"/>
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(23, 111, 54, 0.87);">
+        <ui:Image name="ImageOfSong" source="project://database/Assets/sprites/Anotherlove.jpg?fileID=2800000&amp;guid=9979f6d6964ecbc4ca058aad79c07d1b&amp;type=3#Anotherlove" style="height: 334px; width: 522px; position: absolute; top: 298px; left: 732px;"/>
+        <ui:Button text="" icon-image="project://database/Assets/UI%20Toolkit/SofikUI/next-button-icon-png-32.png?fileID=21300000&amp;guid=071982b44258440a2bc0db66e140e844&amp;type=3#next-button-icon-png-32" name="Right" class="Button" style="height: 138px; width: 216px; position: absolute; top: 489px; left: 599px; background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);"/>
+        <ui:Button text="" icon-image="project://database/Assets/UI%20Toolkit/SofikUI/next-button-icon-png-32.png?fileID=21300000&amp;guid=071982b44258440a2bc0db66e140e844&amp;type=3#next-button-icon-png-32" name="Right" class="Button" style="height: 138px; width: 216px; position: absolute; top: 491px; left: 1164px; background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);"/>
+        <ui:Label text="Song Label" style="position: absolute; height: 72px; width: 270px; top: 632px; left: 858px; font-size: 50px;"/>
+        <ui:Label text="Author" style="position: absolute; height: 56px; width: 137px; top: 701px; left: 913px; font-size: 40px;"/>
+        <ui:Label text="Year" style="position: absolute; height: 64px; width: 99px; top: 760px; left: 935px; font-size: 40px;"/>
+    </ui:VisualElement>
+</ui:UXML>
