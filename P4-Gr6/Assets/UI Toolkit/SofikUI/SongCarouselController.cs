@@ -17,7 +17,10 @@ public class SongCarouselController : MonoBehaviour
     [SerializeField] private float previewDurationSeconds = 20f;
 
     [Header("Button sounds")]
-    [SerializeField] private AudioSource audioSourcePrefab;
+    [SerializeField] private AudioClip clickSound;
+    [SerializeField] private AudioClip confirmSound;
+    [SerializeField][Range(0, 1)] private float volume;
+
 
     private UIDocument _doc;
     private AudioSource _previewSource;
@@ -465,9 +468,11 @@ public class SongCarouselController : MonoBehaviour
 
     void Navigate(int direction) // direction: -1 for left, +1 for right
     {
+        SoundManager.Instance.PlaySoundClip(clickSound, transform, volume);
         int newIndex = _currentIndex + direction;
         _currentIndex = WrapIndex(newIndex);
         BuildCards();
+        
     }
 
     void PlaySelectedSong()
@@ -481,6 +486,7 @@ public class SongCarouselController : MonoBehaviour
         var selectedSong = songs[_currentIndex];
         GameSettings.selectedSong = selectedSong;
         GameSettings.selectedSpeed = _selectedSpeed;
+        SoundManager.Instance.PlaySoundClip(confirmSound, transform, volume);
         SceneManager.LoadScene(playSceneName);
     }
 
