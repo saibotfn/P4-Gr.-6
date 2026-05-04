@@ -12,12 +12,14 @@ public class KeyboardRaycast : MonoBehaviour
     [SerializeField] private float lineBuffer = 0f;
     [SerializeField] private int perfektHitValue = 0;
     [SerializeField] private int perfektHitBonus = 0;
+    private bool whiteNote = false;
 
     [SerializeField] private Vector3 laserOffset = new Vector3(0f, 0f, 0f);
     [SerializeField] private LaserShoot laserShoot;
 
     public void shootRay(int midiValue)
     {
+        whiteNote = true;
         RaycastHit hit;
         List<RaycastHit> furthestHit = new List<RaycastHit>();
         Vector3 rayDirection = new Vector3(1f, 0f, 0f);
@@ -30,12 +32,14 @@ public class KeyboardRaycast : MonoBehaviour
                 break;
             case 37: //Black
                 rayCastIndex = 0;
+                whiteNote = false;
                 break;
             case 38: //White
                 rayCastIndex = 1;
                 break;
             case 39: //Black
                 rayCastIndex = 1;
+                whiteNote = false;
                 break;
             case 40: //White
                 rayCastIndex = 2;
@@ -45,18 +49,21 @@ public class KeyboardRaycast : MonoBehaviour
                 break;
             case 42: //Black
                 rayCastIndex = 3;
+                whiteNote = false;
                 break;
             case 43: //White
                 rayCastIndex = 4;
                 break;
             case 44: //Black
                 rayCastIndex = 4;
+                whiteNote = false;
                 break;
             case 45: //White
                 rayCastIndex = 5;
                 break;
             case 46: //Black
                 rayCastIndex = 5;
+                whiteNote = false;
                 break;
             case 47: //White
                 rayCastIndex = 6;
@@ -66,12 +73,14 @@ public class KeyboardRaycast : MonoBehaviour
                 break;
             case 49: //Black
                 rayCastIndex = 7;
+                whiteNote = false;
                 break;
             case 50: //White
                 rayCastIndex = 8;
                 break;
             case 51: //Black
                 rayCastIndex = 8;
+                whiteNote = false;
                 break;
             case 52: //White
                 rayCastIndex = 9;
@@ -81,18 +90,21 @@ public class KeyboardRaycast : MonoBehaviour
                 break;
             case 54: //Black
                 rayCastIndex = 10;
+                whiteNote = false;
                 break;
             case 55: //White
                 rayCastIndex = 11;
                 break;
             case 56: //Black
                 rayCastIndex = 11;
+                whiteNote = false;
                 break;
             case 57: //White
                 rayCastIndex = 12;
                 break;
             case 58: //Black
                 rayCastIndex = 12;
+                whiteNote = false;
                 break;
             case 59: //White
                 rayCastIndex = 13;
@@ -102,12 +114,14 @@ public class KeyboardRaycast : MonoBehaviour
                 break;
             case 61: //Black
                 rayCastIndex = 14;
+                whiteNote = false;
                 break;
             case 62: //White
                 rayCastIndex = 15;
                 break;
             case 63: //Black
                 rayCastIndex = 15;
+                whiteNote = false;
                 break;
             case 64: //White
                 rayCastIndex = 16;
@@ -117,18 +131,21 @@ public class KeyboardRaycast : MonoBehaviour
                 break;
             case 66: //Black
                 rayCastIndex = 17;
+                whiteNote = false;
                 break;
             case 67: //White
                 rayCastIndex = 18;
                 break;
             case 68: //Black
                 rayCastIndex = 18;
+                whiteNote = false;
                 break;
             case 69: //White
                 rayCastIndex = 19;
                 break;
             case 70: //Black
                 rayCastIndex = 19;
+                whiteNote = false;
                 break;
             case 71: //White
                 rayCastIndex = 20;
@@ -138,12 +155,14 @@ public class KeyboardRaycast : MonoBehaviour
                 break;
             case 73: //Black
                 rayCastIndex = 21;
+                whiteNote = false;
                 break;
             case 74: //White
                 rayCastIndex = 22;
                 break;
             case 75: //Black
                 rayCastIndex = 22;
+                whiteNote = false;
                 break;
             case 76: //White
                 rayCastIndex = 23;
@@ -153,12 +172,14 @@ public class KeyboardRaycast : MonoBehaviour
                 break;
             case 78: //Black
                 rayCastIndex = 24;
+                whiteNote = false;
                 break;
             case 79: //White
                 rayCastIndex = 25;
                 break;
             case 80: //Black
                 rayCastIndex = 25;
+                whiteNote = false;
                 break;
             case 81: //White
                 rayCastIndex = 26;
