@@ -349,6 +349,7 @@ GameObject:
   - component: {fileID: 1549241955}
   - component: {fileID: 1549241957}
   - component: {fileID: 1549241956}
+  - component: {fileID: 1549241958}
   m_Layer: 0
   m_Name: UI-Sound
   m_TagString: Untagged
@@ -398,6 +399,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 972d7774a00b08a4d8156882fcf5a973, type: 2}
   - {fileID: 11400000, guid: 863819c81ed46064da0cf455035122e5, type: 2}
   - {fileID: 11400000, guid: b1ca87ce51ca99141b7f440c57f918c7, type: 2}
+  playSceneName: TestingWithZombies
 --- !u!114 &1549241957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,6 +423,44 @@ MonoBehaviour:
   m_PivotReferenceSize: 0
   m_Pivot: 0
   m_WorldSpaceCollider: {fileID: 0}
+--- !u!114 &1549241958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549241954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8d882b29f0f484f9e476fd234cac34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimatedBackgroundController
+  backgroundFrames:
+  - {fileID: 2800000, guid: c56a6d088d92a4c55bb11dce261e7f29, type: 3}
+  - {fileID: 2800000, guid: d943bf59adad84b32b903eacd061b26d, type: 3}
+  - {fileID: 2800000, guid: 5c348edf57ff944ad9ff32420a618fea, type: 3}
+  - {fileID: 2800000, guid: f211ba4b852b8429aa428f5719e86c59, type: 3}
+  - {fileID: 2800000, guid: dd111bf6b419e437ba9a35736edca805, type: 3}
+  - {fileID: 2800000, guid: 2dc399a7cb6dd44fba2d1908ada9cb96, type: 3}
+  - {fileID: 2800000, guid: fed41403d25234e1d83ffb5905674f10, type: 3}
+  - {fileID: 2800000, guid: 93a72639a7cc642178528b6e22746da6, type: 3}
+  - {fileID: 2800000, guid: 8cde3c696feb34a09ac37b99ea92b932, type: 3}
+  - {fileID: 2800000, guid: 32cb9191d7ea3452c886bbfb7e4f5602, type: 3}
+  - {fileID: 2800000, guid: 1996d99d34eb64e2a867d532786d7d19, type: 3}
+  - {fileID: 2800000, guid: dfc8404847afb40ab9d86cfc5fc9cacb, type: 3}
+  - {fileID: 2800000, guid: 15fe6a380c47b4ef3b6d62124e39a977, type: 3}
+  - {fileID: 2800000, guid: 2fa58246c8db441f99e4c4ee3df56337, type: 3}
+  - {fileID: 2800000, guid: 02daffa9092d04c008105d8062ff823c, type: 3}
+  - {fileID: 2800000, guid: 9cd5759bc88ca4e419bfa7b6dc9e7c62, type: 3}
+  - {fileID: 2800000, guid: dbc59cecce2084c50b256e591b25d644, type: 3}
+  - {fileID: 2800000, guid: 29ca043012e704e3a8262172cdf1c693, type: 3}
+  - {fileID: 2800000, guid: 43bd268e753d54771a2d28cbf62f4721, type: 3}
+  - {fileID: 2800000, guid: 8eb5cc45aaf2f41a1bbe97d892c6818b, type: 3}
+  - {fileID: 2800000, guid: 3cde13241da6f4d04929ada568f4fe2c, type: 3}
+  - {fileID: 2800000, guid: 597fb1e3e238e4cdc93049a87a5fb4a5, type: 3}
+  - {fileID: 2800000, guid: 67875509898f147faaaf75d1c1bd091c, type: 3}
+  - {fileID: 2800000, guid: f66ee168d6a644fd19516382812dc49c, type: 3}
+  frameDuration: 0.02
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -187,6 +187,8 @@ public class SongCarouselController : MonoBehaviour
             int songIndex = WrapIndex(_currentIndex + offset);
             var card = CreateCard(songs[songIndex]);
             StyleCard(card, offset);
+            card.userData = offset;
+            PrepareCardEntrance(card, offset);
 
             if (offset == 0)
             {
@@ -203,7 +205,69 @@ public class SongCarouselController : MonoBehaviour
             _cardStack.Add(activeCard);
         }
 
+        AnimateCardsIn();
+        BounceActiveCard(activeCard);
         UpdateDescriptionLabel();
+    }
+
+    void PrepareCardEntrance(VisualElement card, int offset)
+    {
+        float entranceOffset = offset == 0 ? 28f : 42f;
+        float[] translateX = { -340f, -200f, 0f, 200f, 340f };
+        float[] translateY = { 40f, 20f, -10f, 20f, 40f };
+        int i = offset + 2;
+
+        card.style.opacity = 0f;
+        card.style.translate = new Translate(translateX[i], translateY[i] + entranceOffset, 0f);
+    }
+
+    void AnimateCardsIn()
+    {
+        if (_cardStack == null)
+        {
+            return;
+        }
+
+        _cardStack.schedule.Execute(() =>
+        {
+            foreach (var child in _cardStack.Children())
+            {
+                if (!child.ClassListContains("song-card"))
+                {
+                    continue;
+                }
+
+                int offset = child.userData is int storedOffset ? storedOffset : 0;
+                StyleCard(child, offset);
+
+                if (offset == 0)
+                {
+                    ApplyActiveCardVisual(child);
+                }
+
+                child.style.opacity = 1f;
+            }
+        });
+    }
+
+    void BounceActiveCard(VisualElement card)
+    {
+        if (card == null)
+        {
+            return;
+        }
+
+        card.schedule.Execute(() =>
+        {
+            ApplyActiveCardVisual(card);
+            card.style.scale = new Scale(new Vector3(1.24f, 1.24f, 1f));
+            card.style.translate = new Translate(0f, -58f, 0f);
+        }).StartingIn(10);
+
+        card.schedule.Execute(() =>
+        {
+            ApplyActiveCardVisual(card);
+        }).StartingIn(170);
     }
 
     void UpdateDescriptionLabel()
