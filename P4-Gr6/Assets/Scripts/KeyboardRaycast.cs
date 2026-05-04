@@ -19,6 +19,7 @@ public class KeyboardRaycast : MonoBehaviour
 
     public void shootRay(int midiValue)
     {
+        Debug.Log("Key pressed: " + midiValue);
         whiteNote = true;
         RaycastHit hit;
         List<RaycastHit> furthestHit = new List<RaycastHit>();
@@ -209,7 +210,9 @@ public class KeyboardRaycast : MonoBehaviour
 
         if (Physics.Raycast(rayPoints[rayCastIndex].position, rayDirection, out hit, rayCastRange))
         {
-            foreach(RaycastHit ahit in furthestHit)
+            Debug.Log(hit.collider.gameObject.GetComponent<MeshRenderer>().material.name);
+
+            foreach (RaycastHit ahit in furthestHit)
             {
                 if(hit.distance != ahit.distance)
                 {
@@ -219,6 +222,21 @@ public class KeyboardRaycast : MonoBehaviour
                     scoreManager.AddMiss();
                     scoreManager.RemoveHP();
 
+                    return;
+                }
+            }
+
+            if(hit.collider.gameObject.GetComponent<MeshRenderer>().material.name == "White (Instance)")
+            {
+                if (!whiteNote)
+                {
+                    return;
+                }
+            }
+            else
+            {
+                if (whiteNote)
+                {
                     return;
                 }
             }

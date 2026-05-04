@@ -1039,7 +1039,7 @@ MonoBehaviour:
   hits: 0
   miss: 0
   score: 0
-  hp: 50
+  hp: 99999999
   maxHP: 50
   minHP: 0
   minusHP: 1
@@ -6571,7 +6571,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LaserShoot
   lineRenderer: {fileID: 2135784862}
-  laserDuration: 1
+  laserSpeed: 40
+  laserLength: 2
+  laserWidth: 0.08
+  laserPrefab: {fileID: 4115684901606828685, guid: 61422b52c7e250342bd392b712c41eb6, type: 3}
 --- !u!4 &2037777013
 Transform:
   m_ObjectHideFlags: 0
