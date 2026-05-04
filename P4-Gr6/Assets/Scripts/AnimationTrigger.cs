@@ -4,7 +4,8 @@ using UnityEngine;
 public class AnimationTrigger : MonoBehaviour
 {
     Animator anima;
-    [SerializeField] GameObject triggerObject;
+    //[SerializeField] GameObject triggerObject;
+    private GameObject TriggerObject;
 
     void Awake()
     {
@@ -13,6 +14,7 @@ public class AnimationTrigger : MonoBehaviour
     void Start()
     {
         anima = GetComponent<Animator>();
+        TriggerObject = GameObject.Find("TriggerZoneZombieDie");
     }
 
     // Update is called once per frame
@@ -23,9 +25,9 @@ public class AnimationTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == triggerObject)
-        {
-            anima.Play("Attack");
-        }
+        anima.Play("Attack");
+        Debug.Log("Trigger Entered");
+        //if (other.gameObject == TriggerObject)
+        
     }
 }

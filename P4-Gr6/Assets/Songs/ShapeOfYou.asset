@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
   m_Name: ShapeOfYou
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 3b9abebe4ae7d47638ba8af54efe90f3, type: 3}
   jsonFile: {fileID: 4900000, guid: e0955f8925769334a9fa87bc4c7ebe8a, type: 3}
   playSpeed: 1
   songName: Shape of You

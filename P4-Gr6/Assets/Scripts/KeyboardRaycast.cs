@@ -21,6 +21,7 @@ public class KeyboardRaycast : MonoBehaviour
     [SerializeField][Range(0, 1)] private float volume;
     public void shootRay(int midiValue)
     {
+        //Debug.Log("Key pressed: " + midiValue);
         whiteNote = true;
         RaycastHit hit;
         List<RaycastHit> furthestHit = new List<RaycastHit>();
@@ -211,7 +212,9 @@ public class KeyboardRaycast : MonoBehaviour
 
         if (Physics.Raycast(rayPoints[rayCastIndex].position, rayDirection, out hit, rayCastRange))
         {
-            foreach(RaycastHit ahit in furthestHit)
+            //Debug.Log(hit.collider.gameObject.GetComponent<MeshRenderer>().material.name);
+
+            foreach (RaycastHit ahit in furthestHit)
             {
                 if(hit.distance != ahit.distance)
                 {
@@ -225,20 +228,37 @@ public class KeyboardRaycast : MonoBehaviour
                 }
             }
 
+            if(hit.collider.gameObject.GetComponent<MeshRenderer>().material.name == "White (Instance)")
+            {
+                if (!whiteNote)
+                {
+                    return;
+                }
+            }
+            else
+            {
+                if (whiteNote)
+                {
+                    return;
+                }
+            }
+
             laserShoot.Shoot(rayPoints[rayCastIndex].position + laserOffset, hit.point, UnityEngine.Color.green);
 
             Destroy(hit.collider.gameObject);
             scoreManager.AddHit();
             scoreManager.AddHP();
 
-            float zombieDistance = hit.transform.position.x - rayPoints[rayCastIndex].position.x;
-            if(zombieDistance < lineLocation - lineBuffer)
+            float zombieLoc = hit.transform.position.x;
+            Debug.Log("Zombie located:" + zombieLoc);
+            Debug.Log(lineLocation);
+            if(zombieLoc < lineLocation - lineBuffer)
             {
-                scoreManager.AddScore(perfektHitValue - (int)(lineLocation - zombieDistance));
+                scoreManager.AddScore(perfektHitValue - (int)(lineLocation - zombieLoc));
             }
-            else if(zombieDistance > lineLocation + lineBuffer)
+            else if(zombieLoc > lineLocation + lineBuffer)
             {
-                scoreManager.AddScore(perfektHitValue - (int)(zombieDistance - lineLocation));
+                scoreManager.AddScore(perfektHitValue - (int)(zombieLoc - lineLocation));
             }
             else
             {

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
   m_Name: IllBeThereForYou
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 2c47344d184784327a95f45407afd029, type: 3}
   jsonFile: {fileID: 4900000, guid: bee4b3c1615d3bb45b3a379f0298190e, type: 3}
   playSpeed: 1
   songName: I'll Be There for You

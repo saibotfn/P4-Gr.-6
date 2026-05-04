@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
   m_Name: Ascensionism
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 8b3535237e22c4123b6278803fb58ac8, type: 3}
   jsonFile: {fileID: 4900000, guid: 1e0e8234f16b73c48b623c7d6fccab58, type: 3}
   playSpeed: 1
   songName: Ascensionism

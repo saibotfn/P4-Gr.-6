@@ -7,7 +7,7 @@ public class MainMenuEvents : MonoBehaviour
     private UIDocument document;
 
     private Button button;
-
+    [SerializeField] private string sceneName;
     private void Awake()
     {
         document = GetComponent<UIDocument>();
@@ -24,6 +24,6 @@ public class MainMenuEvents : MonoBehaviour
     private void OnPLayGameClick(ClickEvent evt)
     {
         Debug.Log("You Pressed The Start Button");
-        SceneManager.LoadScene("OliverTesting");
+        SceneManager.LoadScene(sceneName);
     }
 }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
   m_Name: TwinkleBitch
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: e367f1f2bfcf541a5a4d993e108b9df0, type: 3}
   jsonFile: {fileID: 4900000, guid: 420a95362f3562641953c62d20814787, type: 3}
   playSpeed: 1
   songName: Twinkle, Twinkle, Little Star
