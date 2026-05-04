@@ -2882,7 +2882,7 @@ MonoBehaviour:
   rayCastRange: 100
   scoreManager: {fileID: 277272084}
   lineLocation: -10
-  lineBuffer: 0.5
+  lineBuffer: 1
   perfektHitValue: 100
   perfektHitBonus: 50
   laserOffset: {x: 0, y: 0, z: 0}
