@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/progress.uss?fileID=7433441132597879392&amp;guid=a93d0e5cc629dd74683e530541f1789d&amp;type=3#progress"/>
+    <ui:ProgressBar value="33" title="%" style="top: 90%; width: 50%; height: 5%; align-self: center; aspect-ratio: auto; align-content: center; justify-content: center;"/>
+</ui:UXML>

@@ -1,0 +1,6 @@
+:root {
+}
+
+.unity-progress-bar {
+    height: 100%;
+}
