@@ -19,6 +19,8 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] private TMP_Text ScoreText;
 
     [SerializeField] private Image fillImage;
+
+    [SerializeField] private Image progressBarFill;
     public float smoothSpeed = 5f;
     private float displayHP;
 
