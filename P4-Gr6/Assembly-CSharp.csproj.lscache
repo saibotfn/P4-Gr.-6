@@ -58,8 +58,10 @@ Assets/Scripts/
  MainMenuEvents.cs
  NoteEvent.cs
  NoteSequence.cs
+ pewpew.cs
  ScoreManager.cs
  SongPlayer.cs
+ SoundManager.cs
  Zombie.cs
  ZombieSpawner.cs
 Assets/

@@ -16,6 +16,9 @@ public class SongCarouselController : MonoBehaviour
     [Header("Preview")]
     [SerializeField] private float previewDurationSeconds = 20f;
 
+    [Header("Button sounds")]
+    [SerializeField] private AudioSource audioSourcePrefab;
+
     private UIDocument _doc;
     private AudioSource _previewSource;
     private Coroutine _previewCoroutine;
@@ -460,7 +463,7 @@ public class SongCarouselController : MonoBehaviour
         return idx;
     }
 
-    void Navigate(int direction)
+    void Navigate(int direction) // direction: -1 for left, +1 for right
     {
         int newIndex = _currentIndex + direction;
         _currentIndex = WrapIndex(newIndex);
