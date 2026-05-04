@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
 [RequireComponent(typeof(UIDocument))]
@@ -8,8 +9,15 @@ public class SongCarouselController : MonoBehaviour
     [Header("Songs")]
     public List<SongData> songs = new();
 
+    [Header("Scene")]
+    [SerializeField] private string playSceneName = "TestingWithZombies";
+
     private UIDocument _doc;
     private VisualElement _cardStack;
+    private Label _descriptionLabel;
+    private Button _playButton;
+    private Slider _speedSlider;
+    private float _selectedSpeed = 1f;
     private int _currentIndex = 0;
 
     private static readonly string[] Slots =
@@ -36,6 +44,28 @@ public class SongCarouselController : MonoBehaviour
         _cardStack.style.justifyContent = Justify.Center;
         root.Add(_cardStack);
 
+        // Beskrivelseslabel under kortene
+        // _descriptionLabel = new Label(); 
+        // _descriptionLabel.style.position = Position.Absolute; 
+        // _descriptionLabel.style.left = Length.Percent(50);
+        // _descriptionLabel.style.top = 5; // Placeret under kortene
+        // _descriptionLabel.style.width = 700; // Bred nok til at rumme længere beskrivelser
+        // _descriptionLabel.style.marginLeft = -350; // Centrer labelen
+        // _descriptionLabel.style.paddingLeft = 14;
+        // _descriptionLabel.style.paddingRight = 14;
+        // _descriptionLabel.style.paddingTop = 10;
+        // _descriptionLabel.style.paddingBottom = 10;
+        // _descriptionLabel.style.backgroundColor = new Color(0f, 0f, 0f, 0.35f);
+        // _descriptionLabel.style.color = Color.white;
+        // _descriptionLabel.style.fontSize = 25;
+        // _descriptionLabel.style.unityTextAlign = TextAnchor.MiddleCenter;
+        // _descriptionLabel.style.whiteSpace = WhiteSpace.Normal;
+        // _descriptionLabel.style.borderTopLeftRadius = 12;
+        // _descriptionLabel.style.borderTopRightRadius = 12;
+        // _descriptionLabel.style.borderBottomLeftRadius = 12;
+        // _descriptionLabel.style.borderBottomRightRadius = 12;
+        // root.Add(_descriptionLabel);
+
         // Prev knap
         var btnPrev = new Button(() => Navigate(-1)) { text = "‹" };
         StyleNavButton(btnPrev, false);
@@ -45,6 +75,14 @@ public class SongCarouselController : MonoBehaviour
         var btnNext = new Button(() => Navigate(+1)) { text = "›" };
         StyleNavButton(btnNext, true);
         root.Add(btnNext);
+
+        // Start knap under den aktive sang
+        _playButton = new Button(PlaySelectedSong) { text = "Start spil" };
+        StylePlayButton(_playButton);
+        root.Add(_playButton);
+
+        // Hastigheds-slider
+        SetupSpeed(root);
 
         // Swipe
         float startX = 0;
@@ -59,6 +97,8 @@ public class SongCarouselController : MonoBehaviour
         if (songs.Count == 0)
         {
             Debug.LogError("Songs listen er tom — træk SongData assets ind i Inspector!");
+            // _descriptionLabel.text = "Ingen sang valgt";
+            _playButton.SetEnabled(false);
             return;
         }
 
@@ -90,11 +130,57 @@ public class SongCarouselController : MonoBehaviour
             btn.style.left = 60;
     }
 
+    void StylePlayButton(Button btn)
+    {
+        btn.style.position = Position.Absolute;
+        btn.style.left = Length.Percent(50);
+        btn.style.bottom = 18;
+        btn.style.width = 220;
+        btn.style.height = 52;
+        btn.style.marginLeft = -110;
+        btn.style.borderTopLeftRadius = 26;
+        btn.style.borderTopRightRadius = 26;
+        btn.style.borderBottomLeftRadius = 26;
+        btn.style.borderBottomRightRadius = 26;
+        btn.style.backgroundColor = new Color(0f, 0f, 0f, 0.35f);
+        btn.style.color = Color.white;
+        btn.style.fontSize = 18;
+        btn.style.unityFontStyleAndWeight = FontStyle.Bold;
+        btn.style.unityTextAlign = TextAnchor.MiddleCenter;
+        btn.style.borderLeftWidth = 0;
+        btn.style.borderRightWidth = 0;
+        btn.style.borderTopWidth = 0;
+        btn.style.borderBottomWidth = 0;
+        btn.style.backgroundColor = new Color(0.14f, 0.72f, 0.38f, 0.95f);
+    }
+
+    void SetupSpeed(VisualElement root)
+    {
+        _speedSlider = new Slider("Speed", 0.5f, 2f);
+        _speedSlider.value = _selectedSpeed;
+        _speedSlider.style.position = Position.Absolute;
+        _speedSlider.style.left = Length.Percent(50);
+        _speedSlider.style.bottom = 78;
+        _speedSlider.style.width = 260;
+        _speedSlider.style.marginLeft = -130;
+        _speedSlider.style.color = Color.white;
+        _speedSlider.RegisterValueChangedCallback(evt =>
+        {
+            _selectedSpeed = evt.newValue;
+            _speedSlider.label = $"Speed: {_selectedSpeed:F2}x";
+            GameSettings.selectedSpeed = _selectedSpeed;
+        });
+        _speedSlider.label = $"Speed: {_selectedSpeed:F2}x";
+        root.Add(_speedSlider);
+        GameSettings.selectedSpeed = _selectedSpeed;
+    }
+
     void BuildCards()
     {
         _cardStack.Clear();
 
         int[] offsets = { -2, -1, 0, 1, 2 };
+        VisualElement activeCard = null;
 
         foreach (int offset in offsets)
         {
@@ -104,24 +190,48 @@ public class SongCarouselController : MonoBehaviour
 
             if (offset == 0)
             {
-                card.RegisterCallback<PointerEnterEvent>(_ =>
-                {
-                    card.BringToFront();
-                    card.style.scale = new Scale(new Vector3(1.08f, 1.08f, 1f));
-                    card.style.translate = new Translate(0f, -28f, 0f);
-                });
-
-                card.RegisterCallback<PointerLeaveEvent>(_ =>
-                {
-                    StyleCard(card, 0);
-                    card.BringToFront();
-                });
-
-                card.BringToFront();
+                ApplyActiveCardVisual(card);
+                activeCard = card;
+                continue;
             }
 
             _cardStack.Add(card);
         }
+
+        if (activeCard != null)
+        {
+            _cardStack.Add(activeCard);
+        }
+
+        UpdateDescriptionLabel();
+    }
+
+    void UpdateDescriptionLabel()
+    {
+        if (_descriptionLabel == null || songs == null || songs.Count == 0)
+        {
+            return;
+        }
+
+        var activeSong = songs[_currentIndex];
+        // _descriptionLabel.text = string.IsNullOrWhiteSpace(activeSong.description)
+        //     ? activeSong.songName
+        //     : activeSong.description;
+    }
+
+    void ApplyActiveCardVisual(VisualElement card)
+    {
+        card.BringToFront();
+        card.style.scale = new Scale(new Vector3(1.16f, 1.16f, 1f));
+        card.style.translate = new Translate(0f, -46f, 0f);
+        card.style.borderLeftWidth = 6;
+        card.style.borderRightWidth = 6;
+        card.style.borderTopWidth = 6;
+        card.style.borderBottomWidth = 6;
+        card.style.borderLeftColor = new Color(0.95f, 0.85f, 0.2f, 1f);
+        card.style.borderRightColor = new Color(0.95f, 0.85f, 0.2f, 1f);
+        card.style.borderTopColor = new Color(0.95f, 0.85f, 0.2f, 1f);
+        card.style.borderBottomColor = new Color(0.95f, 0.85f, 0.2f, 1f);
     }
 
     VisualElement CreateCard(SongData song)
@@ -146,7 +256,6 @@ public class SongCarouselController : MonoBehaviour
             cover.style.height = Length.Percent(100);
             cover.style.position = Position.Absolute;
             cover.style.backgroundImage = new StyleBackground(song.coverArt);
-            cover.style.unityBackgroundScaleMode = ScaleMode.ScaleAndCrop;
             card.Add(cover);
         }
 
@@ -207,6 +316,18 @@ public class SongCarouselController : MonoBehaviour
         card.style.backgroundColor = colors[i];
         card.style.scale = new Scale(new Vector3(scales[i], scales[i], 1f));
         card.style.translate = new Translate(translateX[i], translateY[i], 0f);
+
+        if (offset == 0)
+        {
+            card.style.borderLeftWidth = 4;
+            card.style.borderRightWidth = 4;
+            card.style.borderTopWidth = 4;
+            card.style.borderBottomWidth = 4;
+            card.style.borderLeftColor = new Color(0.95f, 0.85f, 0.2f, 1f);
+            card.style.borderRightColor = new Color(0.95f, 0.85f, 0.2f, 1f);
+            card.style.borderTopColor = new Color(0.95f, 0.85f, 0.2f, 1f);
+            card.style.borderBottomColor = new Color(0.95f, 0.85f, 0.2f, 1f);
+        }
     }
 
     int WrapIndex(int idx)
@@ -224,4 +345,20 @@ public class SongCarouselController : MonoBehaviour
         _currentIndex = WrapIndex(newIndex);
         BuildCards();
     }
+
+    void PlaySelectedSong()
+    {
+        if (songs == null || songs.Count == 0)
+        {
+            Debug.LogWarning("Kan ikke starte spillet, fordi der ikke er nogen sange valgt.");
+            return;
+        }
+
+        var selectedSong = songs[_currentIndex];
+        GameSettings.selectedSong = selectedSong;
+        GameSettings.selectedSpeed = _selectedSpeed;
+        SceneManager.LoadScene(playSceneName);
+    }
+
+    
 }
