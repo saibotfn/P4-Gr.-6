@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
   m_Name: AnotherLove
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 1ddc44a89e51442cfb63f678922f65bf, type: 3}
   jsonFile: {fileID: 4900000, guid: 29ba70b76b8745e43a2da48afb42879e, type: 3}
   playSpeed: 1
   songName: Another Love

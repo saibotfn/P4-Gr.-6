@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
   m_Name: SomberUndressed
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: c32ccc81480554fd491104c4997a30dc, type: 3}
   jsonFile: {fileID: 4900000, guid: 6138c242bd655c849b25f52840e0c6e4, type: 3}
   playSpeed: 1
   songName: Undressed

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
   m_Name: TownWithAnOceanView
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: ab2836cb550484877bf659b90abde0ce, type: 3}
   jsonFile: {fileID: 4900000, guid: db2ee88c7e1d60742944eeab96477421, type: 3}
   playSpeed: 1
   songName: A Town with an Ocean View

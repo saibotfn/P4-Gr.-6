@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
   m_Name: MotherSea
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: d58181629794a43bd85d9cd282cb980e, type: 3}
   jsonFile: {fileID: 4900000, guid: 54b21e1ee240b8446bcf8db9391dd372, type: 3}
   playSpeed: 1
   songName: Mother Sea

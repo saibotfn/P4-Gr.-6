@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
   m_Name: Yesterday
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: b5a4306768cab4861af535a7ffa7456c, type: 3}
   jsonFile: {fileID: 4900000, guid: 2f03d17b0fa66eb49a6b5f7c2aa3b841, type: 3}
   playSpeed: 1
   songName: Yesterday
