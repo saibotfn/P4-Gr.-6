@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
+using System.Collections;
 using System.Collections.Generic;
 
 [RequireComponent(typeof(UIDocument))]
+[RequireComponent(typeof(AudioSource))]
 public class SongCarouselController : MonoBehaviour
 {
     [Header("Songs")]
@@ -11,8 +13,12 @@ public class SongCarouselController : MonoBehaviour
 
     [Header("Scene")]
     [SerializeField] private string playSceneName = "TestingWithZombies";
+    [Header("Preview")]
+    [SerializeField] private float previewDurationSeconds = 20f;
 
     private UIDocument _doc;
+    private AudioSource _previewSource;
+    private Coroutine _previewCoroutine;
     private VisualElement _cardStack;
     private Label _descriptionLabel;
     private Button _playButton;
@@ -25,6 +31,10 @@ public class SongCarouselController : MonoBehaviour
 
     void OnEnable()
     {
+        _previewSource = GetComponent<AudioSource>();
+        _previewSource.playOnAwake = false;
+        _previewSource.loop = false;
+
         _doc = GetComponent<UIDocument>();
         var root = _doc.rootVisualElement;
         root.Clear();
@@ -103,6 +113,11 @@ public class SongCarouselController : MonoBehaviour
         }
 
         BuildCards();
+    }
+
+    void OnDisable()
+    {
+        StopPreview();
     }
 
     void StyleNavButton(Button btn, bool isRight)
@@ -208,6 +223,48 @@ public class SongCarouselController : MonoBehaviour
         AnimateCardsIn();
         BounceActiveCard(activeCard);
         UpdateDescriptionLabel();
+        PlayPreviewForCurrentSong();
+    }
+
+    void PlayPreviewForCurrentSong()
+    {
+        StopPreview();
+
+        if (_previewSource == null || songs == null || songs.Count == 0)
+        {
+            return;
+        }
+
+        var activeSong = songs[_currentIndex];
+        if (activeSong == null || activeSong.audioClip == null)
+        {
+            return;
+        }
+
+        _previewSource.clip = activeSong.audioClip;
+        _previewSource.time = 0f;
+        _previewSource.Play();
+        _previewCoroutine = StartCoroutine(StopPreviewAfterDelay(previewDurationSeconds));
+    }
+
+    IEnumerator StopPreviewAfterDelay(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        StopPreview();
+    }
+
+    void StopPreview()
+    {
+        if (_previewCoroutine != null)
+        {
+            StopCoroutine(_previewCoroutine);
+            _previewCoroutine = null;
+        }
+
+        if (_previewSource != null && _previewSource.isPlaying)
+        {
+            _previewSource.Stop();
+        }
     }
 
     void PrepareCardEntrance(VisualElement card, int offset)
