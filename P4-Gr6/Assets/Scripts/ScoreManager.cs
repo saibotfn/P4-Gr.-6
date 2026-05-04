@@ -58,7 +58,7 @@ public class ScoreManager : MonoBehaviour
             hp = hp - minusHP;
         }
         minusHP++;
-        Debug.Log("HP is now" + hp);
+        //Debug.Log("HP is now" + hp);
     }
 
     public void AddHP()
@@ -69,7 +69,7 @@ public class ScoreManager : MonoBehaviour
             hp = hp + plusHP;
           }
         plusHP++;
-        Debug.Log("HP is now" + hp);
+        //Debug.Log("HP is now" + hp);
     }
 
     void Update()
