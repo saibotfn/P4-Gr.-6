@@ -1059,6 +1059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SongPlayer
   spawner: {fileID: 474389130}
   raycaster: {fileID: 728294097}
+  scoreManager: {fileID: 277272084}
 --- !u!4 &277272083
 Transform:
   m_ObjectHideFlags: 0
@@ -1098,6 +1099,7 @@ MonoBehaviour:
   MissText: {fileID: 260371189}
   ScoreText: {fileID: 774057777}
   fillImage: {fileID: 563518770}
+  progressBarDocument: {fileID: 290716446}
   smoothSpeed: 5
 --- !u!1 &290716445
 GameObject:
@@ -1130,7 +1132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
   m_PanelSettings: {fileID: 11400000, guid: 16cbec6ddfe4cbc48bd74b268a6218d2, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 1a2d25c01c5908f40afc912b242bd3ac, type: 3}
   m_SortingOrder: 0
   m_Position: 0
   m_WorldSpaceSizeMode: 1
