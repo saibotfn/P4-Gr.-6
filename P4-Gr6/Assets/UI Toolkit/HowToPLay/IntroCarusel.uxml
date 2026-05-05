@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns="UnityEngine.UIElements">
+    <VisualElement class="carousel-root">
+
+        <Button name="leftArrow" class="arrow arrow-left" text="‹" />
+
+        <VisualElement name="carouselContainer" class="carousel-container">
+            <VisualElement class="card">
+                <Label text="Card 1" class="card-title" />
+            </VisualElement>
+
+            <VisualElement class="card">
+                <Label text="Card 2" class="card-title" />
+            </VisualElement>
+
+            <VisualElement class="card">
+                <Label text="Card 3" class="card-title" />
+            </VisualElement>
+
+            <VisualElement class="card">
+                <Label text="Card 4" class="card-title" />
+            </VisualElement>
+
+            <VisualElement class="card">
+                <Label text="Card 5" class="card-title" />
+            </VisualElement>
+        </VisualElement>
+
+        <Button name="rightArrow" class="arrow arrow-right" text="›" />
+
+    </VisualElement>
+</ui:UXML>

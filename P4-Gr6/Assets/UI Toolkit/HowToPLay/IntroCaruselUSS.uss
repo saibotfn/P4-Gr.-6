@@ -1,0 +1,62 @@
+.carousel-root {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 35, 35);
+}
+
+.carousel-container {
+    width: 900px;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}  
+
+
+.card {
+    position: absolute;
+
+    width: 260px;
+    height: 260px;
+
+    left: 320px;
+    top: 20px;
+
+    background-color: rgb(60, 120, 160);
+    border-radius: 32px;
+
+    justify-content: center;
+    align-items: center;
+
+    transition-property: translate, scale, opacity;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+}
+
+
+.card-title {
+    font-size: 32px;
+    color: white;
+    -unity-font-style: bold;
+}
+
+.arrow {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+
+    font-size: 48px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.35);
+
+    border-radius: 35px;
+}
+.arrow-left {
+    left: 80px;
+}
+
+.arrow-right {
+    right: 80px;
+}
