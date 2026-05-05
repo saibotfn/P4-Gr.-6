@@ -250,19 +250,16 @@ public class KeyboardRaycast : MonoBehaviour
             scoreManager.AddHP();
 
             float zombieLoc = hit.transform.position.x;
-            Debug.Log("Zombie located:" + zombieLoc);
-            Debug.Log(lineLocation);
-            if(zombieLoc < lineLocation - lineBuffer)
+            float distance = Mathf.Abs(zombieLoc - lineLocation);
+
+            if (distance <= lineBuffer)
             {
-                scoreManager.AddScore(perfektHitValue - (int)(lineLocation - zombieLoc));
-            }
-            else if(zombieLoc > lineLocation + lineBuffer)
-            {
-                scoreManager.AddScore(perfektHitValue - (int)(zombieLoc - lineLocation));
+                scoreManager.AddScore(perfektHitValue + perfektHitBonus);
             }
             else
             {
-                scoreManager.AddScore(perfektHitValue + perfektHitBonus);
+                int penalty = Mathf.RoundToInt(distance);
+                scoreManager.AddScore(perfektHitValue - penalty);
             }
 
             return;
