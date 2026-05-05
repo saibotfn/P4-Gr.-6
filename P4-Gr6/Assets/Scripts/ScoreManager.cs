@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -18,11 +19,20 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] private TMP_Text MissText;
     [SerializeField] private TMP_Text ScoreText;
 
-    [SerializeField] private Image fillImage;
+    [SerializeField] private UnityEngine.UI.Image fillImage;
+
+    [SerializeField] private UIDocument progressBarDocument;
+    private ProgressBar progressBar;
     public float smoothSpeed = 5f;
     private float displayHP;
 
 
+
+    private void OnEnable()
+    {
+        if (progressBarDocument != null)
+            progressBar = progressBarDocument.rootVisualElement.Q<ProgressBar>();
+    }
 
     private void Start()
     {
@@ -59,6 +69,16 @@ public class ScoreManager : MonoBehaviour
         }
         minusHP++;
         //Debug.Log("HP is now" + hp);
+    }
+
+    public void SetSongProgress(float progress)
+    {
+        if (progressBar != null)
+        {
+            float clamped = Mathf.Clamp01(progress);
+            progressBar.value = clamped * 100f;
+            progressBar.title = $"{Mathf.RoundToInt(clamped * 100f)}%";
+        }
     }
 
     public void AddHP()
