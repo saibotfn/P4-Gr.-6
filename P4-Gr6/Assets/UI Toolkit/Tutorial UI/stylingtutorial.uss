@@ -1,0 +1,68 @@
+.root {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* background removed so an animation script can render behind UI */
+}
+
+.title {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.carousel-viewport {
+    width: 600px;
+    height: 300px;
+    overflow: hidden; /* vigtigt! */
+}
+
+.carousel-content {
+    flex-direction: row;
+}
+
+.card {
+    width: 600px;
+    height: 280px;
+
+    margin-left: 0;
+    margin-right: 0;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background-color: #1f4a6d;
+
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+.card-label {
+    unity-text-align: middle-center;
+    white-space: normal;
+    max-width: 90%;
+    font-size: 20px;
+}
+
+/* Full-size background layer for external animation script to target */
+.background-layer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* keep it behind content since it's first child in UXML */
+    pointer-events: none;
+}
+
+.navigation {
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+Button {
+    width: 60px;
+    height: 40px;
+}

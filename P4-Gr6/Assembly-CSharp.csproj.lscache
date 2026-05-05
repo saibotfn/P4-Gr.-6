@@ -77,6 +77,9 @@ Assets/
   SofikUI/
    AnimatedBackgroundController.cs
    SongCarouselController.cs
+  Tutorial UI/
+   TutorialCardData.cs
+   TutorialCarousel.cs
  Zombie - stuff/ShirtlessZombieFree/Scripts/FreeZombie_EyesGlow.cs
 Temp/obj/Assembly-CSharp/.NETStandard,Version=v2.1.AssemblyAttributes.cs
 
