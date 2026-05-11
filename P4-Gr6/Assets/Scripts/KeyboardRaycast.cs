@@ -7,6 +7,7 @@ public class KeyboardRaycast : MonoBehaviour
     [SerializeField] private Transform[] rayPoints = new Transform[0];
     [SerializeField] private int rayCastRange = 100;
     [SerializeField] private ScoreManager scoreManager;
+    [SerializeField] private OSCsender sender;
 
     [SerializeField] private float lineLocation = 0f;
     [SerializeField] private float lineBuffer = 0f;
@@ -248,6 +249,7 @@ public class KeyboardRaycast : MonoBehaviour
             Destroy(hit.collider.gameObject);
             scoreManager.AddHit();
             scoreManager.AddHP();
+            
 
             float zombieLoc = hit.transform.position.x;
             float distance = Mathf.Abs(zombieLoc - lineLocation);
