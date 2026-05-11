@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
   m_Name: WallRat
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 97ce9b2b259134116a20edebef91f858, type: 3}
   jsonFile: {fileID: 4900000, guid: fe652d2b9aa047642af5d5e9ef2937ae, type: 3}
   playSpeed: 1
   songName: Wall Rat

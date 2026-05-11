@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
   m_Name: RiverFlowsInYou
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 72eacca102cdc4a26a21afe8bf793fde, type: 3}
   jsonFile: {fileID: 4900000, guid: 026fef62e540f354eb0b223568e061ab, type: 3}
   playSpeed: 1
   songName: River Flows in You

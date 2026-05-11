@@ -127,3 +127,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Zombie
   moveSpeed: 10
   deathLimit: -18
+  lineLocation: -10
+  addaptivePlay: 1
+  moving: 0

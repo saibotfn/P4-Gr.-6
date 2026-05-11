@@ -1,0 +1,20 @@
+:root {
+}
+
+.unity-progress-bar {
+    height: 30px;
+}
+
+.unity-progress-bar__background {
+    height: 30px;
+    min-height: 30px;
+}
+
+.unity-progress-bar__container {
+    height: 30px;
+    min-height: 30px;
+}
+
+.unity-progress-bar__progress {
+    height: 30px;
+}

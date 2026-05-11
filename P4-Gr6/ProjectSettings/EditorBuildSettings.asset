@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SongChoosingMenu.unity
     guid: c47d8c959ef75cd489587ff9120bb6fe
+  - enabled: 1
+    path: Assets/Scenes/TestingWithZombies 1.unity
+    guid: 465b5feb9682e1b4688607ec9a534e9b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
