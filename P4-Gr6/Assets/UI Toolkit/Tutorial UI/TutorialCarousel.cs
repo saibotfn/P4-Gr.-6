@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 using System.Collections.Generic;
 
@@ -12,6 +13,7 @@ public class TutorialCarousel : MonoBehaviour
     private VisualElement content;
     private Button nextBtn;
     private Button prevBtn;
+    private Button continueBtn;
 
     private int currentIndex = 0;
 
@@ -33,6 +35,7 @@ public class TutorialCarousel : MonoBehaviour
         content = root.Q<VisualElement>("carouselContent");
         nextBtn = root.Q<Button>("nextBtn");
         prevBtn = root.Q<Button>("prevBtn");
+        continueBtn = root.Q<Button>("continueBtn");
 
         if (content == null)
         {
@@ -47,6 +50,9 @@ public class TutorialCarousel : MonoBehaviour
 
         if (prevBtn != null)
             prevBtn.clicked += Previous;
+
+        if (continueBtn != null)
+            continueBtn.clicked += Continue;
 
         UpdateCarousel();
     }
@@ -100,6 +106,21 @@ public class TutorialCarousel : MonoBehaviour
         UpdateCarousel();
     }
 
+    void Continue()
+    {
+        var activeScene = SceneManager.GetActiveScene();
+        int nextSceneIndex = activeScene.buildIndex + 1;
+
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            Debug.LogWarning("TutorialCarousel: Ingen næste scene i Build Settings.");
+        }
+    }
+
     void UpdateCarousel()
     {
         if (content.childCount == 0)
@@ -118,6 +139,7 @@ public class TutorialCarousel : MonoBehaviour
 
         if (nextBtn != null) nextBtn.SetEnabled(currentIndex < content.childCount - 1);
         if (prevBtn != null) prevBtn.SetEnabled(currentIndex > 0);
+        if (continueBtn != null) continueBtn.SetEnabled(content.childCount > 0 && currentIndex == content.childCount - 1);
     }
 }
 

@@ -7,14 +7,14 @@
 }
 
 .title {
-    font-size: 32px;
+    font-size: 40px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .carousel-viewport {
-    width: 600px;
-    height: 300px;
+    width: 640px;
+    height: 320px;
     overflow: hidden; /* vigtigt! */
 }
 
@@ -23,15 +23,15 @@
 }
 
 .card {
-    width: 600px;
-    height: 280px;
+    width: 640px;
+    height: 320px;
 
     margin-left: 0;
     margin-right: 0;
     flex-shrink: 0;
 
-    border-radius: 20px;
-    background-color: #1f4a6d;
+    border-radius: 24px;
+    background-color: #b03d99;
 
     align-items: center;
     justify-content: center;
@@ -40,10 +40,18 @@
 }
 
 .card-label {
-    unity-text-align: middle-center;
+    width: 80%;
     white-space: normal;
-    max-width: 90%;
-    font-size: 20px;
+
+    -unity-text-align: middle-center;
+
+    color: white;
+    font-size: 22px;
+    line-height: 1.5;
+
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
 }
 
 /* Full-size background layer for external animation script to target */
@@ -63,6 +71,13 @@
 }
 
 Button {
-    width: 60px;
-    height: 40px;
+    width: 80px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.navigation {
+    flex-direction: row;
+    margin-top: 24px;
+    gap: 16px;
 }

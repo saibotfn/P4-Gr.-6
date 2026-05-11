@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b46def39b5b8429b896e748db30affa, type: 3}
   m_Name: Second
   m_EditorClassIdentifier: Assembly-CSharp::TutorialCardData
-  text: 'fucking shit
-
-'
+  text: "For this game, you are supposed to kill zombies by playing the piano. \nYou
+    will have to play the correct notes in order to defeat the zombies."

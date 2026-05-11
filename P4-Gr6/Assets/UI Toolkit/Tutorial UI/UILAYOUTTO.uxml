@@ -32,6 +32,7 @@
         <ui:VisualElement class="navigation">
             <ui:Button name="prevBtn" text="←"/>
             <ui:Button name="nextBtn" text="→"/>
+            <ui:Button name="continueBtn" text="Continue"/>
         </ui:VisualElement>
         
     </ui:VisualElement>
