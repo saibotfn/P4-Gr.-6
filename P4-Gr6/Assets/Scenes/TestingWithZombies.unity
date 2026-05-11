@@ -5393,7 +5393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f32ac25345637d43ab545ceeb64a858, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OSCsender
-  scoreManager: {fileID: 0}
+  scoreManager: {fileID: 277272084}
 --- !u!4 &1601598487
 Transform:
   m_ObjectHideFlags: 0

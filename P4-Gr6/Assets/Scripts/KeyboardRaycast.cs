@@ -249,7 +249,7 @@ public class KeyboardRaycast : MonoBehaviour
             Destroy(hit.collider.gameObject);
             scoreManager.AddHit();
             scoreManager.AddHP();
-            
+            sender.SendAudioData();
 
             float zombieLoc = hit.transform.position.x;
             float distance = Mathf.Abs(zombieLoc - lineLocation);
@@ -273,6 +273,7 @@ public class KeyboardRaycast : MonoBehaviour
             
             scoreManager.AddMiss();
             scoreManager.RemoveHP();
+            sender.SendAudioData();
 
             SoundManager.Instance.PlaySoundClip(WrongSound, transform, volume);
         }
