@@ -53,6 +53,7 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 Assets/Scripts/
  AnimationTrigger.cs
  GameOverScreen.cs
+ HowToPlay.cs
  KeyboardRaycast.cs
  LaserShoot.cs
  MainMenuEvents.cs
@@ -60,6 +61,7 @@ Assets/Scripts/
  NoteSequence.cs
  pewpew.cs
  ScoreManager.cs
+ Shit.cs
  SongPlayer.cs
  SoundManager.cs
  Zombie.cs
@@ -75,6 +77,9 @@ Assets/
   SofikUI/
    AnimatedBackgroundController.cs
    SongCarouselController.cs
+  Tutorial UI/
+   TutorialCardData.cs
+   TutorialCarousel.cs
  Zombie - stuff/ShirtlessZombieFree/Scripts/FreeZombie_EyesGlow.cs
 Temp/obj/Assembly-CSharp/.NETStandard,Version=v2.1.AssemblyAttributes.cs
 
