@@ -1,0 +1,42 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+
+    <ui:Style src="stylingtutorial.uss"/>
+
+    <ui:VisualElement name="root" class="root">
+
+        <!-- Titel -->
+        <ui:Label text="Tutorial" class="title"/>
+
+        <!-- Carousel viewport -->
+        <ui:VisualElement name="carouselViewport" class="carousel-viewport">
+
+            <!-- Cards container -->
+            <ui:VisualElement name="carouselContent" class="carousel-content">
+
+                <ui:VisualElement class="card">
+                    <ui:Label text="Kort 1"/>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="card">
+                    <ui:Label text="Kort 2"/>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="card">
+                    <ui:Label text="Kort 3"/>
+                </ui:VisualElement>
+
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- Navigation -->
+        <ui:VisualElement class="navigation">
+            <ui:Button name="prevBtn" text="←"/>
+            <ui:Button name="nextBtn" text="→"/>
+            <ui:Button name="continueBtn" text="Continue"/>
+        </ui:VisualElement>
+        
+    </ui:VisualElement>
+
+</ui:UXML>
+
+
