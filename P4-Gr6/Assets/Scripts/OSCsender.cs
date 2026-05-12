@@ -17,19 +17,20 @@ public class OSCsender : MonoBehaviour
     {
         client = new OscClient("127.0.0.1", 9000);
 
-        InvokeRepeating(nameof(SendAudioData), 0f, 0.05f);
+        //InvokeRepeating(nameof(SendAudioData), 0f, 0.05f);
     }
 
-   public void SendAudioData()
+   public void SendAudioDataHit()
     {
-        // client.Send("/plusStreak", scoreManager.plusHP);
-        // client.Send("/minusStreak", scoreManager.minusHP);
 
-        client.Send("/health", health);
-        Debug.Log("Health send");
+        client.Send("/hitstreak", scoreManager.plusHP);
+        Debug.Log("Hit send");
+    }
 
-        client.Send("/intensity", combatIntensity);
-        Debug.Log("intensity send");
+    public void SendAudioDataMiss()
+    {
+        client.Send("/minusstreak", scoreManager.minusHP);
+        Debug.Log("Miss send");
     }
 
     void OnDestroy()

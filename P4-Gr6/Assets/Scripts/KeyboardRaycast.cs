@@ -249,7 +249,7 @@ public class KeyboardRaycast : MonoBehaviour
             Destroy(hit.collider.gameObject);
             scoreManager.AddHit();
             scoreManager.AddHP();
-            sender.SendAudioData();
+            sender.SendAudioDataHit();
 
             float zombieLoc = hit.transform.position.x;
             float distance = Mathf.Abs(zombieLoc - lineLocation);
@@ -270,10 +270,11 @@ public class KeyboardRaycast : MonoBehaviour
         {
             Vector3 endPoint = rayPoints[rayCastIndex].position + laserOffset + rayDirection * rayCastRange;
             laserShoot.Shoot(rayPoints[rayCastIndex].position + laserOffset, endPoint, UnityEngine.Color.red);
-            
+
+            Debug.Log("MISSS!!!!");
             scoreManager.AddMiss();
             scoreManager.RemoveHP();
-            sender.SendAudioData();
+            sender.SendAudioDataMiss();
 
             SoundManager.Instance.PlaySoundClip(WrongSound, transform, volume);
         }

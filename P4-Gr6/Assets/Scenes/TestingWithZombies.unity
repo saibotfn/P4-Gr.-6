@@ -2891,7 +2891,7 @@ MonoBehaviour:
   laserOffset: {x: 0, y: 0, z: 0}
   laserShoot: {fileID: 5600034}
   WrongSound: {fileID: 8300000, guid: b8c03d38656418140b6b778e807f4abe, type: 3}
-  volume: 0.162
+  volume: 0
 --- !u!1 &774057775
 GameObject:
   m_ObjectHideFlags: 0
@@ -5394,6 +5394,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OSCsender
   scoreManager: {fileID: 277272084}
+  health: 100
+  combatIntensity: 1
 --- !u!4 &1601598487
 Transform:
   m_ObjectHideFlags: 0
