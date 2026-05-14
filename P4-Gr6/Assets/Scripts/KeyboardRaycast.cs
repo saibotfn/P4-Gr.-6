@@ -246,7 +246,7 @@ public class KeyboardRaycast : MonoBehaviour
 
             laserShoot.Shoot(rayPoints[rayCastIndex].position + laserOffset, hit.point, UnityEngine.Color.green);
 
-            Destroy(hit.collider.gameObject);
+            hit.collider.gameObject.GetComponent<Zombie>().Die();
             scoreManager.AddHit();
             scoreManager.AddHP();
             sender.SendAudioDataHit();
