@@ -2884,6 +2884,7 @@ MonoBehaviour:
   - {fileID: 1450096733}
   rayCastRange: 100
   scoreManager: {fileID: 277272084}
+  sender: {fileID: 1601598486}
   lineLocation: -10
   lineBuffer: 1
   perfektHitValue: 100
@@ -2891,7 +2892,7 @@ MonoBehaviour:
   laserOffset: {x: 0, y: 0, z: 0}
   laserShoot: {fileID: 5600034}
   WrongSound: {fileID: 8300000, guid: b8c03d38656418140b6b778e807f4abe, type: 3}
-  volume: 0.162
+  volume: 0
 --- !u!1 &774057775
 GameObject:
   m_ObjectHideFlags: 0
@@ -5364,6 +5365,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578163571}
   m_CullTransparentMesh: 1
+--- !u!1 &1601598485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1601598487}
+  - component: {fileID: 1601598486}
+  m_Layer: 0
+  m_Name: OSC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1601598486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601598485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f32ac25345637d43ab545ceeb64a858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OSCsender
+  scoreManager: {fileID: 277272084}
+  health: 100
+  combatIntensity: 1
+--- !u!4 &1601598487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601598485}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.13991, y: 0, z: 14.86714}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1609981085
 GameObject:
   m_ObjectHideFlags: 0
@@ -7134,3 +7182,4 @@ SceneRoots:
   - {fileID: 1405986159}
   - {fileID: 811521063}
   - {fileID: 5600035}
+  - {fileID: 1601598487}
