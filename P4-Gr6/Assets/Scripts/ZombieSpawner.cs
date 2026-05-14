@@ -1,4 +1,4 @@
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -11,6 +11,7 @@ public class ZombieSpawner : MonoBehaviour
     [SerializeField] private GameObject zombiePrefab;
 
     [SerializeField] private Vector3 zombieOffset;
+    [SerializeField] private TMPro.TMP_FontAsset notationFont;
     private Quaternion zombieRotation;
 
     private int treble;
@@ -21,10 +22,10 @@ public class ZombieSpawner : MonoBehaviour
         zombieRotation = Quaternion.Euler(0, -90, 0);
     }
 
-    public void SpawnZombie(List<int> spawnIndex)
+    public void SpawnZombie(NoteEvent noteEvent)
     {
         GameObject noteObj = null;
-        foreach (int i in spawnIndex)
+        foreach (int i in noteEvent.notes)
         {
             switch (i)
             {
@@ -173,6 +174,53 @@ public class ZombieSpawner : MonoBehaviour
             GameObject zombieObj = Instantiate(zombiePrefab, noteObj.transform);
             zombieObj.transform.rotation = zombieRotation;
             zombieObj.transform.position = noteObj.transform.position + zombieOffset;
+
+            AttachNotation(noteObj, i, noteEvent.duration, noteEvent.bpm);
         }
+    }
+
+    private void AttachNotation(GameObject noteObj, int pitch, float duration, float bpm)
+    {
+        float beatsPerSecond = bpm / 60f;
+        float durationInBeats = duration * beatsPerSecond;
+
+        string noteType;
+        if      (durationInBeats >= 3.0f)   noteType = "Whole";
+        else if (durationInBeats >= 1.5f)   noteType = "Half";
+        else if (durationInBeats >= 0.75f)  noteType = "Quarter";
+        else if (durationInBeats >= 0.375f) noteType = "Eighth";
+        else                                noteType = "Sixteenth";
+
+        string[] noteNames = { "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B" };
+        int octave = (pitch / 12) - 1;
+        string noteName = noteNames[pitch % 12];
+
+        GameObject labelObj = new GameObject("NoteLabel");
+        labelObj.transform.SetParent(noteObj.transform);
+        labelObj.transform.localPosition = new Vector3(0f, 0.5f, 0f);
+
+        TMPro.TextMeshPro tmp = labelObj.AddComponent<TMPro.TextMeshPro>();
+        if (notationFont != null) tmp.font = notationFont;
+
+        // Bravura unicode glyphs
+        string noteSymbol;
+        switch (noteType)
+        {
+            case "Whole":     noteSymbol = "\uE1D2"; break; // open notehead, no stem
+            case "Half":      noteSymbol = "\uE1D3"; break; // open notehead with stem
+            case "Quarter":   noteSymbol = "\uE1D5"; break; // filled notehead with stem
+            case "Eighth":    noteSymbol = "\uE1D7"; break; // filled notehead, stem + 1 flag
+            default:          noteSymbol = "\uE1D9"; break; // filled notehead, stem + 2 flags (16th)
+        }
+
+        string accidental = (pitch % 12 is 1 or 3 or 6 or 8 or 10) ? "\u266F" : ""; // ♯
+
+        tmp.text = $"{accidental}{noteSymbol}";
+        tmp.fontSize = 29f;
+        tmp.color = Color.black;
+        tmp.outlineWidth = 0.05f;
+        tmp.outlineColor = Color.white;
+        tmp.alignment = TMPro.TextAlignmentOptions.Center;
+        labelObj.transform.localRotation = Quaternion.Euler(90f, 90f, 0f);
     }
 }

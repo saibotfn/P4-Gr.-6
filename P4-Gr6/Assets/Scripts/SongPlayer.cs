@@ -77,7 +77,7 @@ public class SongPlayer : MonoBehaviour
             if(timePased > timing.time)
             {
                 timing.time += 100000;
-                spawner.SpawnZombie(timing.notes);
+                spawner.SpawnZombie(timing);
                 firstZombieSpawned = true;
             }
         }
@@ -107,7 +107,7 @@ public class SongPlayer : MonoBehaviour
 
         foreach(note Note in midiSong.notes)
         {
-            newSong.AddEvent(new List<int> { Note.pitch }, Note.startTime);
+            newSong.AddEvent(new List<int> { Note.pitch }, Note.startTime, Note.duration, midiSong.metadata.bpm);
         }
 
         return newSong;
@@ -115,8 +115,16 @@ public class SongPlayer : MonoBehaviour
 }
 
 [System.Serializable]
+public class SongMetadata
+{
+    public float bpm;
+    public float duration;
+}
+
+[System.Serializable]
 public class Notes
 {
+    public SongMetadata metadata;
     public note[] notes;
 }
 

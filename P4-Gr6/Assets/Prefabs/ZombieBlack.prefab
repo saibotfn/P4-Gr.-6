@@ -128,5 +128,5 @@ MonoBehaviour:
   moveSpeed: 10
   deathLimit: -18
   lineLocation: -10
-  addaptivePlay: 1
+  addaptivePlay: 0
   moving: 0
