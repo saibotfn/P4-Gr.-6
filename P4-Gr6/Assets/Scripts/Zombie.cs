@@ -7,7 +7,6 @@ public class Zombie : MonoBehaviour
     [SerializeField] private float deathLimit = 0;
     [SerializeField] private float lineLocation = 0;
 
-    [SerializeField] private bool addaptivePlay = true;
     public bool moving;
 
     public static List<Zombie> Instances = new List<Zombie>();
@@ -24,7 +23,7 @@ public class Zombie : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.x < lineLocation && addaptivePlay)
+        if (transform.position.x < lineLocation && GameSettings.adaptivePlay)
         {
             foreach (Zombie zombie in Instances)
             {

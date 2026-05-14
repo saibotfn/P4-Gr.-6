@@ -29,7 +29,9 @@ public class SongCarouselController : MonoBehaviour
     private Label _descriptionLabel;
     private Button _playButton;
     private Slider _speedSlider;
+    private Toggle _adaptivePlayToggle;
     private float _selectedSpeed = 1f;
+    private bool _adaptivePlay = true;
     private int _currentIndex = 0;
 
     private static readonly string[] Slots =
@@ -44,6 +46,9 @@ public class SongCarouselController : MonoBehaviour
         _doc = GetComponent<UIDocument>();
         var root = _doc.rootVisualElement;
         root.Clear();
+
+        _selectedSpeed = GameSettings.selectedSpeed;
+        _adaptivePlay = GameSettings.adaptivePlay;
 
         // Baggrund
         root.style.backgroundColor = new Color(0.31f, 0f, 0.39f);
@@ -97,8 +102,8 @@ public class SongCarouselController : MonoBehaviour
         StylePlayButton(_playButton);
         root.Add(_playButton);
 
-        // Hastigheds-slider
-        SetupSpeed(root);
+        // Hastigheds-slider + adaptive play toggle
+        SetupSettingsRow(root);
 
         // Swipe
         float startX = 0;
@@ -175,15 +180,21 @@ public class SongCarouselController : MonoBehaviour
         btn.style.backgroundColor = new Color(0.14f, 0.72f, 0.38f, 0.95f);
     }
 
-    void SetupSpeed(VisualElement root)
+    void SetupSettingsRow(VisualElement root)
     {
+        var settingsRow = new VisualElement();
+        settingsRow.style.position = Position.Absolute;
+        settingsRow.style.left = Length.Percent(50);
+        settingsRow.style.bottom = 78;
+        settingsRow.style.flexDirection = FlexDirection.Row;
+        settingsRow.style.alignItems = Align.Center;
+        settingsRow.style.justifyContent = Justify.Center;
+        settingsRow.style.marginLeft = -220;
+        root.Add(settingsRow);
+
         _speedSlider = new Slider("Speed", 0.5f, 2f);
         _speedSlider.value = _selectedSpeed;
-        _speedSlider.style.position = Position.Absolute;
-        _speedSlider.style.left = Length.Percent(50);
-        _speedSlider.style.bottom = 78;
         _speedSlider.style.width = 260;
-        _speedSlider.style.marginLeft = -130;
         _speedSlider.style.color = Color.white;
         _speedSlider.RegisterValueChangedCallback(evt =>
         {
@@ -192,8 +203,21 @@ public class SongCarouselController : MonoBehaviour
             GameSettings.selectedSpeed = _selectedSpeed;
         });
         _speedSlider.label = $"Speed: {_selectedSpeed:F2}x";
-        root.Add(_speedSlider);
+        _speedSlider.style.marginRight = 18;
+        settingsRow.Add(_speedSlider);
         GameSettings.selectedSpeed = _selectedSpeed;
+
+        _adaptivePlayToggle = new Toggle("Adaptive play");
+        _adaptivePlayToggle.value = _adaptivePlay;
+        _adaptivePlayToggle.style.minWidth = 180;
+        _adaptivePlayToggle.style.color = Color.white;
+        _adaptivePlayToggle.RegisterValueChangedCallback(evt =>
+        {
+            _adaptivePlay = evt.newValue;
+            GameSettings.adaptivePlay = _adaptivePlay;
+        });
+        settingsRow.Add(_adaptivePlayToggle);
+        GameSettings.adaptivePlay = _adaptivePlay;
     }
 
     void BuildCards()
@@ -486,6 +510,7 @@ public class SongCarouselController : MonoBehaviour
         var selectedSong = songs[_currentIndex];
         GameSettings.selectedSong = selectedSong;
         GameSettings.selectedSpeed = _selectedSpeed;
+        GameSettings.adaptivePlay = _adaptivePlay;
         SoundManager.Instance.PlaySoundClip(confirmSound, transform, volume);
         SceneManager.LoadScene(playSceneName);
     }

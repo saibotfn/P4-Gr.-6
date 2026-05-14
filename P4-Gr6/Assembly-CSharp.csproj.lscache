@@ -59,6 +59,7 @@ Assets/Scripts/
  MainMenuEvents.cs
  NoteEvent.cs
  NoteSequence.cs
+ OSCsender.cs
  pewpew.cs
  ScoreManager.cs
  Shit.cs
@@ -358,6 +359,8 @@ Library/PackageCache/
 Library/ScriptAssemblies/
  Minis.dll
  Minis.Editor.dll
+ OscJack.Editor.dll
+ OscJack.Runtime.dll
  PPv2URPConverters.dll
  RtMidi.Runtime.dll
  Unity.AI.Navigation.dll
