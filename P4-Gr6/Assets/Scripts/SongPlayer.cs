@@ -36,7 +36,7 @@ public class SongPlayer : MonoBehaviour
             songDuration = song.events.Max(e => e.time);
 
         if (scoreManager == null)
-            scoreManager = FindObjectOfType<ScoreManager>();
+            scoreManager = Object.FindFirstObjectByType<ScoreManager>();
     }
 
     void OnEnable()
@@ -81,7 +81,7 @@ public class SongPlayer : MonoBehaviour
     }
     private void LateUpdate()
     {
-        Zombie someZombie = FindObjectOfType<Zombie>();
+        Zombie someZombie = Object.FindFirstObjectByType<Zombie>();
 
         if (someZombie != null)
         {

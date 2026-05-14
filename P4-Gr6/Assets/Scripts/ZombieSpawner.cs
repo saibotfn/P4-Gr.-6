@@ -173,6 +173,8 @@ public class ZombieSpawner : MonoBehaviour
             GameObject zombieObj = Instantiate(zombiePrefab, noteObj.transform);
             zombieObj.transform.rotation = zombieRotation;
             zombieObj.transform.position = noteObj.transform.position + zombieOffset;
+
+            noteObj.GetComponent<Zombie>().zombieAnimator = zombieObj.GetComponent<Animator>();
         }
     }
 }

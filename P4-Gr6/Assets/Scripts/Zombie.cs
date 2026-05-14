@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class Zombie : MonoBehaviour
@@ -9,8 +10,14 @@ public class Zombie : MonoBehaviour
 
     [SerializeField] private bool addaptivePlay = true;
     public bool moving;
+    private bool alive = true;
+
+    [SerializeField] private float deathAnimationTime = .5f;
+    private float timeSinceDeath = 0f;
 
     public static List<Zombie> Instances = new List<Zombie>();
+
+    public Animator zombieAnimator;
 
     void OnEnable()
     {
@@ -24,24 +31,47 @@ public class Zombie : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.x < lineLocation && addaptivePlay)
+        if (alive)
         {
-            foreach (Zombie zombie in Instances)
+            if (transform.position.x < lineLocation && addaptivePlay)
             {
-                zombie.moving = false;
+                foreach (Zombie zombie in Instances)
+                {
+                    zombie.moving = false;
+                }
             }
+
+            if (transform.position.x < deathLimit)
+            {
+                Attack();
+            }
+            return;
         }
 
-        if (transform.position.x < deathLimit)
+        timeSinceDeath += Time.deltaTime;
+        if(timeSinceDeath >= deathAnimationTime)
         {
             Destroy(gameObject);
         }
-        
+
+
+    }
+
+    public void Die()
+    {
+        alive = false;
+        zombieAnimator.Play("Die");
+    }
+
+    private void Attack()
+    {
+        alive = false;
+        zombieAnimator.Play("Attack");
     }
 
     private void LateUpdate()
     {
-        if (moving)
+        if (moving && alive)
         {
             transform.position += new Vector3(-moveSpeed * Time.deltaTime, 0, 0);
         }
