@@ -12,6 +12,8 @@ public class SongPlayer : MonoBehaviour
     [SerializeField] private ScoreManager scoreManager;
 
     private NoteSequence song = new NoteSequence { };
+    public static List<Zombie> Instances = new List<Zombie>();
+    private bool firstZombieSpawned = false;
 
     private int highestNote = 108;
     private int lowestNote = 21;
@@ -27,7 +29,6 @@ public class SongPlayer : MonoBehaviour
 
     void Start()
     {
-
         //song = readJsonFile(jsonFile[songIndex]);
         song = readJsonFile(GameSettings.selectedSong.jsonFile);
         Debug.Log($"Selected song: {GameSettings.selectedSong.name}");
@@ -68,8 +69,6 @@ public class SongPlayer : MonoBehaviour
 
     void Update()
     {
-        timePased += Time.deltaTime * playSpeed;
-
         if (scoreManager != null)
             scoreManager.SetSongProgress(timePased / songDuration);
         
@@ -79,7 +78,24 @@ public class SongPlayer : MonoBehaviour
             {
                 timing.time += 100000;
                 spawner.SpawnZombie(timing.notes);
+                firstZombieSpawned = true;
             }
+        }
+    }
+    private void LateUpdate()
+    {
+        Zombie someZombie = FindObjectOfType<Zombie>();
+
+        if (someZombie != null)
+        {
+            if (someZombie.moving)
+            {
+                timePased += Time.deltaTime * playSpeed;
+            }
+        }
+        else
+        {
+            timePased += Time.deltaTime * playSpeed;
         }
     }
 
