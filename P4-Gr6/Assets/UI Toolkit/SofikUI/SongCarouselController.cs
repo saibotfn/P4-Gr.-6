@@ -195,29 +195,51 @@ public class SongCarouselController : MonoBehaviour
         _speedSlider = new Slider("Speed", 0.5f, 2f);
         _speedSlider.value = _selectedSpeed;
         _speedSlider.style.width = 260;
-        _speedSlider.style.color = Color.white;
         _speedSlider.RegisterValueChangedCallback(evt =>
         {
             _selectedSpeed = evt.newValue;
             _speedSlider.label = $"Speed: {_selectedSpeed:F2}x";
             GameSettings.selectedSpeed = _selectedSpeed;
+            UpdateSpeedLabelColor();
         });
         _speedSlider.label = $"Speed: {_selectedSpeed:F2}x";
         _speedSlider.style.marginRight = 18;
         settingsRow.Add(_speedSlider);
         GameSettings.selectedSpeed = _selectedSpeed;
+        UpdateSpeedLabelColor();
 
         _adaptivePlayToggle = new Toggle("Adaptive play");
         _adaptivePlayToggle.value = _adaptivePlay;
         _adaptivePlayToggle.style.minWidth = 180;
-        _adaptivePlayToggle.style.color = Color.white;
         _adaptivePlayToggle.RegisterValueChangedCallback(evt =>
         {
             _adaptivePlay = evt.newValue;
             GameSettings.adaptivePlay = _adaptivePlay;
+            UpdateAdaptiveToggleLabelColor();
         });
         settingsRow.Add(_adaptivePlayToggle);
         GameSettings.adaptivePlay = _adaptivePlay;
+        UpdateAdaptiveToggleLabelColor();
+    }
+
+    void UpdateSpeedLabelColor()
+    {
+        var speedLabel = _speedSlider?.Q<Label>();
+        if (speedLabel != null)
+        {
+            speedLabel.style.color = new Color(0.95f, 0.95f, 0.95f, 1f);
+        }
+    }
+
+    void UpdateAdaptiveToggleLabelColor()
+    {
+        var adaptiveLabel = _adaptivePlayToggle?.Q<Label>();
+        if (adaptiveLabel != null)
+        {
+            adaptiveLabel.style.color = _adaptivePlay
+                ? new Color(0.14f, 0.72f, 0.38f, 1f)
+                : new Color(0.95f, 0.95f, 0.95f, 1f);
+        }
     }
 
     void BuildCards()
