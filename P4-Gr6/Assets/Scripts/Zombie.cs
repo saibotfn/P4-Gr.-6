@@ -36,6 +36,7 @@ public class Zombie : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
     }
 
     private void LateUpdate()
