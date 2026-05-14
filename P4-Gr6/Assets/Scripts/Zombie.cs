@@ -30,14 +30,23 @@ public class Zombie : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.x < lineLocation && GameSettings.adaptivePlay)
+        if (alive)
         {
-            foreach (Zombie zombie in Instances)
+            if (transform.position.x < lineLocation && GameSettings.adaptivePlay)
             {
-                zombie.moving = false;
+                foreach (Zombie zombie in Instances)
+                {
+                    zombie.moving = false;
+                }
             }
+            if (transform.position.x < deathLimit)
+            {
+                Attack();
+            }
+            return;
         }
 
+        
         timeSinceDeath += Time.deltaTime;
         if (timeSinceDeath >= deathAnimationTime)
         {
