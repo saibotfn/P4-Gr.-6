@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d756a3d8d3743f48a09ba39002ad648, type: 3}
+  m_Name: Thriller
+  m_EditorClassIdentifier: Assembly-CSharp::SongData
+  audioClip: {fileID: 8300000, guid: 6da32074a19f19645abe55cef02a5257, type: 3}
+  jsonFile: {fileID: 0}
+  playSpeed: 1
+  songName: Thrilller
+  coverArt: {fileID: 21300000, guid: cf6d2741f119eb74390642cb3a40486b, type: 3}
+  author: Michael Jackson
+  year: 1982
+  description: Zombies
