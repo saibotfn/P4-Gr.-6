@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Zombie : MonoBehaviour
 {
@@ -11,6 +12,12 @@ public class Zombie : MonoBehaviour
 
     public static List<Zombie> Instances = new List<Zombie>();
 
+    private bool alive = true;
+
+    [SerializeField] private float deathAnimationTime = .5f;
+    private float timeSinceDeath = 0f;
+
+    public Animator zombieAnimator;
     void OnEnable()
     {
         Instances.Add(this);
@@ -31,16 +38,27 @@ public class Zombie : MonoBehaviour
             }
         }
 
-        if (transform.position.x < deathLimit)
+        timeSinceDeath += Time.deltaTime;
+        if (timeSinceDeath >= deathAnimationTime)
         {
             Destroy(gameObject);
         }
-        
+
+    }
+    public void Die()
+    {
+        alive = false;
+        zombieAnimator.Play("Die");
     }
 
+    private void Attack()
+    {
+        alive = false;
+        zombieAnimator.Play("Attack");
+    }
     private void LateUpdate()
     {
-        if (moving)
+        if (moving && alive)
         {
             transform.position += new Vector3(-moveSpeed * Time.deltaTime, 0, 0);
         }

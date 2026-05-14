@@ -176,6 +176,8 @@ public class ZombieSpawner : MonoBehaviour
             zombieObj.transform.position = noteObj.transform.position + zombieOffset;
 
             AttachNotation(noteObj, i, noteEvent.duration, noteEvent.bpm);
+
+            noteObj.GetComponent<Zombie>().zombieAnimator = zombieObj.GetComponent<Animator>();
         }
     }
 
