@@ -250,19 +250,7 @@ public class KeyboardRaycast : MonoBehaviour
             scoreManager.AddHit();
             scoreManager.AddHP();
             sender.SendAudioDataHit();
-
-            float zombieLoc = hit.transform.position.x;
-            float distance = Mathf.Abs(zombieLoc - lineLocation);
-
-            if (distance <= lineBuffer)
-            {
-                scoreManager.AddScore(perfektHitValue + perfektHitBonus);
-            }
-            else
-            {
-                int penalty = Mathf.RoundToInt(distance);
-                scoreManager.AddScore(perfektHitValue - penalty);
-            }
+            scoreManager.AddScore(100 - ((int)hit.collider.gameObject.transform.position.x + 10));
 
             return;
         }
