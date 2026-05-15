@@ -222,8 +222,10 @@ public class KeyboardRaycast : MonoBehaviour
                     Vector3 endPoint = rayPoints[rayCastIndex].position + laserOffset + rayDirection * rayCastRange;
                     laserShoot.Shoot(rayPoints[rayCastIndex].position + laserOffset, endPoint, UnityEngine.Color.red);
 
+                    Debug.Log("MISSS!!!!");
                     scoreManager.AddMiss();
                     scoreManager.RemoveHP();
+                    sender.SendAudioDataMiss();
 
                     return;
                 }
