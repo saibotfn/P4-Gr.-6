@@ -1629,6 +1629,7 @@ MonoBehaviour:
   zombiePrefab_Black: {fileID: 792160359723194023, guid: 1f26c9cca17ea9842b0169c56d29f814, type: 3}
   zombiePrefab: {fileID: 8712956956258165450, guid: ae9c3304772106b4cac84f1a3af354a6, type: 3}
   zombieOffset: {x: 2, y: 0, z: 0}
+  notationFont: {fileID: 0}
 --- !u!4 &474389131
 Transform:
   m_ObjectHideFlags: 0
@@ -1944,7 +1945,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 51
   orthographic: 0
   orthographic size: 15.75
   m_Depth: -1
@@ -1970,8 +1971,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502254109}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.701619, y: 0.08792494, z: 0.08792497, w: 0.701619}
-  m_LocalPosition: {x: -3.2, y: 25.3, z: -1.7}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 2.2, y: 25.3, z: -1.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3013,6 +3014,7 @@ MonoBehaviour:
   - {fileID: 1450096733}
   rayCastRange: 100
   scoreManager: {fileID: 277272084}
+  sender: {fileID: 0}
   lineLocation: -10
   lineBuffer: 0.5
   perfektHitValue: 100
