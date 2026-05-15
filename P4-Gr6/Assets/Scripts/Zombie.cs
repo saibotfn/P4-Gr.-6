@@ -57,13 +57,20 @@ public class Zombie : MonoBehaviour
     public void Die()
     {
         alive = false;
+        RemoveNote();
         zombieAnimator.Play("Die");
     }
 
     private void Attack()
     {
         alive = false;
+        RemoveNote();
         zombieAnimator.Play("Attack");
+    }
+
+    private void RemoveNote()
+    {
+
     }
     private void LateUpdate()
     {
