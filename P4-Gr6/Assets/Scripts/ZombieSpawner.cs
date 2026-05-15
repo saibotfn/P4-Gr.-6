@@ -185,13 +185,16 @@ public class ZombieSpawner : MonoBehaviour
     {
         float beatsPerSecond = bpm / 60f;
         float durationInBeats = duration * beatsPerSecond;
-
+        
         string noteType;
-        if      (durationInBeats >= 3.0f)   noteType = "Whole";
-        else if (durationInBeats >= 1.5f)   noteType = "Half";
-        else if (durationInBeats >= 0.75f)  noteType = "Quarter";
-        else if (durationInBeats >= 0.375f) noteType = "Eighth";
-        else                                noteType = "Sixteenth";
+        switch (durationInBeats)
+        {
+            case >= 3.0f:  noteType = "Whole"; break;
+            case >= 1.5f:  noteType = "Half"; break;
+            case >= 0.75f: noteType = "Quarter"; break;
+            case >= 0.375f: noteType = "Eighth"; break;
+            default: noteType = "Sixteenth"; break;
+        }
 
         string[] noteNames = { "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B" };
         int octave = (pitch / 12) - 1;
