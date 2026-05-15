@@ -202,8 +202,7 @@ public class ZombieSpawner : MonoBehaviour
 
         GameObject labelObj = new GameObject("NoteLabel");
         labelObj.transform.SetParent(noteObj.transform);
-        labelObj.transform.localPosition = new Vector3(0f, 0.5f, 0f);
-
+        labelObj.transform.localPosition = new Vector3(0f, 0.3f, 0f);
         TMPro.TextMeshPro tmp = labelObj.AddComponent<TMPro.TextMeshPro>();
         if (notationFont != null) tmp.font = notationFont;
 
