@@ -70,8 +70,8 @@ public class Zombie : MonoBehaviour
 
     private void RemoveNote()
     {
-        Renderer rend = GetComponent<Renderer>();
-        if (rend != null) rend.enabled = false;
+        Collider collider = GetComponent<SphereCollider>();
+        if (collider != null) collider.enabled = false;
         Transform label = transform.Find("NoteLabel");
         if (label != null) Destroy(label.gameObject);
     }
