@@ -70,7 +70,12 @@ public class Zombie : MonoBehaviour
 
     private void RemoveNote()
     {
-
+        if (transform.parent != null)
+        {
+            Transform noteObj = transform.parent;
+            transform.SetParent(null);
+            Destroy(noteObj.gameObject);
+        }
     }
     private void LateUpdate()
     {
