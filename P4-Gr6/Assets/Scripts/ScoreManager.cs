@@ -57,7 +57,7 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(int value)
     {
         score += value;
-        ScoreText.text = "Score = " + miss.ToString();
+        ScoreText.text = "Score = " + score.ToString();
     }
 
     public void RemoveHP()

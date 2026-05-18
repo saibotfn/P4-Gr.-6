@@ -57,13 +57,23 @@ public class Zombie : MonoBehaviour
     public void Die()
     {
         alive = false;
+        RemoveNote();
         zombieAnimator.Play("Die");
     }
 
     private void Attack()
     {
         alive = false;
+        RemoveNote();
         zombieAnimator.Play("Attack");
+    }
+
+    private void RemoveNote()
+    {
+        Collider collider = GetComponent<SphereCollider>();
+        if (collider != null) collider.enabled = false;
+        Transform label = transform.Find("NoteLabel");
+        if (label != null) Destroy(label.gameObject);
     }
     private void LateUpdate()
     {
