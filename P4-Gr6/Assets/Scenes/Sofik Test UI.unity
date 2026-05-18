@@ -441,7 +441,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7729787eb7af1204496bb7548b8cdab8, type: 2}
   - {fileID: 11400000, guid: 906f799ef6e408b4ca505b4954c6a1c6, type: 2}
   - {fileID: 11400000, guid: 514124254f7482342b24664ff7849077, type: 2}
-  - {fileID: 11400000, guid: a19db80bf9b29b94c83e041c3c9972c3, type: 2}
   - {fileID: 11400000, guid: 972d7774a00b08a4d8156882fcf5a973, type: 2}
   - {fileID: 11400000, guid: 863819c81ed46064da0cf455035122e5, type: 2}
   - {fileID: 11400000, guid: b1ca87ce51ca99141b7f440c57f918c7, type: 2}
@@ -449,8 +448,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8770c1d8c44ad9644a11904e8074c80d, type: 2}
   - {fileID: 11400000, guid: 669d760091b511c4b9829705c4fe0d6f, type: 2}
   - {fileID: 11400000, guid: 6e4f5dbe4e4e7ea4c84d495b2d6872e6, type: 2}
+  - {fileID: 11400000, guid: d34b1e2e88f35b74e9fa8968b1ca51e1, type: 2}
   playSceneName: TestingWithZombies
-  previewDurationSeconds: 20
+  previewDurationSeconds: 60
   clickSound: {fileID: 8300000, guid: 9420337a78e22514da57b89e6c18c09a, type: 3}
   confirmSound: {fileID: 8300000, guid: 2c9857add7c29a14392042fb49715d01, type: 3}
   volume: 1
