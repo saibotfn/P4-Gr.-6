@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class ZombieSpawner : MonoBehaviour
 {
+    [SerializeField] private float fontSize = 35f;
     [SerializeField] private GameObject[] spawnPoints = new GameObject[0];
     [SerializeField] private GameObject zombiePrefab_White;
     [SerializeField] private GameObject zombiePrefab_Black;
@@ -343,7 +344,7 @@ public class ZombieSpawner : MonoBehaviour
         string accidental = (pitch % 12 is 1 or 3 or 6 or 8 or 10) ? "\u266F" : ""; // ♯
 
         tmp.text = $"{accidental}{noteSymbol}";
-        tmp.fontSize = 29f;
+        tmp.fontSize = fontSize;
         tmp.color = Color.black;
         tmp.outlineWidth = 0.05f;
         tmp.outlineColor = Color.white;
