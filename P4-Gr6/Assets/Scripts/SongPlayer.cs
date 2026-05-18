@@ -142,7 +142,10 @@ public class SongPlayer : MonoBehaviour
     {
         GameSettings.score = scoreManager.score;
         GameSettings.misses = scoreManager.miss;
-        GameSettings.highScore = Mathf.Max(GameSettings.highScore, scoreManager.score);
+        if(GameSettings.adaptivePlay == false)
+        {
+            GameSettings.highScore = Mathf.Max(GameSettings.highScore, scoreManager.score);
+        }
         SceneManager.LoadScene("WinScreen");
     }
 }

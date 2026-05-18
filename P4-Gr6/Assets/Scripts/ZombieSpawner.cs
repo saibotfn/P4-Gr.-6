@@ -34,7 +34,7 @@ public class ZombieSpawner : MonoBehaviour
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[0].transform.position, zombieRotation);
                     break;
                 case 22: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[0].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[0].transform.position, zombieRotation);
                     break;
                 case 23: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[1].transform.position, zombieRotation);
@@ -43,13 +43,13 @@ public class ZombieSpawner : MonoBehaviour
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[2].transform.position, zombieRotation);
                     break;
                 case 25: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[2].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[2].transform.position, zombieRotation);
                     break;
                 case 26: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[3].transform.position, zombieRotation);
                     break;
                 case 27: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[3].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[3].transform.position, zombieRotation);
                     break;
                 case 28: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[4].transform.position, zombieRotation);
@@ -58,19 +58,19 @@ public class ZombieSpawner : MonoBehaviour
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[5].transform.position, zombieRotation);
                     break;
                 case 30: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[5].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[5].transform.position, zombieRotation);
                     break;
                 case 31: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[6].transform.position, zombieRotation);
                     break;
                 case 32: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[6].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[6].transform.position, zombieRotation);
                     break;
                 case 33: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[7].transform.position, zombieRotation);
                     break;
                 case 34: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[7].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[7].transform.position, zombieRotation);
                     break;
                 case 35: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[8].transform.position, zombieRotation);
@@ -214,7 +214,7 @@ public class ZombieSpawner : MonoBehaviour
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[35].transform.position, zombieRotation);
                     break;
                 case 82: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[35].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[35].transform.position, zombieRotation);
                     break;
                 case 83: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[36].transform.position, zombieRotation);
@@ -223,13 +223,13 @@ public class ZombieSpawner : MonoBehaviour
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[37].transform.position, zombieRotation);
                     break;
                 case 85: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[37].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[37].transform.position, zombieRotation);
                     break;
                 case 86: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[38].transform.position, zombieRotation);
                     break;
                 case 87: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[38].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[38].transform.position, zombieRotation);
                     break;
                 case 88: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[39].transform.position, zombieRotation);
@@ -238,19 +238,19 @@ public class ZombieSpawner : MonoBehaviour
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[40].transform.position, zombieRotation);
                     break;
                 case 90: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[40].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[40].transform.position, zombieRotation);
                     break;
                 case 91: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[41].transform.position, zombieRotation);
                     break;
                 case 92: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[41].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[41].transform.position, zombieRotation);
                     break;
                 case 93: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[42].transform.position, zombieRotation);
                     break;
                 case 94: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[42].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[42].transform.position, zombieRotation);
                     break;
                 case 95: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[43].transform.position, zombieRotation);
@@ -259,13 +259,13 @@ public class ZombieSpawner : MonoBehaviour
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[44].transform.position, zombieRotation);
                     break;
                 case 97: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[44].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[44].transform.position, zombieRotation);
                     break;
                 case 98: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[45].transform.position, zombieRotation);
                     break;
                 case 99: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[45].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[45].transform.position, zombieRotation);
                     break;
                 case 100: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[46].transform.position, zombieRotation);
@@ -274,19 +274,19 @@ public class ZombieSpawner : MonoBehaviour
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[47].transform.position, zombieRotation);
                     break;
                 case 102: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[47].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[47].transform.position, zombieRotation);
                     break;
                 case 103: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[48].transform.position, zombieRotation);
                     break;
                 case 104: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[48].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[48].transform.position, zombieRotation);
                     break;
                 case 105: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[49].transform.position, zombieRotation);
                     break;
                 case 106: //Black
-                    noteObj = Instantiate(zombiePrefab_White, spawnPoints[49].transform.position, zombieRotation);
+                    noteObj = Instantiate(zombiePrefab_Black, spawnPoints[49].transform.position, zombieRotation);
                     break;
                 case 107: //White
                     noteObj = Instantiate(zombiePrefab_White, spawnPoints[50].transform.position, zombieRotation);
