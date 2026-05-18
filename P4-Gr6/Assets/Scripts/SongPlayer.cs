@@ -13,10 +13,6 @@ public class SongPlayer : MonoBehaviour
 
     private NoteSequence song = new NoteSequence { };
     public static List<Zombie> Instances = new List<Zombie>();
-    private bool firstZombieSpawned = false;
-
-    private int highestNote = 108;
-    private int lowestNote = 21;
 
     private float timePased = 0;
     private float songDuration = 1f;
@@ -78,7 +74,6 @@ public class SongPlayer : MonoBehaviour
             {
                 timing.time += 100000;
                 spawner.SpawnZombie(timing);
-                firstZombieSpawned = true;
             }
         }
     }
