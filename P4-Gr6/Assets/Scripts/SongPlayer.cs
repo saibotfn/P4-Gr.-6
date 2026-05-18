@@ -41,20 +41,44 @@ public class SongPlayer : MonoBehaviour
     void OnEnable()
     {
         InputSystem.onDeviceChange += OnDeviceChange;
+
+        foreach (var device in InputSystem.devices)
+        {
+            if (device is MidiDevice midi)
+            {
+                midi.onWillNoteOn += OnNoteOn;
+            }
+        }
     }
 
     void OnDisable()
     {
         InputSystem.onDeviceChange -= OnDeviceChange;
+
+        foreach (var device in InputSystem.devices)
+        {
+            if (device is MidiDevice midi)
+            {
+                midi.onWillNoteOn -= OnNoteOn;
+            }
+        }
     }
+
     void OnDeviceChange(InputDevice device, InputDeviceChange change)
     {
-        // Check if the device is a MIDI device
         if (device is MidiDevice midi)
         {
-            Debug.Log("Device found");
-            // Subscribe to note events
-            midi.onWillNoteOn += OnNoteOn;
+            if (change == InputDeviceChange.Added ||
+                change == InputDeviceChange.Reconnected)
+            {
+                midi.onWillNoteOn += OnNoteOn;
+            }
+
+            if (change == InputDeviceChange.Removed ||
+                change == InputDeviceChange.Disconnected)
+            {
+                midi.onWillNoteOn -= OnNoteOn;
+            }
         }
     }
 
