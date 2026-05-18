@@ -66,6 +66,7 @@ public class Zombie : MonoBehaviour
         alive = false;
         RemoveNote();
         zombieAnimator.Play("Attack");
+        ScoreManager.Instance.RemoveHP();
     }
 
     private void RemoveNote()

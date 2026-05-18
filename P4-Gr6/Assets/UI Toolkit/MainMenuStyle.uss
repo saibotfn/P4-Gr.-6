@@ -20,3 +20,11 @@
     border-bottom-left-radius: 10px;
     margin-top: 90px;
 }
+
+.score {
+    font-size: 75px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}

@@ -32,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro-SceneTest.unity
     guid: ab87f8b125d874abb9541ab00268dec5
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: 9447712c68dfea6418f5825fd9171d80
+  - enabled: 1
+    path: Assets/Scenes/Sofik Test UI.unity
+    guid: 1e17577c95fd14cf0a6579cf45e61787
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

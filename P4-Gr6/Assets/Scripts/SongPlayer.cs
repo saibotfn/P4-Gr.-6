@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using Minis;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using System.Linq;
 
 
@@ -92,6 +93,12 @@ public class SongPlayer : MonoBehaviour
         {
             timePased += Time.deltaTime * playSpeed;
         }
+
+        bool allNotesSpawned = song.events.All(e => e.time >= 100000);
+        if (allNotesSpawned && someZombie == null && timePased > songDuration)
+        {
+            Win();
+        }
     }
 
     private NoteSequence readJsonFile(TextAsset file)
@@ -107,7 +114,16 @@ public class SongPlayer : MonoBehaviour
 
         return newSong;
     }
+    public void Win()
+    {
+        GameSettings.score = scoreManager.score;
+        GameSettings.misses = scoreManager.miss;
+        GameSettings.highScore = Mathf.Max(GameSettings.highScore, scoreManager.score);
+        SceneManager.LoadScene("WinScreen");
+    }
 }
+
+
 
 [System.Serializable]
 public class SongMetadata
@@ -135,3 +151,4 @@ public class note
     public float duration;
     public float endTime;
 }
+

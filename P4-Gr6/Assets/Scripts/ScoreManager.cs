@@ -6,6 +6,8 @@ using UnityEngine.UIElements;
 
 public class ScoreManager : MonoBehaviour
 {
+    public static ScoreManager Instance { get; private set; }
+
     public int hits = 0;
     public int miss = 0;
     public int score = 0;
@@ -27,6 +29,11 @@ public class ScoreManager : MonoBehaviour
     private float displayHP;
 
 
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void OnEnable()
     {
