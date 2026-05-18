@@ -9,10 +9,6 @@ public class KeyboardRaycast : MonoBehaviour
     [SerializeField] private ScoreManager scoreManager;
     [SerializeField] private OSCsender sender;
 
-    [SerializeField] private float lineLocation = 0f;
-    [SerializeField] private float lineBuffer = 0f;
-    [SerializeField] private int perfektHitValue = 0;
-    [SerializeField] private int perfektHitBonus = 0;
     private bool whiteNote = false;
 
     [SerializeField] private Vector3 laserOffset = new Vector3(0f, 0f, 0f);
@@ -31,162 +27,305 @@ public class KeyboardRaycast : MonoBehaviour
 
         switch (midiValue)
         {
-            case 36: //White
+            case 21: //White
                 rayCastIndex = 0;
                 break;
-            case 37: //Black
+            case 22: //Black
                 rayCastIndex = 0;
+                whiteNote = false;
+                break;
+            case 23: //White
+                rayCastIndex = 1;
+                break;
+            case 24: //White
+                rayCastIndex = 2;
+                break;
+            case 25: //Black
+                rayCastIndex = 2;
+                whiteNote = false;
+                break;
+            case 26: //White
+                rayCastIndex = 3;
+                break;
+            case 27: //Black
+                rayCastIndex = 3;
+                whiteNote = false;
+                break;
+            case 28: //White
+                rayCastIndex = 4;
+                break;
+            case 29: //White
+                rayCastIndex = 5;
+                break;
+            case 30: //Black
+                rayCastIndex = 5;
+                whiteNote = false;
+                break;
+            case 31: //White
+                rayCastIndex = 6;
+                break;
+            case 32: //Black
+                rayCastIndex = 6;
+                whiteNote = false;
+                break;
+            case 33: //White
+                rayCastIndex = 7;
+                break;
+            case 34: //Black
+                rayCastIndex = 7;
+                whiteNote = false;
+                break;
+            case 35: //White
+                rayCastIndex = 8;
+                break;
+            case 36: //White
+                rayCastIndex = 9;
+                break;
+            case 37: //Black
+                rayCastIndex = 9;
                 whiteNote = false;
                 break;
             case 38: //White
-                rayCastIndex = 1;
+                rayCastIndex = 10;
                 break;
             case 39: //Black
-                rayCastIndex = 1;
+                rayCastIndex = 10;
                 whiteNote = false;
                 break;
             case 40: //White
-                rayCastIndex = 2;
+                rayCastIndex = 11;
                 break;
             case 41: //White
-                rayCastIndex = 3;
+                rayCastIndex = 12;
                 break;
             case 42: //Black
-                rayCastIndex = 3;
+                rayCastIndex = 12;
                 whiteNote = false;
                 break;
             case 43: //White
-                rayCastIndex = 4;
+                rayCastIndex = 13;
                 break;
             case 44: //Black
-                rayCastIndex = 4;
+                rayCastIndex = 13;
                 whiteNote = false;
                 break;
             case 45: //White
-                rayCastIndex = 5;
+                rayCastIndex = 14;
                 break;
             case 46: //Black
-                rayCastIndex = 5;
+                rayCastIndex = 14;
                 whiteNote = false;
                 break;
             case 47: //White
-                rayCastIndex = 6;
+                rayCastIndex = 15;
                 break;
             case 48: //White
-                rayCastIndex = 7;
+                rayCastIndex = 16;
                 break;
             case 49: //Black
-                rayCastIndex = 7;
+                rayCastIndex = 16;
                 whiteNote = false;
                 break;
             case 50: //White
-                rayCastIndex = 8;
+                rayCastIndex = 17;
                 break;
             case 51: //Black
-                rayCastIndex = 8;
+                rayCastIndex = 17;
                 whiteNote = false;
                 break;
             case 52: //White
-                rayCastIndex = 9;
+                rayCastIndex = 18;
                 break;
             case 53: //White
-                rayCastIndex = 10;
+                rayCastIndex = 19;
                 break;
             case 54: //Black
-                rayCastIndex = 10;
+                rayCastIndex = 19;
                 whiteNote = false;
                 break;
             case 55: //White
-                rayCastIndex = 11;
+                rayCastIndex = 20;
                 break;
             case 56: //Black
-                rayCastIndex = 11;
+                rayCastIndex = 20;
                 whiteNote = false;
                 break;
             case 57: //White
-                rayCastIndex = 12;
+                rayCastIndex = 21;
                 break;
             case 58: //Black
-                rayCastIndex = 12;
+                rayCastIndex = 21;
                 whiteNote = false;
                 break;
             case 59: //White
-                rayCastIndex = 13;
+                rayCastIndex = 22;
                 break;
             case 60: //White
-                rayCastIndex = 14;
+                rayCastIndex = 23;
                 break;
             case 61: //Black
-                rayCastIndex = 14;
+                rayCastIndex = 23;
                 whiteNote = false;
                 break;
             case 62: //White
-                rayCastIndex = 15;
+                rayCastIndex = 24;
                 break;
             case 63: //Black
-                rayCastIndex = 15;
+                rayCastIndex = 24;
                 whiteNote = false;
                 break;
             case 64: //White
-                rayCastIndex = 16;
+                rayCastIndex = 25;
                 break;
             case 65: //White
-                rayCastIndex = 17;
+                rayCastIndex = 26;
                 break;
             case 66: //Black
-                rayCastIndex = 17;
+                rayCastIndex = 26;
                 whiteNote = false;
                 break;
             case 67: //White
-                rayCastIndex = 18;
+                rayCastIndex = 27;
                 break;
             case 68: //Black
-                rayCastIndex = 18;
+                rayCastIndex = 27;
                 whiteNote = false;
                 break;
             case 69: //White
-                rayCastIndex = 19;
+                rayCastIndex = 28;
                 break;
             case 70: //Black
-                rayCastIndex = 19;
+                rayCastIndex = 28;
                 whiteNote = false;
                 break;
             case 71: //White
-                rayCastIndex = 20;
+                rayCastIndex = 29;
                 break;
             case 72: //White
-                rayCastIndex = 21;
+                rayCastIndex = 30;
                 break;
             case 73: //Black
-                rayCastIndex = 21;
+                rayCastIndex = 30;
                 whiteNote = false;
                 break;
             case 74: //White
-                rayCastIndex = 22;
+                rayCastIndex = 31;
                 break;
             case 75: //Black
-                rayCastIndex = 22;
+                rayCastIndex = 31;
                 whiteNote = false;
                 break;
             case 76: //White
-                rayCastIndex = 23;
+                rayCastIndex = 32;
                 break;
             case 77: //White
-                rayCastIndex = 24;
+                rayCastIndex = 33;
                 break;
             case 78: //Black
-                rayCastIndex = 24;
+                rayCastIndex = 33;
                 whiteNote = false;
                 break;
             case 79: //White
-                rayCastIndex = 25;
+                rayCastIndex = 34;
                 break;
             case 80: //Black
-                rayCastIndex = 25;
+                rayCastIndex = 34;
                 whiteNote = false;
                 break;
             case 81: //White
-                rayCastIndex = 26;
+                rayCastIndex = 35;
+                break;
+            case 82: //Black
+                rayCastIndex = 35;
+                whiteNote = false;
+                break;
+            case 83: //White
+                rayCastIndex = 36;
+                break;
+            case 84: //White
+                rayCastIndex = 37;
+                break;
+            case 85: //Black
+                rayCastIndex = 37;
+                whiteNote = false;
+                break;
+            case 86: //White
+                rayCastIndex = 38;
+                break;
+            case 87: //Black
+                rayCastIndex = 38;
+                whiteNote = false;
+                break;
+            case 88: //White
+                rayCastIndex = 39;
+                break;
+            case 89: //White
+                rayCastIndex = 40;
+                break;
+            case 90: //Black
+                rayCastIndex = 40;
+                whiteNote = false;
+                break;
+            case 91: //White
+                rayCastIndex = 41;
+                break;
+            case 92: //Black
+                rayCastIndex = 41;
+                whiteNote = false;
+                break;
+            case 93: //White
+                rayCastIndex = 42;
+                break;
+            case 94: //Black
+                rayCastIndex = 42;
+                whiteNote = false;
+                break;
+            case 95: //White
+                rayCastIndex = 43;
+                break;
+            case 96: //White
+                rayCastIndex = 44;
+                break;
+            case 97: //Black
+                rayCastIndex = 44;
+                whiteNote = false;
+                break;
+            case 98: //White
+                rayCastIndex = 45;
+                break;
+            case 99: //Black
+                rayCastIndex = 45;
+                whiteNote = false;
+                break;
+            case 100: //White
+                rayCastIndex = 46;
+                break;
+            case 101: //White
+                rayCastIndex = 47;
+                break;
+            case 102: //Black
+                rayCastIndex = 47;
+                whiteNote = false;
+                break;
+            case 103: //White
+                rayCastIndex = 48;
+                break;
+            case 104: //Black
+                rayCastIndex = 48;
+                whiteNote = false;
+                break;
+            case 105: //White
+                rayCastIndex = 49;
+                break;
+            case 106: //Black
+                rayCastIndex = 49;
+                whiteNote = false;
+                break;
+            case 107: //White
+                rayCastIndex = 50;
+                break;
+            case 108: //White
+                rayCastIndex = 51;
                 break;
         }
 
