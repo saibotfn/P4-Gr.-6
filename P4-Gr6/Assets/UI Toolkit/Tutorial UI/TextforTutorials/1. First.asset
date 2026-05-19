@@ -15,4 +15,5 @@ MonoBehaviour:
   text: 'Welcome To DeadNotez
 
     This game will introduce you to keyboard playing
-    using sitereading.'
+    using sight reading.'
+  image: {fileID: 0}

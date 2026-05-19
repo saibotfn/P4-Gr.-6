@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b46def39b5b8429b896e748db30affa, type: 3}
   m_Name: 7. Seventh
   m_EditorClassIdentifier: Assembly-CSharp::TutorialCardData
-  text: 
+  text: Good luck, and have fun
   image: {fileID: 0}
