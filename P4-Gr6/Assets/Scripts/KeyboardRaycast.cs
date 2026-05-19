@@ -11,13 +11,16 @@ public class KeyboardRaycast : MonoBehaviour
 
     private bool whiteNote = false;
 
-    [SerializeField] private Vector3 laserOffset = new Vector3(0f, 0f, 0f);
     [SerializeField] private LaserShoot laserShoot;
 
     [SerializeField] private AudioClip WrongSound;
     [SerializeField][Range(0, 1)] private float volume;
     public void shootRay(int midiValue)
     {
+        Debug.Log(
+        $"shootRay: {midiValue} " +
+        $"time={Time.frameCount}"
+        );
         //Debug.Log("Key pressed: " + midiValue);
         whiteNote = true;
         RaycastHit hit;
@@ -358,8 +361,8 @@ public class KeyboardRaycast : MonoBehaviour
             {
                 if(hit.distance != ahit.distance)
                 {
-                    Vector3 endPoint = rayPoints[rayCastIndex].position + laserOffset + rayDirection * rayCastRange;
-                    laserShoot.Shoot(rayPoints[rayCastIndex].position + laserOffset, endPoint, UnityEngine.Color.red);
+                    Vector3 endPoint = hit.collider.transform.position;
+                    laserShoot.Shoot(rayPoints[rayCastIndex].position, endPoint, false);
 
                     Debug.Log("MISSS!!!!");
                     scoreManager.AddMiss();
@@ -385,7 +388,7 @@ public class KeyboardRaycast : MonoBehaviour
                 }
             }
 
-            laserShoot.Shoot(rayPoints[rayCastIndex].position + laserOffset, hit.point, UnityEngine.Color.green);
+            laserShoot.Shoot(rayPoints[rayCastIndex].position, hit.collider.transform.position, true);
 
             hit.collider.gameObject.GetComponent<Zombie>().Die();
             scoreManager.AddHit();
@@ -397,8 +400,8 @@ public class KeyboardRaycast : MonoBehaviour
         }
         else
         {
-            Vector3 endPoint = rayPoints[rayCastIndex].position + laserOffset + rayDirection * rayCastRange;
-            laserShoot.Shoot(rayPoints[rayCastIndex].position + laserOffset, endPoint, UnityEngine.Color.red);
+            Vector3 endPoint = new Vector3(rayPoints[rayCastIndex].position.x + rayCastRange, rayPoints[rayCastIndex].position.y, rayPoints[rayCastIndex].position.z);
+            laserShoot.Shoot(rayPoints[rayCastIndex].position, endPoint, false);
 
             Debug.Log("MISSS!!!!");
             scoreManager.AddMiss();

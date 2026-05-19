@@ -84,7 +84,10 @@ public class SongPlayer : MonoBehaviour
 
     void OnNoteOn(MidiNoteControl note, float velocity)
     {
-        Debug.Log($"Note pressed: {note.noteNumber}, velocity: {velocity}");
+        Debug.Log(
+        $"OnNoteOn: {note.noteNumber} " +
+        $"time={Time.frameCount}"
+    );
         raycaster.shootRay(note.noteNumber);
     }
 
