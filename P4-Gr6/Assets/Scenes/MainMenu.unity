@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a119fb61a8b34b469134d7443dc8061, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuEvents
-  sceneName: Sofik Test UI
+  sceneName: Intro-SceneTest
 --- !u!1 &1870726247
 GameObject:
   m_ObjectHideFlags: 0
