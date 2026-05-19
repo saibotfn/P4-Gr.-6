@@ -4,59 +4,35 @@ using System.Collections;
 
 public class pewpew : MonoBehaviour
 {
-    public float laserSpeed = 40f;
-    public float laserLength = 2f;
-    public float laserWidth = 0.08f;
-    private LineRenderer lineRenderer;
+    public float activeTime;
+    [SerializeField] private Material materialHit;
+    [SerializeField] private Material materialMiss;
 
-    public Vector3 startPoint;
-    public Vector3 endPoint;
-    public UnityEngine.Color color;
+    private float timeSinceSpawn = 0;
 
-    public IEnumerator MoveLaser(Vector3 startPoint, Vector3 endPoint, UnityEngine.Color color)
+
+    public void setLaser(Vector3 startPoint, Vector3 endPoint, bool zombieHit, Vector3 offset)
     {
-       lineRenderer.enabled = true;
+        if (zombieHit)
+        {
+            GetComponent<MeshRenderer>().material = materialHit;
+        }
+        else
+        {
+            GetComponent<MeshRenderer>().material = materialMiss;
+        }
 
-       lineRenderer.startColor = color;
-       lineRenderer.endColor = color;
 
-       Vector3 direction = (endPoint - startPoint).normalized;
-       float distance = Vector3.Distance(startPoint, endPoint);
-       float travelled = 0f;
-
-       while(travelled < distance)
-       {
-          travelled += laserSpeed * Time.deltaTime;
-
-          Vector3 front = new Vector3(startPoint.x + direction.x * travelled, startPoint.y, startPoint.z);
-          Vector3 back = new Vector3(startPoint.x + direction.x * Mathf.Max(travelled - laserLength, 0f), startPoint.y, startPoint.z);
-
-          lineRenderer.SetPosition(0, back);
-          lineRenderer.SetPosition(1, front);
-
-          yield return null;
-       }
-
-       lineRenderer.enabled = false;
-
-       Destroy(gameObject);
+        transform.position = new Vector3((startPoint.x + endPoint.x)/2, startPoint.y + offset.y, startPoint.z);
+        transform.localScale = new Vector3(endPoint.x - startPoint.x, transform.localScale.y + offset.y, transform.localScale.z);
     }
 
-    void Start()
-    {
-        Debug.Log("pewpew Start called. startPoint: " + startPoint + ", endPoint: " + endPoint);
-        lineRenderer = GetComponent<LineRenderer>();
-
-        lineRenderer.positionCount = 2;
-        lineRenderer.startWidth = laserWidth;
-        lineRenderer.endWidth = laserWidth;
-
-        StartCoroutine(MoveLaser(startPoint, endPoint, color));
-    }
-
-    
     void Update()
     {
-        
+        timeSinceSpawn += Time.deltaTime;
+        if (timeSinceSpawn >= activeTime)
+        {
+            Destroy(gameObject);
+        }
     }
 }
