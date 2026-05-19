@@ -76,6 +76,14 @@ public class TutorialCarousel : MonoBehaviour
             var label = new Label(GetCardText(cardData));
             label.AddToClassList("card-label");
 
+            if (cardData.image != null)
+            {
+                var image = new Image();
+                image.sprite = cardData.image;
+                image.AddToClassList("card-image");
+                card.Add(image);
+            }
+
             card.Add(label);
             content.Add(card);
         }
@@ -108,17 +116,7 @@ public class TutorialCarousel : MonoBehaviour
 
     void Continue()
     {
-        var activeScene = SceneManager.GetActiveScene();
-        int nextSceneIndex = activeScene.buildIndex + 1;
-
-        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
-        {
-            SceneManager.LoadScene(nextSceneIndex);
-        }
-        else
-        {
-            Debug.LogWarning("TutorialCarousel: Ingen næste scene i Build Settings.");
-        }
+        SceneManager.LoadScene("Sofik Test UI");
     }
 
     void UpdateCarousel()

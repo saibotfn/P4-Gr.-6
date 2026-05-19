@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b46def39b5b8429b896e748db30affa, type: 3}
-  m_Name: First
+  m_Name: 5. Fifth
   m_EditorClassIdentifier: Assembly-CSharp::TutorialCardData
-  text: 'Welcome To DeadNotez
+  text: 'In game it is going to look like this, where the yellow line in the middle
+    is middle C or C4.
 
-    This game will introduce you to keyboard playing
-    using sitereading.'
+    Each white key to the right is half a lane up and to
+    the left is half a lane down.'
+  image: {fileID: 21300000, guid: 3c48a7f85e71dee4d90a400119be67cc, type: 3}
