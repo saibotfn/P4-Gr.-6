@@ -326,7 +326,26 @@ public class ZombieSpawner : MonoBehaviour
 
         GameObject labelObj = new GameObject("NoteLabel");
         labelObj.transform.SetParent(noteObj.transform);
-        labelObj.transform.localPosition = new Vector3(0f, 0.3f, -0.5f);
+        
+        // Adjust depth offset based on note type for proper centering
+        float depthOffset = noteType switch
+        {
+            "Whole" => -0.2f,
+            "Half" => -0.2f,
+            "Quarter" => -0.2f,
+            "Eighth" => -0.5f,
+            "Sixteenth" => -0.5f,
+            _ => -0.5f
+        };
+        
+        // Additional depth offset for sharp notes (accidentals)
+        bool isSharp = (pitch % 12 is 1 or 3 or 6 or 8 or 10);
+        if (isSharp)
+        {
+            depthOffset -= -0.25f; // Move sharps much further ahead to middle
+        }
+        
+        labelObj.transform.localPosition = new Vector3(0f, 0.3f, depthOffset);
         TMPro.TextMeshPro tmp = labelObj.AddComponent<TMPro.TextMeshPro>();
         if (notationFont != null) tmp.font = notationFont;
 
@@ -341,7 +360,7 @@ public class ZombieSpawner : MonoBehaviour
             default:          noteSymbol = "\uE1D9"; break; // filled notehead, stem + 2 flags (16th)
         }
 
-        string accidental = (pitch % 12 is 1 or 3 or 6 or 8 or 10) ? "\u266F" : ""; // ♯
+        string accidental = isSharp ? "\u266F" : ""; // ♯
 
         tmp.text = $"{accidental}{noteSymbol}";
         tmp.fontSize = fontSize;
