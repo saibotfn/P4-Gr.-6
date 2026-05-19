@@ -5,4 +5,5 @@ public class TutorialCardData : ScriptableObject
 {
     [TextArea(3, 8)]
     public string text;
+    public Sprite image;
 }

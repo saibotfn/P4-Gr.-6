@@ -1,42 +1,24 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements">
-
-    <ui:Style src="stylingtutorial.uss"/>
-
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Tutorial%20UI/stylingtutorial.uss?fileID=7433441132597879392&amp;guid=97e881d818d2846c7ab26ddea19b658e&amp;type=3#stylingtutorial"/>
     <ui:VisualElement name="root" class="root">
-
-        <!-- Titel -->
-        <ui:Label text="Tutorial" class="title"/>
-
-        <!-- Carousel viewport -->
+        <ui:Label text="Tutorial" name="Tutorial" class="title"/>
         <ui:VisualElement name="carouselViewport" class="carousel-viewport">
-
-            <!-- Cards container -->
             <ui:VisualElement name="carouselContent" class="carousel-content">
-
-                <ui:VisualElement class="card">
+                <ui:VisualElement name="VisualElement" class="card">
                     <ui:Label text="Kort 1"/>
                 </ui:VisualElement>
-
-                <ui:VisualElement class="card">
+                <ui:VisualElement name="VisualElement" class="card">
                     <ui:Label text="Kort 2"/>
                 </ui:VisualElement>
-
                 <ui:VisualElement class="card">
-                    <ui:Label text="Kort 3"/>
+                    <ui:Label text="Kort 3" name="Label"/>
                 </ui:VisualElement>
-
             </ui:VisualElement>
         </ui:VisualElement>
-
-        <!-- Navigation -->
         <ui:VisualElement class="navigation">
             <ui:Button name="prevBtn" text="←"/>
             <ui:Button name="nextBtn" text="→"/>
             <ui:Button name="continueBtn" text="Continue"/>
         </ui:VisualElement>
-        
     </ui:VisualElement>
-
 </ui:UXML>
-
-

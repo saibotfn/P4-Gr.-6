@@ -10,6 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b46def39b5b8429b896e748db30affa, type: 3}
-  m_Name: Third
+  m_Name: 6. Sixth
   m_EditorClassIdentifier: Assembly-CSharp::TutorialCardData
-  text: Good luck
+  text: Accidentals are represented only as sharps in our game. They are shown with
+    a sharp symbol (#) placed in front of the note. Sharp notes are played on the
+    black key directly above and to the right of the white key that shares the same
+    position on the staff.
+  image: {fileID: 21300000, guid: d3167f035acf2924592aadc78b2cf4bf, type: 3}

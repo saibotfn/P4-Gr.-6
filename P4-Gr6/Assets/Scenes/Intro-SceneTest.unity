@@ -312,6 +312,7 @@ GameObject:
   - component: {fileID: 617425329}
   - component: {fileID: 617425328}
   - component: {fileID: 617425327}
+  - component: {fileID: 617425330}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -393,6 +394,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &617425330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617425326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &1118363494
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,6 +728,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dcab73889c37f46989a209053918e5f1, type: 2}
   - {fileID: 11400000, guid: 0060afc5d82904d7fbb8c803fd69461c, type: 2}
   - {fileID: 11400000, guid: f7c8c772a646e964283a3cf552a10405, type: 2}
+  - {fileID: 11400000, guid: 7ae347e0bf770534c8d1d3c3185c4f7e, type: 2}
+  - {fileID: 11400000, guid: dd16e1e73c46b2745afd28ac323d21b7, type: 2}
+  - {fileID: 11400000, guid: 0569a10c0aa7cdb4c9b2dddb0870bc0f, type: 2}
+  - {fileID: 11400000, guid: 0dc4560953da21442bdf2bf1d8e65f0d, type: 2}
 --- !u!4 &1496931706
 Transform:
   m_ObjectHideFlags: 0
